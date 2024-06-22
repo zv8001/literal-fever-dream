@@ -1,12 +1,21 @@
 
 package net.mcreator.literalfeverdream.item;
 
+import net.minecraftforge.registries.ForgeRegistries;
+
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
-import java.util.function.Consumer;
-import net.minecraft.client.model.Model;
+import net.minecraft.resources.ResourceLocation;
+
+import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
 
 public abstract class RickrollArrmorItem extends ArmorItem {
-
 	public RickrollArrmorItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
@@ -52,7 +61,6 @@ public abstract class RickrollArrmorItem extends ArmorItem {
 	}
 
 	public static class Helmet extends RickrollArrmorItem {
-
 		public Helmet() {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM));
 		}
@@ -61,11 +69,9 @@ public abstract class RickrollArrmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "literal_fever_dream:textures/models/armor/rickrollarmor_layer_1.png";
 		}
-
 	}
 
 	public static class Chestplate extends RickrollArrmorItem {
-
 		public Chestplate() {
 			super(EquipmentSlot.CHEST, new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM));
 		}
@@ -74,11 +80,9 @@ public abstract class RickrollArrmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "literal_fever_dream:textures/models/armor/rickrollarmor_layer_1.png";
 		}
-
 	}
 
 	public static class Leggings extends RickrollArrmorItem {
-
 		public Leggings() {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM));
 		}
@@ -87,11 +91,9 @@ public abstract class RickrollArrmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "literal_fever_dream:textures/models/armor/rickrollarmor_layer_2.png";
 		}
-
 	}
 
 	public static class Boots extends RickrollArrmorItem {
-
 		public Boots() {
 			super(EquipmentSlot.FEET, new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM));
 		}
@@ -100,7 +102,5 @@ public abstract class RickrollArrmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "literal_fever_dream:textures/models/armor/rickrollarmor_layer_1.png";
 		}
-
 	}
-
 }

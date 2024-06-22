@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Unknown Disc 1",
+    "texture": "async_disc",
+    "description": "who knows who made this",
+    "creativeTab": {
+      "value": "CUSTOM:Literalfeverdream"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:async-third_test"
+    },
+    "lengthInTicks": 2920,
+    "analogOutput": 0
+  }
+}

@@ -7,5 +7,13 @@
         "stream": true
       }
     ]
+  },
+  "async-third_test": {
+    "sounds": [
+      {
+        "name": "literal_fever_dream:backrooms_-_the_third_test",
+        "stream": true
+      }
+    ]
   }
 }

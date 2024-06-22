@@ -3,7 +3,7 @@
   "experience": 1,
   "cookingtime": 200,
   "ingredient": {
-    "item": "literal_fever_dream:deleted_mod_element"
+    "item": "literal_fever_dream:rickroll_ore"
   },
-  "result": "literal_fever_dream:deleted_mod_element"
+  "result": "literal_fever_dream:rickroll_ingot"
 }

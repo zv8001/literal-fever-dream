@@ -26,9 +26,9 @@ import net.mcreator.literalfeverdream.item.NexusSwordItem;
 import net.mcreator.literalfeverdream.item.NexusPicItem;
 import net.mcreator.literalfeverdream.item.NexusHoetoolItem;
 import net.mcreator.literalfeverdream.item.NexusAxeItem;
-import net.mcreator.literalfeverdream.item.ModGraphiteBlockItem;
 import net.mcreator.literalfeverdream.item.KnifeItem;
 import net.mcreator.literalfeverdream.item.IrradiatedpieceofshitItem;
+import net.mcreator.literalfeverdream.item.HahaAsyncGoBRRRRRRRRRRRRRRRRRRRRRRRItem;
 import net.mcreator.literalfeverdream.item.GraphiteBlockItem;
 import net.mcreator.literalfeverdream.item.GoogleblockItem;
 import net.mcreator.literalfeverdream.item.FusionDimensionItem;
@@ -79,7 +79,6 @@ public class LiteralFeverDreamModItems {
 	public static final RegistryObject<Item> GRAPHITE_BLOCK = REGISTRY.register("graphite_block", () -> new GraphiteBlockItem());
 	public static final RegistryObject<Item> URANIUM_BLOCK = block(LiteralFeverDreamModBlocks.URANIUM_BLOCK, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
 	public static final RegistryObject<Item> FURRYTRAIN = block(LiteralFeverDreamModBlocks.FURRYTRAIN, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
-	public static final RegistryObject<Item> MOD_GRAPHITE_BLOCK = REGISTRY.register("mod_graphite_block", () -> new ModGraphiteBlockItem());
 	public static final RegistryObject<Item> RAINBOWCORE = REGISTRY.register("rainbowcore", () -> new RainbowcoreItem());
 	public static final RegistryObject<Item> FAKE_DIAMOND = REGISTRY.register("fake_diamond", () -> new FakeDiamondItem());
 	public static final RegistryObject<Item> FUSION_BLOCK = block(LiteralFeverDreamModBlocks.FUSION_BLOCK, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
@@ -94,6 +93,7 @@ public class LiteralFeverDreamModItems {
 	public static final RegistryObject<Item> RICKROLL_ARRMOR_CHESTPLATE = REGISTRY.register("rickroll_arrmor_chestplate", () -> new RickrollArrmorItem.Chestplate());
 	public static final RegistryObject<Item> RICKROLL_ARRMOR_LEGGINGS = REGISTRY.register("rickroll_arrmor_leggings", () -> new RickrollArrmorItem.Leggings());
 	public static final RegistryObject<Item> RICKROLL_ARRMOR_BOOTS = REGISTRY.register("rickroll_arrmor_boots", () -> new RickrollArrmorItem.Boots());
+	public static final RegistryObject<Item> HAHA_ASYNC_GO_BRRRRRRRRRRRRRRRRRRRRRRR = REGISTRY.register("haha_async_go_brrrrrrrrrrrrrrrrrrrrrrr", () -> new HahaAsyncGoBRRRRRRRRRRRRRRRRRRRRRRRItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
