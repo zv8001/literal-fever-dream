@@ -1,21 +1,7 @@
 
 package net.mcreator.literalfeverdream.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.network.chat.Component;
-
-import net.mcreator.literalfeverdream.procedures.TooHeavyProcedure;
-import net.mcreator.literalfeverdream.init.LiteralFeverDreamModItems;
-
-import java.util.List;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class GraphiteBlockItem extends SwordItem {
 	public GraphiteBlockItem() {
@@ -56,6 +42,6 @@ public class GraphiteBlockItem extends SwordItem {
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
-			TooHeavyProcedure.execute(entity);
+			TooHeavyProcedure.execute();
 	}
 }
