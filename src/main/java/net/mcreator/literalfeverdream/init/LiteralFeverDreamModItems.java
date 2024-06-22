@@ -23,6 +23,7 @@ import net.mcreator.literalfeverdream.item.NexusSwordItem;
 import net.mcreator.literalfeverdream.item.NexusPicItem;
 import net.mcreator.literalfeverdream.item.NexusHoetoolItem;
 import net.mcreator.literalfeverdream.item.NexusAxeItem;
+import net.mcreator.literalfeverdream.item.ModGraphiteBlockItem;
 import net.mcreator.literalfeverdream.item.KnifeItem;
 import net.mcreator.literalfeverdream.item.IrradiatedpieceofshitItem;
 import net.mcreator.literalfeverdream.item.GraphiteBlockItem;
@@ -38,7 +39,7 @@ import net.mcreator.literalfeverdream.LiteralFeverDreamMod;
 public class LiteralFeverDreamModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, LiteralFeverDreamMod.MODID);
 	public static final RegistryObject<Item> COSMO = REGISTRY.register("cosmo", () -> new CosmoItem());
-	public static final RegistryObject<Item> TRAIN_BLOCK = block(LiteralFeverDreamModBlocks.TRAIN_BLOCK, null);
+	public static final RegistryObject<Item> TRAIN_BLOCK = block(LiteralFeverDreamModBlocks.TRAIN_BLOCK, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
 	public static final RegistryObject<Item> CONEEHA_1092 = block(LiteralFeverDreamModBlocks.CONEEHA_1092, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
 	public static final RegistryObject<Item> CONEEHASHELLPLACE = REGISTRY.register("coneehashellplace", () -> new ConeehashellplaceItem());
 	public static final RegistryObject<Item> COSMO_ARMMOR_HELMET = REGISTRY.register("cosmo_armmor_helmet", () -> new CosmoArmmorItem.Helmet());
@@ -72,6 +73,7 @@ public class LiteralFeverDreamModItems {
 	public static final RegistryObject<Item> GRAPHITE_BLOCK = REGISTRY.register("graphite_block", () -> new GraphiteBlockItem());
 	public static final RegistryObject<Item> URANIUM_BLOCK = block(LiteralFeverDreamModBlocks.URANIUM_BLOCK, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
 	public static final RegistryObject<Item> FURRYTRAIN = block(LiteralFeverDreamModBlocks.FURRYTRAIN, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
+	public static final RegistryObject<Item> MOD_GRAPHITE_BLOCK = REGISTRY.register("mod_graphite_block", () -> new ModGraphiteBlockItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

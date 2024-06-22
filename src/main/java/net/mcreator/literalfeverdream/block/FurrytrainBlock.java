@@ -25,7 +25,7 @@ import java.util.Collections;
 
 public class FurrytrainBlock extends Block {
 	public FurrytrainBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.SCAFFOLDING).strength(25f, 0f).lightLevel(s -> 1).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.SCAFFOLDING).strength(40f, 0f).lightLevel(s -> 1).requiresCorrectToolForDrops());
 	}
 
 	@Override

@@ -35,7 +35,7 @@
     ],
     "name": "Furry Train Block",
     "specialInfo": [],
-    "hardness": 25.0,
+    "hardness": 40.0,
     "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": false,
