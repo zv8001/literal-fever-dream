@@ -6,23 +6,23 @@
   ],
   "key": {
     "0": {
-      "item": "literal_fever_dream:deleted_mod_element"
+      "item": "literal_fever_dream:fake_diamond"
     },
     "1": {
-      "item": "literal_fever_dream:deleted_mod_element"
+      "item": "literal_fever_dream:fake_diamond"
     },
     "2": {
-      "item": "literal_fever_dream:deleted_mod_element"
+      "item": "literal_fever_dream:fake_diamond"
     },
     "3": {
-      "item": "literal_fever_dream:deleted_mod_element"
+      "item": "literal_fever_dream:fake_diamond"
     },
     "5": {
-      "item": "literal_fever_dream:deleted_mod_element"
+      "item": "literal_fever_dream:fake_diamond"
     }
   },
   "result": {
-    "item": "literal_fever_dream:deleted_mod_element_helmet",
+    "item": "literal_fever_dream:fake_diamond_arrmor_helmet",
     "count": 1
   }
 }
