@@ -993,6 +993,110 @@
       }
     },
     {
+      "name": "Rainbowcore",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainbowcore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/item/RainbowcoreItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/rainbowcore.json"
+        ]
+      }
+    },
+    {
+      "name": "FIREEEE",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireeee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/procedures/FIREEEEProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FusionDimension",
+      "type": "dimension",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/item/FusionDimensionItem.java",
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/FusionDimensionPortalShape.java",
+          "src/main/resources/data/literal_fever_dream/dimension_type/fusion_dimension.json",
+          "src/main/resources/data/literal_fever_dream/dimension/fusion_dimension.json",
+          "src/main/java/net/mcreator/literalfeverdream/world/dimension/FusionDimensionDimension.java",
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/FusionDimensionTeleporter.java",
+          "src/main/resources/assets/literal_fever_dream/models/block/fusion_dimension_portal_ew.json",
+          "src/main/resources/assets/literal_fever_dream/models/block/fusion_dimension_portal_ns.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/fusion_dimension.json",
+          "src/main/resources/assets/literal_fever_dream/blockstates/fusion_dimension_portal.json",
+          "src/main/java/net/mcreator/literalfeverdream/block/FusionDimensionPortalBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "FusionBlock",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/block/FusionBlockBlock.java",
+          "src/main/resources/assets/literal_fever_dream/blockstates/fusion_block.json",
+          "src/main/resources/assets/literal_fever_dream/models/block/fusion_block.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/fusion_block.json"
+        ]
+      }
+    },
+    {
+      "name": "FusionBlockBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_block_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/procedures/FusionBlockBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FusionPortalIgnitor",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_portal_ignitor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/fusion_portal_ignitor.json"
+        ]
+      }
+    },
+    {
       "name": "FakeDimondArrmorChest",
       "type": "recipe",
       "sortid": 71,
@@ -1027,8 +1131,8 @@
       "registry_name": "fake_diamond",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/FakeDiamondItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/FakeDiamondItem.java"
         ]
       }
     },
@@ -1041,11 +1145,11 @@
       "registry_name": "fake_diamond_arrmor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_chestplate.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/FakeDiamondArrmorItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_boots.json",
           "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_leggings.json",
           "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_helmet.json",
-          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_boots.json"
+          "src/main/java/net/mcreator/literalfeverdream/item/FakeDiamondArrmorItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_chestplate.json"
         ]
       }
     },
@@ -1085,39 +1189,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/literal_fever_dream/recipes/fake_damond_boots_res.json"
-        ]
-      }
-    },
-    {
-      "name": "Rainbowcore",
-      "type": "item",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rainbowcore",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/RainbowcoreItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/rainbowcore.json"
-        ]
-      }
-    },
-    {
-      "name": "FIREEEE",
-      "type": "procedure",
-      "sortid": 68,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fireeee",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/literalfeverdream/procedures/FIREEEEProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
         ]
       }
     }
@@ -1165,6 +1236,7 @@
       "item.literal_fever_dream.coneeha_arrmor_leggings": "Coneeha Arrmor Leggings",
       "block.literal_fever_dream.nice": "Nice",
       "advancements.dumbass.title": "Radiationize Yourself",
+      "item.literal_fever_dream.fusion_dimension": "Fusion from Core Inc.",
       "block.literal_fever_dream.train_block": "Train Block",
       "item.literal_fever_dream.arromer_nexus_leggings": "Arromer Nexus Leggings",
       "item.literal_fever_dream.fake_diamond_arrmor_chestplate": "Fake Diamond Arrmor Chestplate",

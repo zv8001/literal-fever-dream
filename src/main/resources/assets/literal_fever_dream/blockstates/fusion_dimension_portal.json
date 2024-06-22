@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "literal_fever_dream:block/fusion_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "literal_fever_dream:block/fusion_dimension_portal_ns"
+    }
+  }
+}
