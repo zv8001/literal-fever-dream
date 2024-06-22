@@ -832,9 +832,6 @@
       "locked_code": false,
       "registry_name": "too_heavy",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/literalfeverdream/procedures/TooHeavyProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1034,17 +1031,17 @@
       "registry_name": "fusion_dimension",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/FusionDimensionItem.java",
-          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/FusionDimensionPortalShape.java",
-          "src/main/resources/data/literal_fever_dream/dimension_type/fusion_dimension.json",
-          "src/main/resources/data/literal_fever_dream/dimension/fusion_dimension.json",
-          "src/main/java/net/mcreator/literalfeverdream/world/dimension/FusionDimensionDimension.java",
-          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/FusionDimensionTeleporter.java",
-          "src/main/resources/assets/literal_fever_dream/models/block/fusion_dimension_portal_ew.json",
           "src/main/resources/assets/literal_fever_dream/models/block/fusion_dimension_portal_ns.json",
+          "src/main/resources/data/literal_fever_dream/dimension/fusion_dimension.json",
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/FusionDimensionPortalShape.java",
           "src/main/resources/assets/literal_fever_dream/models/item/fusion_dimension.json",
+          "src/main/resources/data/literal_fever_dream/dimension_type/fusion_dimension.json",
+          "src/main/java/net/mcreator/literalfeverdream/world/dimension/FusionDimensionDimension.java",
+          "src/main/java/net/mcreator/literalfeverdream/block/FusionDimensionPortalBlock.java",
+          "src/main/java/net/mcreator/literalfeverdream/item/FusionDimensionItem.java",
           "src/main/resources/assets/literal_fever_dream/blockstates/fusion_dimension_portal.json",
-          "src/main/java/net/mcreator/literalfeverdream/block/FusionDimensionPortalBlock.java"
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/FusionDimensionTeleporter.java",
+          "src/main/resources/assets/literal_fever_dream/models/block/fusion_dimension_portal_ew.json"
         ]
       }
     },
@@ -1057,10 +1054,10 @@
       "registry_name": "fusion_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/block/FusionBlockBlock.java",
           "src/main/resources/assets/literal_fever_dream/blockstates/fusion_block.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/fusion_block.json",
           "src/main/resources/assets/literal_fever_dream/models/block/fusion_block.json",
-          "src/main/resources/assets/literal_fever_dream/models/item/fusion_block.json"
+          "src/main/java/net/mcreator/literalfeverdream/block/FusionBlockBlock.java"
         ]
       }
     },
@@ -1131,8 +1128,8 @@
       "registry_name": "fake_diamond",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/FakeDiamondItem.java"
+          "src/main/java/net/mcreator/literalfeverdream/item/FakeDiamondItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond.json"
         ]
       }
     },
@@ -1145,11 +1142,11 @@
       "registry_name": "fake_diamond_arrmor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_boots.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_chestplate.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/FakeDiamondArrmorItem.java",
           "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_leggings.json",
           "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_helmet.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/FakeDiamondArrmorItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_chestplate.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_boots.json"
         ]
       }
     },
@@ -1191,26 +1188,181 @@
           "src/main/resources/data/literal_fever_dream/recipes/fake_damond_boots_res.json"
         ]
       }
+    },
+    {
+      "name": "Rickroll",
+      "type": "musicdisc",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rickroll",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/literal_fever_dream/models/item/rickroll.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/RickrollItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RickrollOre",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rickroll_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/literal_fever_dream/models/block/rickroll_ore.json",
+          "src/main/resources/assets/literal_fever_dream/blockstates/rickroll_ore.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/rickroll_ore.json",
+          "src/main/java/net/mcreator/literalfeverdream/block/RickrollOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RickrollIngot",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rickroll_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/literal_fever_dream/models/item/rickroll_ingot.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/RickrollIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Rickrollingot",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rickrollingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/rickrollingot.json"
+        ]
+      }
+    },
+    {
+      "name": "RickrollArrmor",
+      "type": "armor",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rickroll_arrmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/literal_fever_dream/models/item/rickroll_arrmor_helmet.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/rickroll_arrmor_chestplate.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/rickroll_arrmor_leggings.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/rickroll_arrmor_boots.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/RickrollArrmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GetRickrollHelmet",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_rickroll_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/get_rickroll_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "GetRickrollChestplate",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_rickroll_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/get_rickroll_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "GetRickrollLeg",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_rickroll_leg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/get_rickroll_leg.json"
+        ]
+      }
+    },
+    {
+      "name": "RickrollBoots",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rickroll_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/rickroll_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "GetRickrollDisk",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_rickroll_disk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/get_rickroll_disk.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "rickroll",
+      "files": [
+        "rick_astley_-_never_gonna_give_you_up_official_music_video_tuberipper.cc"
+      ],
+      "category": "record",
+      "subtitle": "rickroll"
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.literal_fever_dream.uranium_235": "highly enriched Uranium-235",
       "advancements.coneeha_adv.descr": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
       "item.literal_fever_dream.fake_diamond_arrmor_leggings": "Fake Diamond Arrmor Leggings",
-      "block.literal_fever_dream.coneeha_1092": "Coneeha 1 0 9 2",
       "item.literal_fever_dream.fake_diamond_arrmor_boots": "Fake Diamond Arrmor Boots",
+      "block.literal_fever_dream.coneeha_1092": "Coneeha 1 0 9 2",
       "block.literal_fever_dream.nexus_block": "Nexus Block",
       "item.literal_fever_dream.thermonuclearbomb": "Thermonuclearbomb",
+      "item.literal_fever_dream.rickroll_ingot": "Rickroll Ingot",
       "advancements.mmmradiation.title": "Mmm radiation",
       "item.literal_fever_dream.rainbowcore": "Rainbowcore",
+      "block.literal_fever_dream.fusion_block": "Fusion Block",
+      "block.literal_fever_dream.rickroll_ore": "Rickroll Ore",
       "item.literal_fever_dream.irradiatedpieceofshit": "Irradiatedpieceofshit",
       "item.literal_fever_dream.arromer_nexus_boots": "Arromer Nexus Boots",
+      "item.literal_fever_dream.rickroll": "Rickroll",
       "item.literal_fever_dream.googleblock": "google",
+      "item.literal_fever_dream.rickroll_arrmor_chestplate": "Rickroll Arrmor Chestplate",
+      "item.literal_fever_dream.rickroll_arrmor_helmet": "Rickroll Arrmor Helmet",
       "advancements.mmmradiation.descr": "you might not want to hold that you\u0027re going to fucking die",
       "item.literal_fever_dream.graphite_block": "Graphite Block",
+      "item.literal_fever_dream.rickroll_arrmor_boots": "Rickroll Arrmor Boots",
       "item.literal_fever_dream.fake_diamond_arrmor_helmet": "Fake Diamond Arrmor Helmet",
       "item.literal_fever_dream.arromer_nexus_chestplate": "Arromer Nexus Chestplate",
       "item.literal_fever_dream.cosmo_armmor_boots": "Cosmo Armmor Boots",
@@ -1218,8 +1370,8 @@
       "item.literal_fever_dream.nexus_axe": "Nexus Axe",
       "item.literal_fever_dream.cosmo_armmor_leggings": "Cosmo Armmor Leggings",
       "item.literal_fever_dream.curseddiamondpickaxe": "Curseddiamondpickaxe",
-      "item.literal_fever_dream.nexus_pic": "Nexus Pic",
       "item.literal_fever_dream.cosmo": "train01256\u0027s weapon of mass destruction.",
+      "item.literal_fever_dream.nexus_pic": "Nexus Pic",
       "item.literal_fever_dream.nexusshellhole": "Nexusshellhole Portal Igniter",
       "item.literal_fever_dream.coneeha_arrmor_chestplate": "Coneeha Arrmor Chestplate",
       "death.attack.DMU": "%s ",
@@ -1242,9 +1394,12 @@
       "item.literal_fever_dream.fake_diamond_arrmor_chestplate": "Fake Diamond Arrmor Chestplate",
       "item.literal_fever_dream.arromer_nexus_helmet": "Arromer Nexus Helmet",
       "item.literal_fever_dream.coneehashellplace": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
+      "item.literal_fever_dream.rickroll.desc": "just a rickroll",
+      "item.literal_fever_dream.rickroll_arrmor_leggings": "Rickroll Arrmor Leggings",
       "item.literal_fever_dream.knife": "Knife",
       "itemGroup.tabliteralfeverdream": "Literalfeverdream",
       "item.literal_fever_dream.thermonuclearmissile": "uranium knife",
+      "subtitles.rickroll": "rickroll",
       "advancements.youfoundthefuckingfeverdream.descr": "congratulations you found the complete disaster I made at 12:00 in the fucking morning I need to go sleep someone sent help",
       "item.literal_fever_dream.coneeha_arrmor_boots": "Coneeha Arrmor Boots",
       "item.literal_fever_dream.coneeha_arrmor_helmet": "Coneeha Arrmor Helmet",

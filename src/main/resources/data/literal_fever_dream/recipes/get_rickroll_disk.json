@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "literal_fever_dream:rickroll_ingot"
+    },
+    "3": {
+      "item": "literal_fever_dream:rickroll_ingot"
+    },
+    "5": {
+      "item": "literal_fever_dream:rickroll_ingot"
+    },
+    "7": {
+      "item": "literal_fever_dream:rickroll_ingot"
+    }
+  },
+  "result": {
+    "item": "literal_fever_dream:rickroll",
+    "count": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "literal_fever_dream:rickroll_ingot"
+    },
+    "2": {
+      "item": "literal_fever_dream:rickroll_ingot"
+    },
+    "3": {
+      "item": "literal_fever_dream:rickroll_ingot"
+    },
+    "4": {
+      "item": "literal_fever_dream:rickroll_ingot"
+    },
+    "5": {
+      "item": "literal_fever_dream:rickroll_ingot"
+    },
+    "6": {
+      "item": "literal_fever_dream:rickroll_ingot"
+    },
+    "7": {
+      "item": "literal_fever_dream:rickroll_ingot"
+    },
+    "8": {
+      "item": "literal_fever_dream:rickroll_ingot"
+    }
+  },
+  "result": {
+    "item": "literal_fever_dream:rickroll_arrmor_chestplate",
+    "count": 1
+  }
+}

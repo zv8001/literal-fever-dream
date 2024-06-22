@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "literal_fever_dream:items/rickrollarmor_head"
+  }
+}
