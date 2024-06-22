@@ -34,9 +34,9 @@
     "onEntityHitWith": {
       "name": "FIREEEE"
     },
-    "isFood": true,
+    "isFood": false,
     "nutritionalValue": 0,
-    "saturation": 255.0,
+    "saturation": 15.0,
     "eatResultItem": {
       "value": ""
     },
