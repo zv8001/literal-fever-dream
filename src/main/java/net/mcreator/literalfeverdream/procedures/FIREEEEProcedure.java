@@ -1,7 +1,8 @@
 package net.mcreator.literalfeverdream.procedures;
 
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.damagesource.DamageSource;
+import net.minecraftforge.eventbus.api.Event;
+
+import javax.annotation.Nullable;
 
 public class FIREEEEProcedure {
 	public static void execute(Entity entity) {

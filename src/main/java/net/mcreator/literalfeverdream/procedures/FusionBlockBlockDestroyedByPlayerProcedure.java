@@ -1,8 +1,8 @@
 package net.mcreator.literalfeverdream.procedures;
 
-import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraftforge.eventbus.api.Event;
+
+import javax.annotation.Nullable;
 
 public class FusionBlockBlockDestroyedByPlayerProcedure {
 	public static void execute(Entity entity) {

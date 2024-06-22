@@ -30,6 +30,8 @@ import net.mcreator.literalfeverdream.item.IrradiatedpieceofshitItem;
 import net.mcreator.literalfeverdream.item.GraphiteBlockItem;
 import net.mcreator.literalfeverdream.item.GoogleblockItem;
 import net.mcreator.literalfeverdream.item.FusionDimensionItem;
+import net.mcreator.literalfeverdream.item.FakeDiamondItem;
+import net.mcreator.literalfeverdream.item.FakeDiamondArrmorItem;
 import net.mcreator.literalfeverdream.item.CurseddiamondpickaxeItem;
 import net.mcreator.literalfeverdream.item.CosmoItem;
 import net.mcreator.literalfeverdream.item.CosmoArmmorItem;
@@ -77,7 +79,12 @@ public class LiteralFeverDreamModItems {
 	public static final RegistryObject<Item> FURRYTRAIN = block(LiteralFeverDreamModBlocks.FURRYTRAIN, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
 	public static final RegistryObject<Item> MOD_GRAPHITE_BLOCK = REGISTRY.register("mod_graphite_block", () -> new ModGraphiteBlockItem());
 	public static final RegistryObject<Item> RAINBOWCORE = REGISTRY.register("rainbowcore", () -> new RainbowcoreItem());
+	public static final RegistryObject<Item> FAKE_DIAMOND = REGISTRY.register("fake_diamond", () -> new FakeDiamondItem());
 	public static final RegistryObject<Item> FUSION_BLOCK = block(LiteralFeverDreamModBlocks.FUSION_BLOCK, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
+	public static final RegistryObject<Item> FAKE_DIAMOND_ARRMOR_HELMET = REGISTRY.register("fake_diamond_arrmor_helmet", () -> new FakeDiamondArrmorItem.Helmet());
+	public static final RegistryObject<Item> FAKE_DIAMOND_ARRMOR_CHESTPLATE = REGISTRY.register("fake_diamond_arrmor_chestplate", () -> new FakeDiamondArrmorItem.Chestplate());
+	public static final RegistryObject<Item> FAKE_DIAMOND_ARRMOR_LEGGINGS = REGISTRY.register("fake_diamond_arrmor_leggings", () -> new FakeDiamondArrmorItem.Leggings());
+	public static final RegistryObject<Item> FAKE_DIAMOND_ARRMOR_BOOTS = REGISTRY.register("fake_diamond_arrmor_boots", () -> new FakeDiamondArrmorItem.Boots());
 	public static final RegistryObject<Item> FUSION_DIMENSION = REGISTRY.register("fusion_dimension", () -> new FusionDimensionItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {

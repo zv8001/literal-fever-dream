@@ -1026,22 +1026,6 @@
       }
     },
     {
-      "name": "FusionBlock",
-      "type": "block",
-      "sortid": 69,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fusion_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/literalfeverdream/block/FusionBlockBlock.java",
-          "src/main/resources/assets/literal_fever_dream/blockstates/fusion_block.json",
-          "src/main/resources/assets/literal_fever_dream/models/block/fusion_block.json",
-          "src/main/resources/assets/literal_fever_dream/models/item/fusion_block.json"
-        ]
-      }
-    },
-    {
       "name": "FusionDimension",
       "type": "dimension",
       "sortid": 70,
@@ -1065,15 +1049,18 @@
       }
     },
     {
-      "name": "FusionPortalIgnitor",
-      "type": "recipe",
-      "sortid": 71,
+      "name": "FusionBlock",
+      "type": "block",
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fusion_portal_ignitor",
+      "registry_name": "fusion_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/literal_fever_dream/recipes/fusion_portal_ignitor.json"
+          "src/main/java/net/mcreator/literalfeverdream/block/FusionBlockBlock.java",
+          "src/main/resources/assets/literal_fever_dream/blockstates/fusion_block.json",
+          "src/main/resources/assets/literal_fever_dream/models/block/fusion_block.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/fusion_block.json"
         ]
       }
     },
@@ -1095,6 +1082,115 @@
           }
         ]
       }
+    },
+    {
+      "name": "FusionPortalIgnitor",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_portal_ignitor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/fusion_portal_ignitor.json"
+        ]
+      }
+    },
+    {
+      "name": "FakeDimondArrmorChest",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_dimond_arrmor_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/fake_dimond_arrmor_chest.json"
+        ]
+      }
+    },
+    {
+      "name": "FakeDimondArrmorHelmretRes",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_dimond_arrmor_helmret_res",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/fake_dimond_arrmor_helmret_res.json"
+        ]
+      }
+    },
+    {
+      "name": "FakeDiamond",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_diamond",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/FakeDiamondItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FakeDiamondArrmor",
+      "type": "armor",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_diamond_arrmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_boots.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_leggings.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_helmet.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/FakeDiamondArrmorItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "FakeDiamondArrmorLeg",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_diamond_arrmor_leg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/fake_diamond_arrmor_leg.json"
+        ]
+      }
+    },
+    {
+      "name": "FakeDiamondRes",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_diamond_res",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/fake_diamond_res.json"
+        ]
+      }
+    },
+    {
+      "name": "FakeDamondBootsRes",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_damond_boots_res",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/fake_damond_boots_res.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1107,8 +1203,6 @@
       "block.literal_fever_dream.nexus_block": "Nexus Block",
       "item.literal_fever_dream.thermonuclearbomb": "Thermonuclearbomb",
       "advancements.mmmradiation.title": "Mmm radiation",
-      "item.literal_fever_dream.rainbowcore": "Rainbowcore",
-      "block.literal_fever_dream.fusion_block": "Fusion Block",
       "item.literal_fever_dream.irradiatedpieceofshit": "Irradiatedpieceofshit",
       "item.literal_fever_dream.arromer_nexus_boots": "Arromer Nexus Boots",
       "item.literal_fever_dream.googleblock": "google",
