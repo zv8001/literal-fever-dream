@@ -1235,20 +1235,6 @@
       }
     },
     {
-      "name": "RickrollIngot",
-      "type": "item",
-      "sortid": 76,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rickroll_ingot",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/rickroll_ingot.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/RickrollIngotItem.java"
-        ]
-      }
-    },
-    {
       "name": "RickrollBoots",
       "type": "recipe",
       "sortid": 82,
