@@ -16,6 +16,8 @@ import net.mcreator.literalfeverdream.block.NiceDiensPortalBlock;
 import net.mcreator.literalfeverdream.block.NiceBlock;
 import net.mcreator.literalfeverdream.block.NexusshellholePortalBlock;
 import net.mcreator.literalfeverdream.block.NexusBlockBlock;
+import net.mcreator.literalfeverdream.block.FusionDimensionPortalBlock;
+import net.mcreator.literalfeverdream.block.FusionBlockBlock;
 import net.mcreator.literalfeverdream.block.FurrytrainBlock;
 import net.mcreator.literalfeverdream.block.CosmoPortalBlock;
 import net.mcreator.literalfeverdream.block.ConeehashellplacePortalBlock;
@@ -34,4 +36,6 @@ public class LiteralFeverDreamModBlocks {
 	public static final RegistryObject<Block> NEXUSSHELLHOLE_PORTAL = REGISTRY.register("nexusshellhole_portal", () -> new NexusshellholePortalBlock());
 	public static final RegistryObject<Block> URANIUM_BLOCK = REGISTRY.register("uranium_block", () -> new UraniumBlockBlock());
 	public static final RegistryObject<Block> FURRYTRAIN = REGISTRY.register("furrytrain", () -> new FurrytrainBlock());
+	public static final RegistryObject<Block> FUSION_BLOCK = REGISTRY.register("fusion_block", () -> new FusionBlockBlock());
+	public static final RegistryObject<Block> FUSION_DIMENSION_PORTAL = REGISTRY.register("fusion_dimension_portal", () -> new FusionDimensionPortalBlock());
 }

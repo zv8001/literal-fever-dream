@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "literal_fever_dream:blocks/old_fusion",
+    "up": "literal_fever_dream:blocks/old_fusion",
+    "north": "literal_fever_dream:blocks/old_fusion",
+    "east": "literal_fever_dream:blocks/old_fusion",
+    "south": "literal_fever_dream:blocks/old_fusion",
+    "west": "literal_fever_dream:blocks/old_fusion",
+    "particle": "literal_fever_dream:blocks/old_fusion"
+  },
+  "render_type": "solid"
+}
