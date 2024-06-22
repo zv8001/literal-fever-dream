@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "literal_fever_dream:uranium_235"
+    },
+    "1": {
+      "item": "literal_fever_dream:uranium_235"
+    },
+    "2": {
+      "item": "literal_fever_dream:uranium_235"
+    },
+    "3": {
+      "item": "literal_fever_dream:uranium_235"
+    }
+  },
+  "result": {
+    "item": "literal_fever_dream:irradiatedpieceofshit",
+    "count": 1
+  }
+}

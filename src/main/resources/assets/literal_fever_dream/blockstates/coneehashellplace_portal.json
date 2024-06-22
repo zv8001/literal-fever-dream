@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "literal_fever_dream:block/coneehashellplace_portal_ew"
+    },
+    "axis=x": {
+      "model": "literal_fever_dream:block/coneehashellplace_portal_ns"
+    }
+  }
+}

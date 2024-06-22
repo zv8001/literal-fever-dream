@@ -1,0 +1,27 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "knife-png-238",
+    "customModelName": "Normal",
+    "name": "uranium knife",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Literalfeverdream"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 20.0,
+    "attackSpeed": 100.0,
+    "enchantability": 22,
+    "damageVsEntity": 90.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

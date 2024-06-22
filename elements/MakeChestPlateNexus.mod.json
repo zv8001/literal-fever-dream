@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Nexusingot"
+      },
+      {
+        "value": "CUSTOM:Nexusingot"
+      },
+      {
+        "value": "CUSTOM:Nexusingot"
+      },
+      {
+        "value": "CUSTOM:Nexusingot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Nexusingot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ArromerNexus.helmet"
+    },
+    "name": "make_chest_plate_nexus",
+    "namespace": "mod"
+  }
+}

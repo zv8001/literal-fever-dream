@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.QUARTZ"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Items.FISH#1"
+      },
+      {
+        "value": "Items.MAGMA_CREAM"
+      },
+      {
+        "value": "Items.FISH#1"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Nexusshellhole"
+    },
+    "name": "make_nexus_portal_t_hing_idk",
+    "namespace": "mod"
+  }
+}

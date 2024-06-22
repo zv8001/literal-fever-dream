@@ -1,0 +1,22 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:NexusBlock"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Nexusingot"
+    },
+    "name": "make_nexus_ingot",
+    "namespace": "mod"
+  }
+}

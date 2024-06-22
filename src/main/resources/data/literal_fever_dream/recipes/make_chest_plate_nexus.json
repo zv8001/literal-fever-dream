@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "literal_fever_dream:nexusingot"
+    },
+    "1": {
+      "item": "literal_fever_dream:nexusingot"
+    },
+    "2": {
+      "item": "literal_fever_dream:nexusingot"
+    },
+    "3": {
+      "item": "literal_fever_dream:nexusingot"
+    },
+    "5": {
+      "item": "literal_fever_dream:nexusingot"
+    }
+  },
+  "result": {
+    "item": "literal_fever_dream:arromer_nexus_helmet",
+    "count": 1
+  }
+}

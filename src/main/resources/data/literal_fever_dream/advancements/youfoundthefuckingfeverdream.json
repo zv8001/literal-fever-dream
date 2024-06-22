@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "literal_fever_dream:cosmo"
+    },
+    "title": {
+      "translate": "advancements.youfoundthefuckingfeverdream.title"
+    },
+    "description": {
+      "translate": "advancements.youfoundthefuckingfeverdream.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "youfoundthefuckingfeverdream": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "literal_fever_dream:cosmo"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 70
+  }
+}

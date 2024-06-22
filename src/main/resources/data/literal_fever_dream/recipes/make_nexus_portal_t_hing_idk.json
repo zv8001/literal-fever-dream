@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:quartz"
+    },
+    "3": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "4": {
+      "item": "minecraft:flint"
+    },
+    "5": {
+      "item": "minecraft:copper_ingot"
+    },
+    "6": {
+      "item": "minecraft:salmon"
+    },
+    "7": {
+      "item": "minecraft:magma_cream"
+    },
+    "8": {
+      "item": "minecraft:salmon"
+    }
+  },
+  "result": {
+    "item": "literal_fever_dream:nexusshellhole",
+    "count": 1
+  }
+}

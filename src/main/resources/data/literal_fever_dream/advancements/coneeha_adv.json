@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "literal_fever_dream:coneehashellplace"
+    },
+    "title": {
+      "translate": "advancements.coneeha_adv.title"
+    },
+    "description": {
+      "translate": "advancements.coneeha_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "coneeha_adv": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "literal_fever_dream:coneehashellplace"
+      }
+    }
+  },
+  "parent": "literal_fever_dream:youfoundthefuckingfeverdream"
+}

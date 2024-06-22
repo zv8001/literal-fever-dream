@@ -1,0 +1,25 @@
+{
+  "_fv": 43,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
+    "achievementDescription": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
+    "achievementIcon": {
+      "value": "CUSTOM:Coneehashellplace"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:Youfoundthefuckingfeverdream"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"dimension_entered\" x=\"89\" y=\"146\"><field name=\"dimension\">CUSTOM:Coneehashellplace</field><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

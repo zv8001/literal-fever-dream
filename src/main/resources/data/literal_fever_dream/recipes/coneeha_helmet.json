@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "literal_fever_dream:coneeha_1092"
+    },
+    "1": {
+      "item": "literal_fever_dream:coneeha_1092"
+    },
+    "2": {
+      "item": "literal_fever_dream:coneeha_1092"
+    },
+    "3": {
+      "item": "literal_fever_dream:coneeha_1092"
+    },
+    "5": {
+      "item": "literal_fever_dream:coneeha_1092"
+    }
+  },
+  "result": {
+    "item": "literal_fever_dream:coneeha_arrmor_helmet",
+    "count": 1
+  }
+}

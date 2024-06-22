@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "literal_fever_dream:blocks/cosmo",
+    "up": "literal_fever_dream:blocks/cosmo",
+    "north": "literal_fever_dream:blocks/cosmo",
+    "east": "literal_fever_dream:blocks/cosmo",
+    "south": "literal_fever_dream:blocks/cosmo",
+    "west": "literal_fever_dream:blocks/cosmo",
+    "particle": "literal_fever_dream:blocks/cosmo"
+  },
+  "render_type": "solid"
+}

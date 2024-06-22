@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "literal_fever_dream:train_block"
+    },
+    "1": {
+      "item": "literal_fever_dream:train_block"
+    },
+    "2": {
+      "item": "literal_fever_dream:train_block"
+    },
+    "3": {
+      "item": "literal_fever_dream:train_block"
+    },
+    "5": {
+      "item": "literal_fever_dream:train_block"
+    }
+  },
+  "result": {
+    "item": "literal_fever_dream:cosmo_armmor_helmet",
+    "count": 1
+  }
+}
