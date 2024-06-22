@@ -16,6 +16,8 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.literalfeverdream.item.Uranium235Item;
 import net.mcreator.literalfeverdream.item.ThermonuclearmissileItem;
 import net.mcreator.literalfeverdream.item.ThermonuclearbombItem;
+import net.mcreator.literalfeverdream.item.RickrollItem;
+import net.mcreator.literalfeverdream.item.RickrollArrmorItem;
 import net.mcreator.literalfeverdream.item.RainbowcoreItem;
 import net.mcreator.literalfeverdream.item.NiceDiensItem;
 import net.mcreator.literalfeverdream.item.NexusshellholeItem;
@@ -86,6 +88,12 @@ public class LiteralFeverDreamModItems {
 	public static final RegistryObject<Item> FAKE_DIAMOND_ARRMOR_LEGGINGS = REGISTRY.register("fake_diamond_arrmor_leggings", () -> new FakeDiamondArrmorItem.Leggings());
 	public static final RegistryObject<Item> FAKE_DIAMOND_ARRMOR_BOOTS = REGISTRY.register("fake_diamond_arrmor_boots", () -> new FakeDiamondArrmorItem.Boots());
 	public static final RegistryObject<Item> FUSION_DIMENSION = REGISTRY.register("fusion_dimension", () -> new FusionDimensionItem());
+	public static final RegistryObject<Item> RICKROLL = REGISTRY.register("rickroll", () -> new RickrollItem());
+	public static final RegistryObject<Item> RICKROLL_ORE = block(LiteralFeverDreamModBlocks.RICKROLL_ORE, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
+	public static final RegistryObject<Item> RICKROLL_ARRMOR_HELMET = REGISTRY.register("rickroll_arrmor_helmet", () -> new RickrollArrmorItem.Helmet());
+	public static final RegistryObject<Item> RICKROLL_ARRMOR_CHESTPLATE = REGISTRY.register("rickroll_arrmor_chestplate", () -> new RickrollArrmorItem.Chestplate());
+	public static final RegistryObject<Item> RICKROLL_ARRMOR_LEGGINGS = REGISTRY.register("rickroll_arrmor_leggings", () -> new RickrollArrmorItem.Leggings());
+	public static final RegistryObject<Item> RICKROLL_ARRMOR_BOOTS = REGISTRY.register("rickroll_arrmor_boots", () -> new RickrollArrmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Rickroll",
+    "texture": "graymusicdicktxt",
+    "description": "just a rickroll",
+    "creativeTab": {
+      "value": "CUSTOM:Literalfeverdream"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:rickroll"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

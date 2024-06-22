@@ -1,0 +1,11 @@
+{
+  "rickroll": {
+    "subtitle": "subtitles.rickroll",
+    "sounds": [
+      {
+        "name": "literal_fever_dream:rick_astley_-_never_gonna_give_you_up_official_music_video_tuberipper.cc",
+        "stream": true
+      }
+    ]
+  }
+}

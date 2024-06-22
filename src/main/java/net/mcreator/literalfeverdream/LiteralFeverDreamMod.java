@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
+import net.mcreator.literalfeverdream.init.LiteralFeverDreamModSounds;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModPaintings;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModItems;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModBlocks;
@@ -52,7 +53,7 @@ public class LiteralFeverDreamMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		LiteralFeverDreamModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		LiteralFeverDreamModSounds.REGISTRY.register(bus);
 		LiteralFeverDreamModBlocks.REGISTRY.register(bus);
 		LiteralFeverDreamModItems.REGISTRY.register(bus);
 

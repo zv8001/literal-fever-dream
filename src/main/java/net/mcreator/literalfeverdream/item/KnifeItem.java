@@ -5,7 +5,8 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
 
 public class KnifeItem extends SwordItem {
 	public KnifeItem() {
@@ -33,6 +34,6 @@ public class KnifeItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 3, -3f, new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM));
 	}
 }
