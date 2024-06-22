@@ -991,6 +991,39 @@
           "src/main/resources/assets/literal_fever_dream/models/item/mod_graphite_block.json"
         ]
       }
+    },
+    {
+      "name": "Rainbowcore",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainbowcore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/item/RainbowcoreItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/rainbowcore.json"
+        ]
+      }
+    },
+    {
+      "name": "FIREEEE",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireeee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/procedures/FIREEEEProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1011,6 +1044,7 @@
       "block.literal_fever_dream.furrytrain": "Furry Train Block",
       "item.literal_fever_dream.cosmo_armmor_chestplate": "Cosmo Armmor Chestplate",
       "advancements.mmmradiation.title": "Mmm radiation",
+      "item.literal_fever_dream.rainbowcore": "Rainbowcore",
       "item.literal_fever_dream.nexusingot": "Nexusingot",
       "item.literal_fever_dream.coneeha_arrmor_leggings": "Coneeha Arrmor Leggings",
       "block.literal_fever_dream.nice": "Nice",
