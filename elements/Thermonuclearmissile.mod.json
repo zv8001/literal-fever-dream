@@ -6,7 +6,9 @@
     "texture": "knife-png-238",
     "customModelName": "Normal",
     "name": "uranium knife",
-    "specialInfo": [],
+    "specialInfo": [
+      "how does one do this"
+    ],
     "creativeTab": {
       "value": "CUSTOM:Literalfeverdream"
     },
@@ -18,7 +20,7 @@
     "damageVsEntity": 90.0,
     "usageCount": 100,
     "blocksAffected": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,

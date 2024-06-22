@@ -10,9 +10,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/literal_fever_dream/models/item/train_block.json",
-          "src/main/java/net/mcreator/literalfeverdream/block/TrainBlockBlock.java",
+          "src/main/resources/assets/literal_fever_dream/blockstates/train_block.json",
           "src/main/resources/assets/literal_fever_dream/models/block/train_block.json",
-          "src/main/resources/assets/literal_fever_dream/blockstates/train_block.json"
+          "src/main/java/net/mcreator/literalfeverdream/block/TrainBlockBlock.java"
         ]
       }
     },
@@ -35,17 +35,17 @@
       "registry_name": "cosmo",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/CosmoItem.java",
           "src/main/java/net/mcreator/literalfeverdream/block/CosmoPortalBlock.java",
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/CosmoTeleporter.java",
           "src/main/java/net/mcreator/literalfeverdream/world/teleporter/CosmoPortalShape.java",
-          "src/main/resources/data/literal_fever_dream/dimension_type/cosmo.json",
-          "src/main/resources/assets/literal_fever_dream/blockstates/cosmo_portal.json",
-          "src/main/resources/assets/literal_fever_dream/models/block/cosmo_portal_ew.json",
-          "src/main/resources/assets/literal_fever_dream/models/block/cosmo_portal_ns.json",
-          "src/main/resources/data/literal_fever_dream/dimension/cosmo.json",
-          "src/main/resources/assets/literal_fever_dream/models/item/cosmo.json",
           "src/main/java/net/mcreator/literalfeverdream/world/dimension/CosmoDimension.java",
-          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/CosmoTeleporter.java"
+          "src/main/resources/data/literal_fever_dream/dimension/cosmo.json",
+          "src/main/resources/assets/literal_fever_dream/models/block/cosmo_portal_ns.json",
+          "src/main/resources/data/literal_fever_dream/dimension_type/cosmo.json",
+          "src/main/resources/assets/literal_fever_dream/models/block/cosmo_portal_ew.json",
+          "src/main/resources/assets/literal_fever_dream/blockstates/cosmo_portal.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/cosmo.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/CosmoItem.java"
         ]
       }
     },
@@ -71,10 +71,10 @@
       "registry_name": "coneeha_1092",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/blockstates/coneeha_1092.json",
           "src/main/resources/assets/literal_fever_dream/models/block/coneeha_1092.json",
           "src/main/java/net/mcreator/literalfeverdream/block/Coneeha1092Block.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/coneeha_1092.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/coneeha_1092.json",
+          "src/main/resources/assets/literal_fever_dream/blockstates/coneeha_1092.json"
         ]
       }
     },
@@ -87,17 +87,17 @@
       "registry_name": "coneehashellplace",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/world/dimension/ConeehashellplaceDimension.java",
-          "src/main/resources/data/literal_fever_dream/dimension/coneehashellplace.json",
-          "src/main/resources/assets/literal_fever_dream/models/block/coneehashellplace_portal_ew.json",
-          "src/main/resources/assets/literal_fever_dream/models/block/coneehashellplace_portal_ns.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/ConeehashellplaceItem.java",
-          "src/main/resources/data/literal_fever_dream/dimension_type/coneehashellplace.json",
-          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/ConeehashellplaceTeleporter.java",
-          "src/main/java/net/mcreator/literalfeverdream/block/ConeehashellplacePortalBlock.java",
-          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/ConeehashellplacePortalShape.java",
           "src/main/resources/assets/literal_fever_dream/blockstates/coneehashellplace_portal.json",
-          "src/main/resources/assets/literal_fever_dream/models/item/coneehashellplace.json"
+          "src/main/resources/assets/literal_fever_dream/models/block/coneehashellplace_portal_ns.json",
+          "src/main/resources/data/literal_fever_dream/dimension/coneehashellplace.json",
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/ConeehashellplacePortalShape.java",
+          "src/main/resources/assets/literal_fever_dream/models/block/coneehashellplace_portal_ew.json",
+          "src/main/java/net/mcreator/literalfeverdream/world/dimension/ConeehashellplaceDimension.java",
+          "src/main/resources/data/literal_fever_dream/dimension_type/coneehashellplace.json",
+          "src/main/java/net/mcreator/literalfeverdream/block/ConeehashellplacePortalBlock.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/coneehashellplace.json",
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/ConeehashellplaceTeleporter.java",
+          "src/main/java/net/mcreator/literalfeverdream/item/ConeehashellplaceItem.java"
         ]
       }
     },
@@ -123,10 +123,10 @@
       "registry_name": "cosmo_armmor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/CosmoArmmorItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/cosmo_armmor_chestplate.json",
           "src/main/resources/assets/literal_fever_dream/models/item/cosmo_armmor_leggings.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/cosmo_armmor_chestplate.json",
           "src/main/resources/assets/literal_fever_dream/models/item/cosmo_armmor_helmet.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/CosmoArmmorItem.java",
           "src/main/resources/assets/literal_fever_dream/models/item/cosmo_armmor_boots.json"
         ]
       }
@@ -218,11 +218,11 @@
       "registry_name": "coneeha_arrmor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/ConeehaArrmorItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/coneeha_arrmor_chestplate.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/coneeha_arrmor_boots.json",
           "src/main/resources/assets/literal_fever_dream/models/item/coneeha_arrmor_helmet.json",
           "src/main/resources/assets/literal_fever_dream/models/item/coneeha_arrmor_leggings.json",
-          "src/main/resources/assets/literal_fever_dream/models/item/coneeha_arrmor_boots.json",
-          "src/main/resources/assets/literal_fever_dream/models/item/coneeha_arrmor_chestplate.json"
+          "src/main/java/net/mcreator/literalfeverdream/item/ConeehaArrmorItem.java"
         ]
       }
     },
@@ -287,8 +287,8 @@
       "registry_name": "thermonuclearbomb",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/ThermonuclearbombItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/thermonuclearbomb.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/thermonuclearbomb.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/ThermonuclearbombItem.java"
         ]
       }
     },
@@ -301,8 +301,8 @@
       "registry_name": "uranium_235",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/Uranium235Item.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/uranium_235.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/uranium_235.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/Uranium235Item.java"
         ]
       }
     },
@@ -341,8 +341,8 @@
       "registry_name": "irradiatedpieceofshit",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/irradiatedpieceofshit.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/IrradiatedpieceofshitItem.java"
+          "src/main/java/net/mcreator/literalfeverdream/item/IrradiatedpieceofshitItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/irradiatedpieceofshit.json"
         ]
       }
     },
@@ -381,8 +381,8 @@
       "registry_name": "curseddiamondpickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/CurseddiamondpickaxeItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/curseddiamondpickaxe.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/curseddiamondpickaxe.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/CurseddiamondpickaxeItem.java"
         ]
       }
     },
@@ -408,8 +408,8 @@
       "registry_name": "thermonuclearmissile",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/thermonuclearmissile.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/ThermonuclearmissileItem.java"
+          "src/main/java/net/mcreator/literalfeverdream/item/ThermonuclearmissileItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/thermonuclearmissile.json"
         ]
       }
     },
@@ -462,9 +462,9 @@
       "registry_name": "nice",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/block/NiceBlock.java",
-          "src/main/resources/assets/literal_fever_dream/blockstates/nice.json",
           "src/main/resources/assets/literal_fever_dream/models/block/nice.json",
+          "src/main/resources/assets/literal_fever_dream/blockstates/nice.json",
+          "src/main/java/net/mcreator/literalfeverdream/block/NiceBlock.java",
           "src/main/resources/assets/literal_fever_dream/models/item/nice.json"
         ]
       }
@@ -518,17 +518,17 @@
       "registry_name": "nice_diens",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/literalfeverdream/block/NiceDiensPortalBlock.java",
+          "src/main/java/net/mcreator/literalfeverdream/world/dimension/NiceDiensDimension.java",
           "src/main/resources/assets/literal_fever_dream/models/block/nice_diens_portal_ew.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/NiceDiensItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/block/nice_diens_portal_ns.json",
           "src/main/java/net/mcreator/literalfeverdream/world/teleporter/NiceDiensTeleporter.java",
+          "src/main/resources/data/literal_fever_dream/dimension/nice_diens.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/NiceDiensItem.java",
           "src/main/resources/assets/literal_fever_dream/models/item/nice_diens.json",
           "src/main/resources/data/literal_fever_dream/dimension_type/nice_diens.json",
-          "src/main/java/net/mcreator/literalfeverdream/world/dimension/NiceDiensDimension.java",
-          "src/main/java/net/mcreator/literalfeverdream/block/NiceDiensPortalBlock.java",
-          "src/main/resources/assets/literal_fever_dream/models/block/nice_diens_portal_ns.json",
-          "src/main/resources/data/literal_fever_dream/dimension/nice_diens.json",
-          "src/main/resources/assets/literal_fever_dream/blockstates/nice_diens_portal.json",
-          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/NiceDiensPortalShape.java"
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/NiceDiensPortalShape.java",
+          "src/main/resources/assets/literal_fever_dream/blockstates/nice_diens_portal.json"
         ]
       }
     },
@@ -554,10 +554,10 @@
       "registry_name": "nexus_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/nexus_block.json",
-          "src/main/resources/assets/literal_fever_dream/models/block/nexus_block.json",
           "src/main/java/net/mcreator/literalfeverdream/block/NexusBlockBlock.java",
-          "src/main/resources/assets/literal_fever_dream/blockstates/nexus_block.json"
+          "src/main/resources/assets/literal_fever_dream/blockstates/nexus_block.json",
+          "src/main/resources/assets/literal_fever_dream/models/block/nexus_block.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/nexus_block.json"
         ]
       }
     },
@@ -570,17 +570,17 @@
       "registry_name": "nexusshellhole",
       "metadata": {
         "files": [
+          "src/main/resources/assets/literal_fever_dream/models/item/nexusshellhole.json",
+          "src/main/resources/data/literal_fever_dream/dimension/nexusshellhole.json",
+          "src/main/java/net/mcreator/literalfeverdream/block/NexusshellholePortalBlock.java",
+          "src/main/java/net/mcreator/literalfeverdream/item/NexusshellholeItem.java",
+          "src/main/java/net/mcreator/literalfeverdream/world/dimension/NexusshellholeDimension.java",
+          "src/main/resources/data/literal_fever_dream/dimension_type/nexusshellhole.json",
+          "src/main/resources/assets/literal_fever_dream/blockstates/nexusshellhole_portal.json",
           "src/main/resources/assets/literal_fever_dream/models/block/nexusshellhole_portal_ew.json",
           "src/main/resources/assets/literal_fever_dream/models/block/nexusshellhole_portal_ns.json",
-          "src/main/resources/assets/literal_fever_dream/models/item/nexusshellhole.json",
-          "src/main/java/net/mcreator/literalfeverdream/block/NexusshellholePortalBlock.java",
-          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/NexusshellholePortalShape.java",
           "src/main/java/net/mcreator/literalfeverdream/world/teleporter/NexusshellholeTeleporter.java",
-          "src/main/java/net/mcreator/literalfeverdream/item/NexusshellholeItem.java",
-          "src/main/resources/data/literal_fever_dream/dimension_type/nexusshellhole.json",
-          "src/main/resources/data/literal_fever_dream/dimension/nexusshellhole.json",
-          "src/main/resources/assets/literal_fever_dream/blockstates/nexusshellhole_portal.json",
-          "src/main/java/net/mcreator/literalfeverdream/world/dimension/NexusshellholeDimension.java"
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/NexusshellholePortalShape.java"
         ]
       }
     },
@@ -606,11 +606,11 @@
       "registry_name": "arromer_nexus",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/arromer_nexus_leggings.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/arromer_nexus_boots.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/arromer_nexus_chestplate.json",
           "src/main/resources/assets/literal_fever_dream/models/item/arromer_nexus_helmet.json",
           "src/main/java/net/mcreator/literalfeverdream/item/ArromerNexusItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/arromer_nexus_chestplate.json",
-          "src/main/resources/assets/literal_fever_dream/models/item/arromer_nexus_boots.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/arromer_nexus_leggings.json"
         ]
       }
     },
@@ -729,8 +729,8 @@
       "registry_name": "nexus_pic",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/nexus_pic.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/NexusPicItem.java"
+          "src/main/java/net/mcreator/literalfeverdream/item/NexusPicItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/nexus_pic.json"
         ]
       }
     },
@@ -756,8 +756,8 @@
       "registry_name": "nexus_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/nexus_axe.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/NexusAxeItem.java"
+          "src/main/java/net/mcreator/literalfeverdream/item/NexusAxeItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/nexus_axe.json"
         ]
       }
     },
@@ -783,14 +783,15 @@
       "registry_name": "nexus_hoetool",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/NexusHoetoolItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/nexus_hoetool.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/nexus_hoetool.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/NexusHoetoolItem.java"
         ]
       }
     },
     {
       "name": "Weirdguyandskeleton",
       "type": "painting",
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weirdguyandskeleton",
@@ -801,6 +802,7 @@
     {
       "name": "Trainandayden",
       "type": "painting",
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trainandayden",
@@ -825,6 +827,7 @@
     {
       "name": "TooHeavy",
       "type": "procedure",
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "too_heavy",
@@ -881,6 +884,7 @@
     {
       "name": "Uranium235ItemInHandTick",
       "type": "procedure",
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_235_item_in_hand_tick",
@@ -918,14 +922,17 @@
       "advancements.coneeha_adv.descr": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
       "block.literal_fever_dream.coneeha_1092": "Coneeha 1 0 9 2",
       "item.literal_fever_dream.nexus_hoetool": "Nexus Hoetool",
+      "advancements.dumbass.descr": "What is your life goal???",
       "block.literal_fever_dream.nexus_block": "Nexus Block",
       "item.literal_fever_dream.thermonuclearbomb": "Thermonuclearbomb",
       "item.literal_fever_dream.nexus_sword": "Nexus Sword",
       "item.literal_fever_dream.nice_diens": "Nice Diens Portal Igniter",
       "item.literal_fever_dream.cosmo_armmor_chestplate": "Cosmo Armmor Chestplate",
+      "advancements.mmmradiation.title": "Mmm radiation",
       "item.literal_fever_dream.nexusingot": "Nexusingot",
       "item.literal_fever_dream.coneeha_arrmor_leggings": "Coneeha Arrmor Leggings",
       "block.literal_fever_dream.nice": "Nice",
+      "advancements.dumbass.title": "Radiationize Yourself",
       "item.literal_fever_dream.irradiatedpieceofshit": "Irradiatedpieceofshit",
       "item.literal_fever_dream.arromer_nexus_boots": "Arromer Nexus Boots",
       "block.literal_fever_dream.train_block": "Train Block",
@@ -933,6 +940,9 @@
       "item.literal_fever_dream.googleblock": "google",
       "item.literal_fever_dream.arromer_nexus_helmet": "Arromer Nexus Helmet",
       "item.literal_fever_dream.coneehashellplace": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
+      "advancements.mmmradiation.descr": "you might not want to hold that you\u0027re going to fucking die",
+      "item.literal_fever_dream.graphite_block": "Graphite Block",
+      "enchantment.literal_fever_dream.chernobyl_premium": "Radiation++",
       "item.literal_fever_dream.arromer_nexus_chestplate": "Arromer Nexus Chestplate",
       "item.literal_fever_dream.cosmo_armmor_boots": "Cosmo Armmor Boots",
       "advancements.youfoundthefuckingfeverdream.title": "Youfoundthefuckingfeverdream",
