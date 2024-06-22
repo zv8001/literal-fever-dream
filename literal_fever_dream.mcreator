@@ -791,6 +791,7 @@
     {
       "name": "Weirdguyandskeleton",
       "type": "painting",
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weirdguyandskeleton",
@@ -801,11 +802,82 @@
     {
       "name": "Trainandayden",
       "type": "painting",
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trainandayden",
       "metadata": {
         "files": []
+      }
+    },
+    {
+      "name": "TooHeavy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "too_heavy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/procedures/TooHeavyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GraphiteBlock",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/item/GraphiteBlockItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/graphite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Dumbass",
+      "type": "achievement",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dumbass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/advancements/dumbass.json"
+        ]
+      }
+    },
+    {
+      "name": "Graphite",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/graphite.json"
+        ]
+      }
+    },
+    {
+      "name": "ChernobylPremium",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chernobyl_premium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/enchantment/ChernobylPremiumEnchantment.java"
+        ]
       }
     }
   ],
@@ -817,6 +889,7 @@
       "advancements.coneeha_adv.descr": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
       "block.literal_fever_dream.coneeha_1092": "Coneeha 1 0 9 2",
       "item.literal_fever_dream.nexus_hoetool": "Nexus Hoetool",
+      "advancements.dumbass.descr": "What is your life goal???",
       "block.literal_fever_dream.nexus_block": "Nexus Block",
       "item.literal_fever_dream.thermonuclearbomb": "Thermonuclearbomb",
       "item.literal_fever_dream.nexus_sword": "Nexus Sword",
@@ -825,6 +898,7 @@
       "item.literal_fever_dream.nexusingot": "Nexusingot",
       "item.literal_fever_dream.coneeha_arrmor_leggings": "Coneeha Arrmor Leggings",
       "block.literal_fever_dream.nice": "Nice",
+      "advancements.dumbass.title": "Radiationize Yourself",
       "item.literal_fever_dream.irradiatedpieceofshit": "Irradiatedpieceofshit",
       "item.literal_fever_dream.arromer_nexus_boots": "Arromer Nexus Boots",
       "block.literal_fever_dream.train_block": "Train Block",
@@ -832,6 +906,8 @@
       "item.literal_fever_dream.googleblock": "google",
       "item.literal_fever_dream.arromer_nexus_helmet": "Arromer Nexus Helmet",
       "item.literal_fever_dream.coneehashellplace": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
+      "item.literal_fever_dream.graphite_block": "Graphite Block",
+      "enchantment.literal_fever_dream.chernobyl_premium": "Radiation++",
       "item.literal_fever_dream.arromer_nexus_chestplate": "Arromer Nexus Chestplate",
       "item.literal_fever_dream.cosmo_armmor_boots": "Cosmo Armmor Boots",
       "advancements.youfoundthefuckingfeverdream.title": "Youfoundthefuckingfeverdream",

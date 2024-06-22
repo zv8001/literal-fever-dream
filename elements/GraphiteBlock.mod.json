@@ -1,0 +1,36 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "graphine_block",
+    "customModelName": "Normal",
+    "name": "Graphite Block",
+    "specialInfo": [
+      "you're just dead. WHY DO YOU HAVE THIS"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 2.0,
+    "attackSpeed": 0.05,
+    "enchantability": 0,
+    "damageVsEntity": 600.0,
+    "usageCount": 5,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Uranium235"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "TooHeavy"
+    }
+  }
+}

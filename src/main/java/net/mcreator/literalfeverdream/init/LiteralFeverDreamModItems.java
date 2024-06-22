@@ -25,6 +25,7 @@ import net.mcreator.literalfeverdream.item.NexusHoetoolItem;
 import net.mcreator.literalfeverdream.item.NexusAxeItem;
 import net.mcreator.literalfeverdream.item.KnifeItem;
 import net.mcreator.literalfeverdream.item.IrradiatedpieceofshitItem;
+import net.mcreator.literalfeverdream.item.GraphiteBlockItem;
 import net.mcreator.literalfeverdream.item.GoogleblockItem;
 import net.mcreator.literalfeverdream.item.CurseddiamondpickaxeItem;
 import net.mcreator.literalfeverdream.item.CosmoItem;
@@ -68,6 +69,7 @@ public class LiteralFeverDreamModItems {
 	public static final RegistryObject<Item> NEXUS_PIC = REGISTRY.register("nexus_pic", () -> new NexusPicItem());
 	public static final RegistryObject<Item> NEXUS_AXE = REGISTRY.register("nexus_axe", () -> new NexusAxeItem());
 	public static final RegistryObject<Item> NEXUS_HOETOOL = REGISTRY.register("nexus_hoetool", () -> new NexusHoetoolItem());
+	public static final RegistryObject<Item> GRAPHITE_BLOCK = REGISTRY.register("graphite_block", () -> new GraphiteBlockItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
