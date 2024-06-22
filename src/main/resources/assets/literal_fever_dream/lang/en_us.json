@@ -8,6 +8,7 @@
   "item.literal_fever_dream.nexus_sword": "Nexus Sword",
   "item.literal_fever_dream.nice_diens": "Nice Diens Portal Igniter",
   "item.literal_fever_dream.cosmo_armmor_chestplate": "Cosmo Armmor Chestplate",
+  "advancements.mmmradiation.title": "Mmm radiation",
   "item.literal_fever_dream.nexusingot": "Nexusingot",
   "item.literal_fever_dream.coneeha_arrmor_leggings": "Coneeha Arrmor Leggings",
   "block.literal_fever_dream.nice": "Nice",
@@ -18,6 +19,7 @@
   "item.literal_fever_dream.googleblock": "google",
   "item.literal_fever_dream.arromer_nexus_helmet": "Arromer Nexus Helmet",
   "item.literal_fever_dream.coneehashellplace": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
+  "advancements.mmmradiation.descr": "you might not want to hold that you\u0027re going to fucking die",
   "item.literal_fever_dream.arromer_nexus_chestplate": "Arromer Nexus Chestplate",
   "item.literal_fever_dream.cosmo_armmor_boots": "Cosmo Armmor Boots",
   "advancements.youfoundthefuckingfeverdream.title": "Youfoundthefuckingfeverdream",
@@ -33,6 +35,7 @@
   "advancements.youfoundthefuckingfeverdream.descr": "congratulations you found the complete disaster I made at 12:00 in the fucking morning I need to go sleep someone sent help",
   "item.literal_fever_dream.coneeha_arrmor_boots": "Coneeha Arrmor Boots",
   "item.literal_fever_dream.coneeha_arrmor_chestplate": "Coneeha Arrmor Chestplate",
+  "death.attack.DMU": "%s ",
   "item.literal_fever_dream.coneeha_arrmor_helmet": "Coneeha Arrmor Helmet",
   "advancements.coneeha_adv.title": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
   "item.literal_fever_dream.cosmo_armmor_helmet": "Cosmo Armmor Helmet"
