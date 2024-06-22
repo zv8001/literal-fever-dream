@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "literal_fever_dream:fake_diamond"
+    },
+    "2": {
+      "item": "literal_fever_dream:fake_diamond"
+    },
+    "3": {
+      "item": "literal_fever_dream:fake_diamond"
+    },
+    "4": {
+      "item": "literal_fever_dream:fake_diamond"
+    },
+    "5": {
+      "item": "literal_fever_dream:fake_diamond"
+    },
+    "6": {
+      "item": "literal_fever_dream:fake_diamond"
+    },
+    "7": {
+      "item": "literal_fever_dream:fake_diamond"
+    },
+    "8": {
+      "item": "literal_fever_dream:fake_diamond"
+    }
+  },
+  "result": {
+    "item": "literal_fever_dream:fake_diamond_arrmor_chestplate",
+    "count": 1
+  }
+}

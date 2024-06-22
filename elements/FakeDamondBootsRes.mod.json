@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FakeDiamond"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FakeDiamond"
+      },
+      {
+        "value": "CUSTOM:FakeDiamond"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FakeDiamond"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FakeDiamondArrmor.boots"
+    },
+    "name": "fake_damond_boots_res",
+    "namespace": "mod"
+  }
+}

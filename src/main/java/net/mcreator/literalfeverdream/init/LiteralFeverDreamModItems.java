@@ -28,6 +28,8 @@ import net.mcreator.literalfeverdream.item.KnifeItem;
 import net.mcreator.literalfeverdream.item.IrradiatedpieceofshitItem;
 import net.mcreator.literalfeverdream.item.GraphiteBlockItem;
 import net.mcreator.literalfeverdream.item.GoogleblockItem;
+import net.mcreator.literalfeverdream.item.FakeDiamondItem;
+import net.mcreator.literalfeverdream.item.FakeDiamondArrmorItem;
 import net.mcreator.literalfeverdream.item.CurseddiamondpickaxeItem;
 import net.mcreator.literalfeverdream.item.CosmoItem;
 import net.mcreator.literalfeverdream.item.CosmoArmmorItem;
@@ -39,7 +41,7 @@ import net.mcreator.literalfeverdream.LiteralFeverDreamMod;
 public class LiteralFeverDreamModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, LiteralFeverDreamMod.MODID);
 	public static final RegistryObject<Item> COSMO = REGISTRY.register("cosmo", () -> new CosmoItem());
-	public static final RegistryObject<Item> TRAIN_BLOCK = block(LiteralFeverDreamModBlocks.TRAIN_BLOCK, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
+	public static final RegistryObject<Item> TRAIN_BLOCK = block(LiteralFeverDreamModBlocks.TRAIN_BLOCK, null);
 	public static final RegistryObject<Item> CONEEHA_1092 = block(LiteralFeverDreamModBlocks.CONEEHA_1092, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
 	public static final RegistryObject<Item> CONEEHASHELLPLACE = REGISTRY.register("coneehashellplace", () -> new ConeehashellplaceItem());
 	public static final RegistryObject<Item> COSMO_ARMMOR_HELMET = REGISTRY.register("cosmo_armmor_helmet", () -> new CosmoArmmorItem.Helmet());
@@ -74,6 +76,11 @@ public class LiteralFeverDreamModItems {
 	public static final RegistryObject<Item> URANIUM_BLOCK = block(LiteralFeverDreamModBlocks.URANIUM_BLOCK, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
 	public static final RegistryObject<Item> FURRYTRAIN = block(LiteralFeverDreamModBlocks.FURRYTRAIN, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
 	public static final RegistryObject<Item> MOD_GRAPHITE_BLOCK = REGISTRY.register("mod_graphite_block", () -> new ModGraphiteBlockItem());
+	public static final RegistryObject<Item> FAKE_DIAMOND = REGISTRY.register("fake_diamond", () -> new FakeDiamondItem());
+	public static final RegistryObject<Item> FAKE_DIAMOND_ARRMOR_HELMET = REGISTRY.register("fake_diamond_arrmor_helmet", () -> new FakeDiamondArrmorItem.Helmet());
+	public static final RegistryObject<Item> FAKE_DIAMOND_ARRMOR_CHESTPLATE = REGISTRY.register("fake_diamond_arrmor_chestplate", () -> new FakeDiamondArrmorItem.Chestplate());
+	public static final RegistryObject<Item> FAKE_DIAMOND_ARRMOR_LEGGINGS = REGISTRY.register("fake_diamond_arrmor_leggings", () -> new FakeDiamondArrmorItem.Leggings());
+	public static final RegistryObject<Item> FAKE_DIAMOND_ARRMOR_BOOTS = REGISTRY.register("fake_diamond_arrmor_boots", () -> new FakeDiamondArrmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
