@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.literalfeverdream.item.Uranium235Item;
 import net.mcreator.literalfeverdream.item.ThermonuclearmissileItem;
 import net.mcreator.literalfeverdream.item.ThermonuclearbombItem;
+import net.mcreator.literalfeverdream.item.RainbowcoreItem;
 import net.mcreator.literalfeverdream.item.NiceDiensItem;
 import net.mcreator.literalfeverdream.item.NexusshellholeItem;
 import net.mcreator.literalfeverdream.item.NexusingotItem;
@@ -41,7 +42,7 @@ import net.mcreator.literalfeverdream.LiteralFeverDreamMod;
 public class LiteralFeverDreamModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, LiteralFeverDreamMod.MODID);
 	public static final RegistryObject<Item> COSMO = REGISTRY.register("cosmo", () -> new CosmoItem());
-	public static final RegistryObject<Item> TRAIN_BLOCK = block(LiteralFeverDreamModBlocks.TRAIN_BLOCK, null);
+	public static final RegistryObject<Item> TRAIN_BLOCK = block(LiteralFeverDreamModBlocks.TRAIN_BLOCK, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
 	public static final RegistryObject<Item> CONEEHA_1092 = block(LiteralFeverDreamModBlocks.CONEEHA_1092, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
 	public static final RegistryObject<Item> CONEEHASHELLPLACE = REGISTRY.register("coneehashellplace", () -> new ConeehashellplaceItem());
 	public static final RegistryObject<Item> COSMO_ARMMOR_HELMET = REGISTRY.register("cosmo_armmor_helmet", () -> new CosmoArmmorItem.Helmet());
@@ -77,6 +78,7 @@ public class LiteralFeverDreamModItems {
 	public static final RegistryObject<Item> FURRYTRAIN = block(LiteralFeverDreamModBlocks.FURRYTRAIN, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
 	public static final RegistryObject<Item> MOD_GRAPHITE_BLOCK = REGISTRY.register("mod_graphite_block", () -> new ModGraphiteBlockItem());
 	public static final RegistryObject<Item> FAKE_DIAMOND = REGISTRY.register("fake_diamond", () -> new FakeDiamondItem());
+	public static final RegistryObject<Item> RAINBOWCORE = REGISTRY.register("rainbowcore", () -> new RainbowcoreItem());
 	public static final RegistryObject<Item> FAKE_DIAMOND_ARRMOR_HELMET = REGISTRY.register("fake_diamond_arrmor_helmet", () -> new FakeDiamondArrmorItem.Helmet());
 	public static final RegistryObject<Item> FAKE_DIAMOND_ARRMOR_CHESTPLATE = REGISTRY.register("fake_diamond_arrmor_chestplate", () -> new FakeDiamondArrmorItem.Chestplate());
 	public static final RegistryObject<Item> FAKE_DIAMOND_ARRMOR_LEGGINGS = REGISTRY.register("fake_diamond_arrmor_leggings", () -> new FakeDiamondArrmorItem.Leggings());
