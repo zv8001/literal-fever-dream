@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "painting",
+  "definition": {
+    "texture": "man_painting_and_skeleton_with_violin.png",
+    "width": 16,
+    "height": 16,
+    "title": "Painting the Dead",
+    "author": "Mysterious Painter"
+  }
+}

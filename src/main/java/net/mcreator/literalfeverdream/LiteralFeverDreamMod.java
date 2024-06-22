@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
+import net.mcreator.literalfeverdream.init.LiteralFeverDreamModPaintings;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModItems;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModBlocks;
 
@@ -54,6 +55,8 @@ public class LiteralFeverDreamMod {
 
 		LiteralFeverDreamModBlocks.REGISTRY.register(bus);
 		LiteralFeverDreamModItems.REGISTRY.register(bus);
+
+		LiteralFeverDreamModPaintings.REGISTRY.register(bus);
 
 	}
 
