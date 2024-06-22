@@ -789,6 +789,16 @@
       }
     },
     {
+      "name": "Weirdguyandskeleton",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weirdguyandskeleton",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
       "name": "Trainandayden",
       "type": "painting",
       "compiles": true,
