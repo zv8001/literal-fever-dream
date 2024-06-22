@@ -797,6 +797,16 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Trainandayden",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trainandayden",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],

@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class Coneeha1092Block extends Block {
 	public Coneeha1092Block() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.NETHERITE_BLOCK).strength(1f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
