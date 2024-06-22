@@ -70,6 +70,8 @@ public class LiteralFeverDreamModItems {
 	public static final RegistryObject<Item> NEXUS_AXE = REGISTRY.register("nexus_axe", () -> new NexusAxeItem());
 	public static final RegistryObject<Item> NEXUS_HOETOOL = REGISTRY.register("nexus_hoetool", () -> new NexusHoetoolItem());
 	public static final RegistryObject<Item> GRAPHITE_BLOCK = REGISTRY.register("graphite_block", () -> new GraphiteBlockItem());
+	public static final RegistryObject<Item> URANIUM_BLOCK = block(LiteralFeverDreamModBlocks.URANIUM_BLOCK, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
+	public static final RegistryObject<Item> FURRYTRAIN = block(LiteralFeverDreamModBlocks.FURRYTRAIN, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

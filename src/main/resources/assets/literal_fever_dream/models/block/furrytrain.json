@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "literal_fever_dream:blocks/cursed_train",
+    "up": "literal_fever_dream:blocks/cursed_train",
+    "north": "literal_fever_dream:blocks/cursed_train",
+    "east": "literal_fever_dream:blocks/cursed_train",
+    "south": "literal_fever_dream:blocks/cursed_train",
+    "west": "literal_fever_dream:blocks/cursed_train",
+    "particle": "literal_fever_dream:blocks/cursed_train"
+  },
+  "render_type": "solid"
+}

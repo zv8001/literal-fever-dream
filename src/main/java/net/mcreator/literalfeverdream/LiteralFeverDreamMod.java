@@ -32,7 +32,6 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModPaintings;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModItems;
-import net.mcreator.literalfeverdream.init.LiteralFeverDreamModEnchantments;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModBlocks;
 
 import java.util.function.Supplier;
@@ -58,8 +57,6 @@ public class LiteralFeverDreamMod {
 		LiteralFeverDreamModItems.REGISTRY.register(bus);
 
 		LiteralFeverDreamModPaintings.REGISTRY.register(bus);
-
-		LiteralFeverDreamModEnchantments.REGISTRY.register(bus);
 
 	}
 

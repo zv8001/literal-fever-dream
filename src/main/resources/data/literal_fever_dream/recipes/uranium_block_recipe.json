@@ -1,0 +1,42 @@
+{
+  "group": "radiationized",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "literal_fever_dream:uranium_235"
+    },
+    "1": {
+      "item": "literal_fever_dream:uranium_235"
+    },
+    "2": {
+      "item": "literal_fever_dream:uranium_235"
+    },
+    "3": {
+      "item": "literal_fever_dream:uranium_235"
+    },
+    "4": {
+      "item": "literal_fever_dream:uranium_235"
+    },
+    "5": {
+      "item": "literal_fever_dream:uranium_235"
+    },
+    "6": {
+      "item": "literal_fever_dream:uranium_235"
+    },
+    "7": {
+      "item": "literal_fever_dream:uranium_235"
+    },
+    "8": {
+      "item": "literal_fever_dream:uranium_235"
+    }
+  },
+  "result": {
+    "item": "literal_fever_dream:uranium_block",
+    "count": 1
+  }
+}

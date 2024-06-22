@@ -1,0 +1,30 @@
+{
+  "group": "stupid_furry",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "3": {
+      "item": "literal_fever_dream:cosmo"
+    },
+    "4": {
+      "item": "literal_fever_dream:train_block"
+    },
+    "5": {
+      "item": "minecraft:feather"
+    },
+    "7": {
+      "item": "minecraft:rabbit_foot"
+    }
+  },
+  "result": {
+    "item": "literal_fever_dream:furrytrain",
+    "count": 1
+  }
+}

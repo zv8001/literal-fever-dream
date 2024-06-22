@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "literal_fever_dream:blocks/uranium_block",
+    "up": "literal_fever_dream:blocks/uranium_block",
+    "north": "literal_fever_dream:blocks/uranium_block",
+    "east": "literal_fever_dream:blocks/uranium_block",
+    "south": "literal_fever_dream:blocks/uranium_block",
+    "west": "literal_fever_dream:blocks/uranium_block",
+    "particle": "literal_fever_dream:blocks/uranium_block"
+  },
+  "render_type": "solid"
+}

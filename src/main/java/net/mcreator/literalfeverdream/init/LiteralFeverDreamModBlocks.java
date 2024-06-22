@@ -10,11 +10,13 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.literalfeverdream.block.UraniumBlockBlock;
 import net.mcreator.literalfeverdream.block.TrainBlockBlock;
 import net.mcreator.literalfeverdream.block.NiceDiensPortalBlock;
 import net.mcreator.literalfeverdream.block.NiceBlock;
 import net.mcreator.literalfeverdream.block.NexusshellholePortalBlock;
 import net.mcreator.literalfeverdream.block.NexusBlockBlock;
+import net.mcreator.literalfeverdream.block.FurrytrainBlock;
 import net.mcreator.literalfeverdream.block.CosmoPortalBlock;
 import net.mcreator.literalfeverdream.block.ConeehashellplacePortalBlock;
 import net.mcreator.literalfeverdream.block.Coneeha1092Block;
@@ -30,4 +32,6 @@ public class LiteralFeverDreamModBlocks {
 	public static final RegistryObject<Block> NICE_DIENS_PORTAL = REGISTRY.register("nice_diens_portal", () -> new NiceDiensPortalBlock());
 	public static final RegistryObject<Block> NEXUS_BLOCK = REGISTRY.register("nexus_block", () -> new NexusBlockBlock());
 	public static final RegistryObject<Block> NEXUSSHELLHOLE_PORTAL = REGISTRY.register("nexusshellhole_portal", () -> new NexusshellholePortalBlock());
+	public static final RegistryObject<Block> URANIUM_BLOCK = REGISTRY.register("uranium_block", () -> new UraniumBlockBlock());
+	public static final RegistryObject<Block> FURRYTRAIN = REGISTRY.register("furrytrain", () -> new FurrytrainBlock());
 }
