@@ -22,7 +22,7 @@ import java.util.Collections;
 
 public class RadiationPlantBlock extends FlowerBlock {
 	public RadiationPlantBlock() {
-		super(MobEffects.WITHER, 200, BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GRASS).instabreak().noCollission());
+		super(MobEffects.WITHER, 200, BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GRASS).instabreak().noOcclusion().dynamicShape());
 	}
 
 	@Override

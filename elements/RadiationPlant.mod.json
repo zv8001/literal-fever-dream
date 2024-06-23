@@ -39,7 +39,7 @@
     "resistance": 0.0,
     "luminance": 0,
     "unbreakable": false,
-    "isSolid": false,
+    "isSolid": true,
     "isCustomSoundType": false,
     "soundOnStep": {
       "value": "PLANT"
