@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "literal_fever_dream:many_rbm_krods"
+    },
+    "1": {
+      "item": "literal_fever_dream:many_rbm_krods"
+    },
+    "2": {
+      "item": "literal_fever_dream:many_rbm_krods"
+    },
+    "3": {
+      "item": "minecraft:coal"
+    },
+    "4": {
+      "item": "literal_fever_dream:thermonuclearbomb"
+    },
+    "5": {
+      "item": "minecraft:coal"
+    },
+    "6": {
+      "item": "minecraft:water_bucket"
+    },
+    "7": {
+      "item": "minecraft:water_bucket"
+    },
+    "8": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "literal_fever_dream:rbmk",
+    "count": 1
+  }
+}
