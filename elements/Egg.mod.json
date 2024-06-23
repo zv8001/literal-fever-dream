@@ -3,16 +3,16 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "nexusigettxt",
+    "texture": "egg",
     "customModelName": "Normal",
-    "name": "Rickrollingot",
+    "name": "Egg",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Literalfeverdream"
     },
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 0,
+    "useDuration": 32,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -25,20 +25,20 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "rick"
+      "egg"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "isFood": false,
+    "isFood": true,
     "nutritionalValue": 4,
-    "saturation": 0.3,
+    "saturation": 0.0,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "none"
+    "animation": "eat"
   }
 }
