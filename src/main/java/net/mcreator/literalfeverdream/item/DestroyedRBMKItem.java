@@ -21,7 +21,7 @@ public class DestroyedRBMKItem extends SwordItem {
 	public DestroyedRBMKItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 31000;
 			}
 
 			public float getSpeed() {
