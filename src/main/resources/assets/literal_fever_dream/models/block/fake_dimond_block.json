@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "literal_fever_dream:blocks/diamond_block_128x128",
+    "up": "literal_fever_dream:blocks/diamond_block_128x128",
+    "north": "literal_fever_dream:blocks/diamond_block_128x128",
+    "east": "literal_fever_dream:blocks/diamond_block_128x128",
+    "south": "literal_fever_dream:blocks/diamond_block_128x128",
+    "west": "literal_fever_dream:blocks/diamond_block_128x128",
+    "particle": "literal_fever_dream:blocks/diamond_block_128x128"
+  },
+  "render_type": "solid"
+}

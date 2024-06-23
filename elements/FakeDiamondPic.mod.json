@@ -1,0 +1,27 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "diamond_pickaxe_je3_be3",
+    "customModelName": "Normal",
+    "name": "Fake Diamond Pic",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Literalfeverdream"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 30,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1375,6 +1375,143 @@
           "src/main/resources/assets/literal_fever_dream/models/item/radiation_plant.json"
         ]
       }
+    },
+    {
+      "name": "FakeDiamondAxe",
+      "type": "tool",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_diamond_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/item/FakeDiamondAxeItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "FakeDiamondPic",
+      "type": "tool",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_diamond_pic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/item/FakeDiamondPicItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_pic.json"
+        ]
+      }
+    },
+    {
+      "name": "FakeDiamondHoe",
+      "type": "tool",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_diamond_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_hoe.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/FakeDiamondHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FakeDiamondSh",
+      "type": "tool",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_diamond_sh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/item/FakeDiamondShItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_sh.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeFakeDiamondAxe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_fake_diamond_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/make_fake_diamond_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "FakeDiamondHoeMake",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_diamond_hoe_make",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/fake_diamond_hoe_make.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeFakeDiamondSh",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_fake_diamond_sh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/make_fake_diamond_sh.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeFakeDiamondPic",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_fake_diamond_pic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/make_fake_diamond_pic.json"
+        ]
+      }
+    },
+    {
+      "name": "FakeDimondBlock",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_dimond_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/block/FakeDimondBlockBlock.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_dimond_block.json",
+          "src/main/resources/assets/literal_fever_dream/blockstates/fake_dimond_block.json",
+          "src/main/resources/assets/literal_fever_dream/models/block/fake_dimond_block.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeFakeDimondBlock",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_fake_dimond_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/make_fake_dimond_block.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1401,8 +1538,8 @@
       "item.literal_fever_dream.uranium_235": "highly enriched Uranium-235",
       "advancements.coneeha_adv.descr": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
       "item.literal_fever_dream.fake_diamond_arrmor_leggings": "Fake Diamond Arrmor Leggings",
-      "item.literal_fever_dream.fake_diamond_arrmor_boots": "Fake Diamond Arrmor Boots",
       "block.literal_fever_dream.coneeha_1092": "Coneeha 1 0 9 2",
+      "item.literal_fever_dream.fake_diamond_arrmor_boots": "Fake Diamond Arrmor Boots",
       "block.literal_fever_dream.nexus_block": "Nexus Block",
       "item.literal_fever_dream.thermonuclearbomb": "Thermonuclearbomb",
       "item.literal_fever_dream.rickroll_ingot": "Rickroll Ingot",
@@ -1417,12 +1554,14 @@
       "item.literal_fever_dream.haha_async_go_brrrrrrrrrrrrrrrrrrrrrrr.desc": "who knows who made this",
       "item.literal_fever_dream.googleblock": "google",
       "item.literal_fever_dream.rickroll_arrmor_chestplate": "Rickroll Arrmor Chestplate",
+      "item.literal_fever_dream.fake_diamond_pic": "Fake Diamond Pic",
       "item.literal_fever_dream.rickroll_arrmor_helmet": "Rickroll Arrmor Helmet",
       "item.literal_fever_dream.rickrollingot": "Rickrollingot",
       "advancements.mmmradiation.descr": "you might not want to hold that you\u0027re going to fucking die",
       "item.literal_fever_dream.graphite_block": "Graphite Block",
       "item.literal_fever_dream.rickroll_arrmor_boots": "Rickroll Arrmor Boots",
       "item.literal_fever_dream.fake_diamond_arrmor_helmet": "Fake Diamond Arrmor Helmet",
+      "item.literal_fever_dream.fake_diamond_axe": "Fake Diamond Axe",
       "item.literal_fever_dream.arromer_nexus_chestplate": "Armor Nexus Chestplate",
       "item.literal_fever_dream.cosmo_armmor_boots": "Cosmo Armmor Boots",
       "advancements.youfoundthefuckingfeverdream.title": "Youfoundthefuckingfeverdream",
@@ -1442,11 +1581,13 @@
       "block.literal_fever_dream.furrytrain": "Furry Train Block",
       "item.literal_fever_dream.cosmo_armmor_chestplate": "Cosmo Armmor Chestplate",
       "subtitles.test": "",
+      "item.literal_fever_dream.fake_diamond_sh": "Fake Diamond Sh",
       "item.literal_fever_dream.nexusingot": "Nexusingot",
       "item.literal_fever_dream.coneeha_arrmor_leggings": "Coneeha Armor Leggings",
       "block.literal_fever_dream.nice": "Nice",
       "item.literal_fever_dream.egg": "Egg",
       "item.literal_fever_dream.fusion_dimension": "Fusion from Core Inc.",
+      "item.literal_fever_dream.fake_diamond_hoe": "Fake Diamond Hoe",
       "block.literal_fever_dream.train_block": "Train Block",
       "item.literal_fever_dream.arromer_nexus_leggings": "Armor Nexus Leggings",
       "item.literal_fever_dream.fake_diamond_arrmor_chestplate": "Fake Diamond Arrmor Chestplate",
@@ -1457,6 +1598,7 @@
       "item.literal_fever_dream.rickroll_arrmor_leggings": "Rickroll Arrmor Leggings",
       "item.literal_fever_dream.haha_async_go_brrrrrrrrrrrrrrrrrrrrrrr": "Unknown Disc 1",
       "item.literal_fever_dream.knife": "Knife",
+      "block.literal_fever_dream.fake_dimond_block": "Fake Dimond Block",
       "itemGroup.tabliteralfeverdream": "Literalfeverdream",
       "item.literal_fever_dream.thermonuclearmissile": "uranium knife",
       "subtitles.rickroll": "rickroll",

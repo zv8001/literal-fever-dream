@@ -33,6 +33,7 @@ import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModSounds;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModPaintings;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModItems;
+import net.mcreator.literalfeverdream.init.LiteralFeverDreamModFeatures;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModBlocks;
 
 import java.util.function.Supplier;
@@ -57,6 +58,7 @@ public class LiteralFeverDreamMod {
 		LiteralFeverDreamModBlocks.REGISTRY.register(bus);
 		LiteralFeverDreamModItems.REGISTRY.register(bus);
 
+		LiteralFeverDreamModFeatures.REGISTRY.register(bus);
 		LiteralFeverDreamModPaintings.REGISTRY.register(bus);
 
 	}
