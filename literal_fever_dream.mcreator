@@ -1481,6 +1481,33 @@
           }
         ]
       }
+    },
+    {
+      "name": "Pi",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/item/PiItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/pi.json"
+        ]
+      }
+    },
+    {
+      "name": "PiRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pi_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/pi_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1517,6 +1544,7 @@
       "item.literal_fever_dream.rainbowcore": "Rainbowcore",
       "advancements.mmmradiation.title": "Mmm radiation",
       "block.literal_fever_dream.rickroll_ore": "Rickroll Ore",
+      "item.literal_fever_dream.pi": "Pi",
       "block.literal_fever_dream.radiation_plant": "Radiationized Plant",
       "item.literal_fever_dream.irradiatedpieceofshit": "Irradiatedpieceofshit",
       "item.literal_fever_dream.rbmk": "RBMK",

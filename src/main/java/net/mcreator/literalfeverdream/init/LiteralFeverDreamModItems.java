@@ -21,6 +21,7 @@ import net.mcreator.literalfeverdream.item.RickrollItem;
 import net.mcreator.literalfeverdream.item.RickrollArrmorItem;
 import net.mcreator.literalfeverdream.item.RainbowcoreItem;
 import net.mcreator.literalfeverdream.item.RBMKItem;
+import net.mcreator.literalfeverdream.item.PiItem;
 import net.mcreator.literalfeverdream.item.NiceDiensItem;
 import net.mcreator.literalfeverdream.item.NexusshellholeItem;
 import net.mcreator.literalfeverdream.item.NexusingotItem;
@@ -105,6 +106,7 @@ public class LiteralFeverDreamModItems {
 	public static final RegistryObject<Item> CONTROL_ROD = REGISTRY.register("control_rod", () -> new ControlRodItem());
 	public static final RegistryObject<Item> MANY_RBM_KRODS = REGISTRY.register("many_rbm_krods", () -> new ManyRBMKrodsItem());
 	public static final RegistryObject<Item> RBMK = REGISTRY.register("rbmk", () -> new RBMKItem());
+	public static final RegistryObject<Item> PI = REGISTRY.register("pi", () -> new PiItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -87,6 +87,9 @@
     "restrictionBiomes": [],
     "patchSize": 64,
     "generateAtAnyHeight": false,
+    "onEntityCollides": {
+      "name": "TooHeavy"
+    },
     "onEntityWalksOn": {
       "name": "TooHeavy"
     }
