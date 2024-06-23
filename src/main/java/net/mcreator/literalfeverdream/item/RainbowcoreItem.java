@@ -17,7 +17,7 @@ import java.util.List;
 
 public class RainbowcoreItem extends Item {
 	public RainbowcoreItem() {
-		super(new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM).stacksTo(64).fireResistant().rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(0).saturationMod(15f)
+		super(new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM).stacksTo(64).fireResistant().rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(50).saturationMod(0f)
 
 				.build()));
 	}
