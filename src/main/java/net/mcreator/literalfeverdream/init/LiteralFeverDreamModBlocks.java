@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.literalfeverdream.block.UraniumBlockBlock;
 import net.mcreator.literalfeverdream.block.TrainBlockBlock;
 import net.mcreator.literalfeverdream.block.RickrollOreBlock;
+import net.mcreator.literalfeverdream.block.RadiationPlantBlock;
 import net.mcreator.literalfeverdream.block.NiceDiensPortalBlock;
 import net.mcreator.literalfeverdream.block.NiceBlock;
 import net.mcreator.literalfeverdream.block.NexusshellholePortalBlock;
@@ -40,4 +41,5 @@ public class LiteralFeverDreamModBlocks {
 	public static final RegistryObject<Block> FUSION_BLOCK = REGISTRY.register("fusion_block", () -> new FusionBlockBlock());
 	public static final RegistryObject<Block> FUSION_DIMENSION_PORTAL = REGISTRY.register("fusion_dimension_portal", () -> new FusionDimensionPortalBlock());
 	public static final RegistryObject<Block> RICKROLL_ORE = REGISTRY.register("rickroll_ore", () -> new RickrollOreBlock());
+	public static final RegistryObject<Block> RADIATION_PLANT = REGISTRY.register("radiation_plant", () -> new RadiationPlantBlock());
 }

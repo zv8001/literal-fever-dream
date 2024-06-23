@@ -1,0 +1,39 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "rbmk",
+    "customModelName": "Normal",
+    "name": "RBMK",
+    "specialInfo": [
+      "HOW AND WHY???"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Literalfeverdream"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 2.0,
+    "attackSpeed": 0.005,
+    "enchantability": 2,
+    "damageVsEntity": 1000.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ManyRBMKrods"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "PureSlowness"
+    },
+    "onItemInUseTick": {
+      "name": "PureSlowness"
+    }
+  }
+}

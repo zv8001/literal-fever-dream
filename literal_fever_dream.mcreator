@@ -1375,6 +1375,112 @@
           "src/main/resources/assets/literal_fever_dream/models/item/radiation_plant.json"
         ]
       }
+    },
+    {
+      "name": "ControlRod",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "control_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/literal_fever_dream/models/item/control_rod.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/ControlRodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RbmkRodRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rbmk_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/rbmk_rod_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PureSlowness",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_slowness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/procedures/PureSlownessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManyRBMKrods",
+      "type": "item",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "many_rbm_krods",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/item/ManyRBMKrodsItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/many_rbm_krods.json"
+        ]
+      }
+    },
+    {
+      "name": "AlotOfRbmkRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alot_of_rbmk_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/alot_of_rbmk_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RBMK",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rbmk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/literal_fever_dream/models/item/rbmk.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/RBMKItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RbmkProcedure",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rbmk_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/procedures/RbmkProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1399,10 +1505,11 @@
   "language_map": {
     "en_us": {
       "item.literal_fever_dream.uranium_235": "highly enriched Uranium-235",
+      "item.literal_fever_dream.control_rod": "Control Rod",
       "advancements.coneeha_adv.descr": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
       "item.literal_fever_dream.fake_diamond_arrmor_leggings": "Fake Diamond Arrmor Leggings",
-      "item.literal_fever_dream.fake_diamond_arrmor_boots": "Fake Diamond Arrmor Boots",
       "block.literal_fever_dream.coneeha_1092": "Coneeha 1 0 9 2",
+      "item.literal_fever_dream.fake_diamond_arrmor_boots": "Fake Diamond Arrmor Boots",
       "block.literal_fever_dream.nexus_block": "Nexus Block",
       "item.literal_fever_dream.thermonuclearbomb": "Thermonuclearbomb",
       "item.literal_fever_dream.rickroll_ingot": "Rickroll Ingot",
@@ -1412,6 +1519,7 @@
       "block.literal_fever_dream.rickroll_ore": "Rickroll Ore",
       "block.literal_fever_dream.radiation_plant": "Radiationized Plant",
       "item.literal_fever_dream.irradiatedpieceofshit": "Irradiatedpieceofshit",
+      "item.literal_fever_dream.rbmk": "RBMK",
       "item.literal_fever_dream.arromer_nexus_boots": "Armorr Nexus Boots",
       "item.literal_fever_dream.rickroll": "Rickroll",
       "item.literal_fever_dream.haha_async_go_brrrrrrrrrrrrrrrrrrrrrrr.desc": "who knows who made this",
@@ -1452,6 +1560,7 @@
       "item.literal_fever_dream.fake_diamond_arrmor_chestplate": "Fake Diamond Arrmor Chestplate",
       "item.literal_fever_dream.arromer_nexus_helmet": "Armor Nexus Helmet",
       "item.literal_fever_dream.coneehashellplace": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
+      "item.literal_fever_dream.many_rbm_krods": "Many RBM Krods",
       "item.literal_fever_dream.rickroll.desc": "just a rickroll",
       "subtitles.async-third_test": "asynccfdgh",
       "item.literal_fever_dream.rickroll_arrmor_leggings": "Rickroll Arrmor Leggings",

@@ -1,0 +1,42 @@
+{
+  "group": "rbmk",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "literal_fever_dream:control_rod"
+    },
+    "1": {
+      "item": "literal_fever_dream:control_rod"
+    },
+    "2": {
+      "item": "literal_fever_dream:control_rod"
+    },
+    "3": {
+      "item": "literal_fever_dream:control_rod"
+    },
+    "4": {
+      "item": "literal_fever_dream:control_rod"
+    },
+    "5": {
+      "item": "literal_fever_dream:control_rod"
+    },
+    "6": {
+      "item": "literal_fever_dream:control_rod"
+    },
+    "7": {
+      "item": "literal_fever_dream:control_rod"
+    },
+    "8": {
+      "item": "literal_fever_dream:control_rod"
+    }
+  },
+  "result": {
+    "item": "literal_fever_dream:many_rbm_krods",
+    "count": 1
+  }
+}

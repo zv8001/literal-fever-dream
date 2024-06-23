@@ -1,0 +1,24 @@
+{
+  "group": "rbmk",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_block"
+    },
+    "1": {
+      "item": "literal_fever_dream:graphite_block"
+    },
+    "2": {
+      "item": "literal_fever_dream:graphite_block"
+    }
+  },
+  "result": {
+    "item": "literal_fever_dream:control_rod",
+    "count": 2
+  }
+}
