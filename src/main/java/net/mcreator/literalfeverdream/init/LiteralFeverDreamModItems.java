@@ -34,6 +34,7 @@ import net.mcreator.literalfeverdream.item.GoogleblockItem;
 import net.mcreator.literalfeverdream.item.FusionDimensionItem;
 import net.mcreator.literalfeverdream.item.FakeDiamondItem;
 import net.mcreator.literalfeverdream.item.FakeDiamondArrmorItem;
+import net.mcreator.literalfeverdream.item.EggItem;
 import net.mcreator.literalfeverdream.item.CurseddiamondpickaxeItem;
 import net.mcreator.literalfeverdream.item.CosmoItem;
 import net.mcreator.literalfeverdream.item.CosmoArmmorItem;
@@ -94,6 +95,7 @@ public class LiteralFeverDreamModItems {
 	public static final RegistryObject<Item> RICKROLL_ARRMOR_LEGGINGS = REGISTRY.register("rickroll_arrmor_leggings", () -> new RickrollArrmorItem.Leggings());
 	public static final RegistryObject<Item> RICKROLL_ARRMOR_BOOTS = REGISTRY.register("rickroll_arrmor_boots", () -> new RickrollArrmorItem.Boots());
 	public static final RegistryObject<Item> HAHA_ASYNC_GO_BRRRRRRRRRRRRRRRRRRRRRRR = REGISTRY.register("haha_async_go_brrrrrrrrrrrrrrrrrrrrrrr", () -> new HahaAsyncGoBRRRRRRRRRRRRRRRRRRRRRRRItem());
+	public static final RegistryObject<Item> EGG = REGISTRY.register("egg", () -> new EggItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
