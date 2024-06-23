@@ -1,11 +1,20 @@
 
 package net.mcreator.literalfeverdream.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
-import javax.annotation.Nullable;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.network.chat.Component;
+
+import net.mcreator.literalfeverdream.procedures.PureSlownessProcedure;
+import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
+
+import java.util.List;
 
 public class ManyRBMKrodsItem extends Item {
-
 	public ManyRBMKrodsItem() {
 		super(new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM).stacksTo(64).fireResistant().rarity(Rarity.EPIC));
 	}
@@ -22,5 +31,4 @@ public class ManyRBMKrodsItem extends Item {
 		if (selected)
 			PureSlownessProcedure.execute(entity);
 	}
-
 }

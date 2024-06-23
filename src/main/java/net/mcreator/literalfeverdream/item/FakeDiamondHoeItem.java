@@ -1,7 +1,12 @@
 
 package net.mcreator.literalfeverdream.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.HoeItem;
+
+import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
 
 public class FakeDiamondHoeItem extends HoeItem {
 	public FakeDiamondHoeItem() {
