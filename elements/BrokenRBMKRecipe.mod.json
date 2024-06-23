@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GraphiteBlock"
+      },
+      {
+        "value": "CUSTOM:GraphiteBlock"
+      },
+      {
+        "value": "CUSTOM:GraphiteBlock"
+      },
+      {
+        "value": "CUSTOM:UraniumBlock"
+      },
+      {
+        "value": "CUSTOM:RBMK"
+      },
+      {
+        "value": "CUSTOM:UraniumBlock"
+      },
+      {
+        "value": "CUSTOM:Thermonuclearbomb"
+      },
+      {
+        "value": "CUSTOM:Thermonuclearbomb"
+      },
+      {
+        "value": "CUSTOM:Thermonuclearbomb"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DestroyedRBMK"
+    },
+    "name": "broken_rbmk_recipe",
+    "namespace": "mod"
+  }
+}

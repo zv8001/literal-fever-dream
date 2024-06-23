@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "literal_fever_dream:graphite_block"
+    },
+    "1": {
+      "item": "literal_fever_dream:graphite_block"
+    },
+    "2": {
+      "item": "literal_fever_dream:graphite_block"
+    },
+    "3": {
+      "item": "literal_fever_dream:uranium_block"
+    },
+    "4": {
+      "item": "literal_fever_dream:rbmk"
+    },
+    "5": {
+      "item": "literal_fever_dream:uranium_block"
+    },
+    "6": {
+      "item": "literal_fever_dream:thermonuclearbomb"
+    },
+    "7": {
+      "item": "literal_fever_dream:thermonuclearbomb"
+    },
+    "8": {
+      "item": "literal_fever_dream:thermonuclearbomb"
+    }
+  },
+  "result": {
+    "item": "literal_fever_dream:destroyed_rbmk",
+    "count": 1
+  }
+}

@@ -43,6 +43,7 @@ import net.mcreator.literalfeverdream.item.FakeDiamondHoeItem;
 import net.mcreator.literalfeverdream.item.FakeDiamondAxeItem;
 import net.mcreator.literalfeverdream.item.FakeDiamondArrmorItem;
 import net.mcreator.literalfeverdream.item.EggItem;
+import net.mcreator.literalfeverdream.item.DestroyedRBMKItem;
 import net.mcreator.literalfeverdream.item.CurseddiamondpickaxeItem;
 import net.mcreator.literalfeverdream.item.CosmoItem;
 import net.mcreator.literalfeverdream.item.CosmoArmmorItem;
@@ -116,6 +117,7 @@ public class LiteralFeverDreamModItems {
 	public static final RegistryObject<Item> RBMK = REGISTRY.register("rbmk", () -> new RBMKItem());
 	public static final RegistryObject<Item> PI = REGISTRY.register("pi", () -> new PiItem());
 	public static final RegistryObject<Item> FAKE_DIMOND_BLOCK = block(LiteralFeverDreamModBlocks.FAKE_DIMOND_BLOCK, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
+	public static final RegistryObject<Item> DESTROYED_RBMK = REGISTRY.register("destroyed_rbmk", () -> new DestroyedRBMKItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

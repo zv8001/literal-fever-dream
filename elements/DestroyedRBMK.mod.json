@@ -1,0 +1,35 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "blown_up_rbmk",
+    "customModelName": "Normal",
+    "name": "Destroyed RBMK",
+    "specialInfo": [
+      "why is it frozen"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Literalfeverdream"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.36,
+    "enchantability": 2,
+    "damageVsEntity": 15000.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "RbmkProcedure"
+    },
+    "onItemInUseTick": {
+      "name": "BrokenRBMKProdecure"
+    }
+  }
+}
