@@ -35,7 +35,7 @@
       "name": "FIREEEE"
     },
     "isFood": true,
-    "nutritionalValue": 50,
+    "nutritionalValue": 6,
     "saturation": 0.0,
     "eatResultItem": {
       "value": ""
