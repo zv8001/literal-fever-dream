@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "literal_fever_dream:items/diamond_axe_je3_be3"
+  }
+}

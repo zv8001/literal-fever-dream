@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 ",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "literal_fever_dream:fake_diamond"
+    },
+    "1": {
+      "item": "literal_fever_dream:fake_diamond"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "literal_fever_dream:w_ish_diamond_hoe",
+    "count": 1
+  }
+}

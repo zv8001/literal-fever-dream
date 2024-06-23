@@ -1357,6 +1357,114 @@
           "src/main/resources/assets/literal_fever_dream/models/item/egg.json"
         ]
       }
+    },
+    {
+      "name": "FakeDamondPic",
+      "type": "tool",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_damond_pic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/item/FakeDamondPicItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_damond_pic.json"
+        ]
+      }
+    },
+    {
+      "name": "WIshDiamondHoe",
+      "type": "tool",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "w_ish_diamond_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/item/WIshDiamondHoeItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/w_ish_diamond_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "TemuDiamondAxe",
+      "type": "tool",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temu_diamond_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/literal_fever_dream/models/item/temu_diamond_axe.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/TemuDiamondAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TemuDiamondSh",
+      "type": "tool",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temu_diamond_sh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/item/TemuDiamondShItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/temu_diamond_sh.json"
+        ]
+      }
+    },
+    {
+      "name": "FakeDiamondHoeRes",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_diamond_hoe_res",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/fake_diamond_hoe_res.json"
+        ]
+      }
+    },
+    {
+      "name": "FakeDiamondPicRes",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_diamond_pic_res",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/fake_diamond_pic_res.json"
+        ]
+      }
+    },
+    {
+      "name": "TemuDiamondAxeRes",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temu_diamond_axe_res",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/temu_diamond_axe_res.json"
+        ]
+      }
+    },
+    {
+      "name": "TemuDiamondShRes",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temu_diamond_sh_res",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/temu_diamond_sh_res.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1383,8 +1491,8 @@
       "item.literal_fever_dream.uranium_235": "highly enriched Uranium-235",
       "advancements.coneeha_adv.descr": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
       "item.literal_fever_dream.fake_diamond_arrmor_leggings": "Fake Diamond Arrmor Leggings",
-      "item.literal_fever_dream.fake_diamond_arrmor_boots": "Fake Diamond Arrmor Boots",
       "block.literal_fever_dream.coneeha_1092": "Coneeha 1 0 9 2",
+      "item.literal_fever_dream.fake_diamond_arrmor_boots": "Fake Diamond Arrmor Boots",
       "block.literal_fever_dream.nexus_block": "Nexus Block",
       "item.literal_fever_dream.thermonuclearbomb": "Thermonuclearbomb",
       "item.literal_fever_dream.rickroll_ingot": "Rickroll Ingot",
@@ -1412,6 +1520,7 @@
       "item.literal_fever_dream.curseddiamondpickaxe": "Curseddiamondpickaxe",
       "item.literal_fever_dream.nexus_pic": "Nexus Pic",
       "item.literal_fever_dream.cosmo": "train01256\u0027s weapon of mass destruction.",
+      "item.literal_fever_dream.temu_diamond_sh": "Temu Diamond Sh",
       "item.literal_fever_dream.nexusshellhole": "Nexusshellhole Portal Igniter",
       "item.literal_fever_dream.coneeha_arrmor_chestplate": "Coneeha Armor Chestplate",
       "death.attack.DMU": "%s ",
@@ -1421,6 +1530,7 @@
       "item.literal_fever_dream.nexus_sword": "Nexus Sword",
       "item.literal_fever_dream.nice_diens": "Nice Diens Portal Igniter",
       "block.literal_fever_dream.furrytrain": "Furry Train Block",
+      "item.literal_fever_dream.w_ish_diamond_hoe": "wish.com ripoff of a fucking Diamond Hoe",
       "item.literal_fever_dream.cosmo_armmor_chestplate": "Cosmo Armmor Chestplate",
       "subtitles.test": "",
       "item.literal_fever_dream.nexusingot": "Nexusingot",
@@ -1433,11 +1543,13 @@
       "item.literal_fever_dream.fake_diamond_arrmor_chestplate": "Fake Diamond Arrmor Chestplate",
       "item.literal_fever_dream.arromer_nexus_helmet": "Armor Nexus Helmet",
       "item.literal_fever_dream.coneehashellplace": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
+      "item.literal_fever_dream.fake_damond_pic": "Fake Damond Pic",
       "item.literal_fever_dream.rickroll.desc": "just a rickroll",
       "subtitles.async-third_test": "asynccfdgh",
       "item.literal_fever_dream.rickroll_arrmor_leggings": "Rickroll Arrmor Leggings",
       "item.literal_fever_dream.haha_async_go_brrrrrrrrrrrrrrrrrrrrrrr": "Unknown Disc 1",
       "item.literal_fever_dream.knife": "Knife",
+      "item.literal_fever_dream.temu_diamond_axe": "Temu Diamond Axe",
       "itemGroup.tabliteralfeverdream": "Literalfeverdream",
       "item.literal_fever_dream.thermonuclearmissile": "uranium knife",
       "subtitles.rickroll": "rickroll",

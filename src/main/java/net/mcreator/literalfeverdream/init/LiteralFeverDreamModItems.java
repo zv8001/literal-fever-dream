@@ -13,9 +13,12 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.literalfeverdream.item.WIshDiamondHoeItem;
 import net.mcreator.literalfeverdream.item.Uranium235Item;
 import net.mcreator.literalfeverdream.item.ThermonuclearmissileItem;
 import net.mcreator.literalfeverdream.item.ThermonuclearbombItem;
+import net.mcreator.literalfeverdream.item.TemuDiamondShItem;
+import net.mcreator.literalfeverdream.item.TemuDiamondAxeItem;
 import net.mcreator.literalfeverdream.item.RickrollingotItem;
 import net.mcreator.literalfeverdream.item.RickrollItem;
 import net.mcreator.literalfeverdream.item.RickrollArrmorItem;
@@ -35,6 +38,7 @@ import net.mcreator.literalfeverdream.item.GoogleblockItem;
 import net.mcreator.literalfeverdream.item.FusionDimensionItem;
 import net.mcreator.literalfeverdream.item.FakeDiamondItem;
 import net.mcreator.literalfeverdream.item.FakeDiamondArrmorItem;
+import net.mcreator.literalfeverdream.item.FakeDamondPicItem;
 import net.mcreator.literalfeverdream.item.EggItem;
 import net.mcreator.literalfeverdream.item.CurseddiamondpickaxeItem;
 import net.mcreator.literalfeverdream.item.CosmoItem;
@@ -98,6 +102,10 @@ public class LiteralFeverDreamModItems {
 	public static final RegistryObject<Item> HAHA_ASYNC_GO_BRRRRRRRRRRRRRRRRRRRRRRR = REGISTRY.register("haha_async_go_brrrrrrrrrrrrrrrrrrrrrrr", () -> new HahaAsyncGoBRRRRRRRRRRRRRRRRRRRRRRRItem());
 	public static final RegistryObject<Item> EGG = REGISTRY.register("egg", () -> new EggItem());
 	public static final RegistryObject<Item> RICKROLLINGOT = REGISTRY.register("rickrollingot", () -> new RickrollingotItem());
+	public static final RegistryObject<Item> FAKE_DAMOND_PIC = REGISTRY.register("fake_damond_pic", () -> new FakeDamondPicItem());
+	public static final RegistryObject<Item> W_ISH_DIAMOND_HOE = REGISTRY.register("w_ish_diamond_hoe", () -> new WIshDiamondHoeItem());
+	public static final RegistryObject<Item> TEMU_DIAMOND_AXE = REGISTRY.register("temu_diamond_axe", () -> new TemuDiamondAxeItem());
+	public static final RegistryObject<Item> TEMU_DIAMOND_SH = REGISTRY.register("temu_diamond_sh", () -> new TemuDiamondShItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
