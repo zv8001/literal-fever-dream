@@ -1179,6 +1179,19 @@
       }
     },
     {
+      "name": "Rickrollingot",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rickrollingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/rickrollingot.json"
+        ]
+      }
+    },
+    {
       "name": "GetRickrollChestplate",
       "type": "recipe",
       "sortid": 80,
@@ -1318,20 +1331,6 @@
       }
     },
     {
-      "name": "Rickrollingot",
-      "type": "item",
-      "sortid": 86,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rickrollingot",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/RickrollingotItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/rickrollingot.json"
-        ]
-      }
-    },
-    {
       "name": "Getrickrollingot",
       "type": "recipe",
       "sortid": 87,
@@ -1373,6 +1372,7 @@
       "block.literal_fever_dream.coneeha_1092": "Coneeha 1 0 9 2",
       "block.literal_fever_dream.nexus_block": "Nexus Block",
       "item.literal_fever_dream.thermonuclearbomb": "Thermonuclearbomb",
+      "item.literal_fever_dream.rickroll_ingot": "Rickroll Ingot",
       "advancements.mmmradiation.title": "Mmm radiation",
       "item.literal_fever_dream.rainbowcore": "Rainbowcore",
       "block.literal_fever_dream.fusion_block": "Fusion Block",
