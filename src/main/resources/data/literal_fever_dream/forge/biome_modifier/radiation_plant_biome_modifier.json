@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "literal_fever_dream:radiation_plant",
+  "step": "vegetal_decoration"
+}
