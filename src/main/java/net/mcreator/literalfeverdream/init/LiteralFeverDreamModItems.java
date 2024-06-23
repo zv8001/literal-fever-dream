@@ -16,7 +16,6 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.literalfeverdream.item.Uranium235Item;
 import net.mcreator.literalfeverdream.item.ThermonuclearmissileItem;
 import net.mcreator.literalfeverdream.item.ThermonuclearbombItem;
-import net.mcreator.literalfeverdream.item.RickrollingotItem;
 import net.mcreator.literalfeverdream.item.RickrollItem;
 import net.mcreator.literalfeverdream.item.RickrollArrmorItem;
 import net.mcreator.literalfeverdream.item.RainbowcoreItem;
