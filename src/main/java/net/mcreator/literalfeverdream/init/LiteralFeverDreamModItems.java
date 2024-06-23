@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.literalfeverdream.item.Uranium235Item;
 import net.mcreator.literalfeverdream.item.ThermonuclearmissileItem;
 import net.mcreator.literalfeverdream.item.ThermonuclearbombItem;
+import net.mcreator.literalfeverdream.item.RickrollingotItem;
 import net.mcreator.literalfeverdream.item.RickrollItem;
 import net.mcreator.literalfeverdream.item.RickrollArrmorItem;
 import net.mcreator.literalfeverdream.item.RainbowcoreItem;
@@ -96,6 +97,7 @@ public class LiteralFeverDreamModItems {
 	public static final RegistryObject<Item> RICKROLL_ARRMOR_BOOTS = REGISTRY.register("rickroll_arrmor_boots", () -> new RickrollArrmorItem.Boots());
 	public static final RegistryObject<Item> HAHA_ASYNC_GO_BRRRRRRRRRRRRRRRRRRRRRRR = REGISTRY.register("haha_async_go_brrrrrrrrrrrrrrrrrrrrrrr", () -> new HahaAsyncGoBRRRRRRRRRRRRRRRRRRRRRRRItem());
 	public static final RegistryObject<Item> EGG = REGISTRY.register("egg", () -> new EggItem());
+	public static final RegistryObject<Item> RICKROLLINGOT = REGISTRY.register("rickrollingot", () -> new RickrollingotItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

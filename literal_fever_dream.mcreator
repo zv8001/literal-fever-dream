@@ -1343,6 +1343,20 @@
           "src/main/resources/data/literal_fever_dream/recipes/egg_recipe_for_egg.json"
         ]
       }
+    },
+    {
+      "name": "Rickrollingot",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rickrollingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/literal_fever_dream/models/item/rickrollingot.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/RickrollingotItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1369,14 +1383,14 @@
       "item.literal_fever_dream.uranium_235": "highly enriched Uranium-235",
       "advancements.coneeha_adv.descr": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
       "item.literal_fever_dream.fake_diamond_arrmor_leggings": "Fake Diamond Arrmor Leggings",
-      "block.literal_fever_dream.coneeha_1092": "Coneeha 1 0 9 2",
       "item.literal_fever_dream.fake_diamond_arrmor_boots": "Fake Diamond Arrmor Boots",
+      "block.literal_fever_dream.coneeha_1092": "Coneeha 1 0 9 2",
       "block.literal_fever_dream.nexus_block": "Nexus Block",
       "item.literal_fever_dream.thermonuclearbomb": "Thermonuclearbomb",
       "item.literal_fever_dream.rickroll_ingot": "Rickroll Ingot",
-      "advancements.mmmradiation.title": "Mmm radiation",
-      "item.literal_fever_dream.rainbowcore": "Rainbowcore",
       "block.literal_fever_dream.fusion_block": "Fusion Block",
+      "item.literal_fever_dream.rainbowcore": "Rainbowcore",
+      "advancements.mmmradiation.title": "Mmm radiation",
       "block.literal_fever_dream.rickroll_ore": "Rickroll Ore",
       "item.literal_fever_dream.irradiatedpieceofshit": "Irradiatedpieceofshit",
       "item.literal_fever_dream.arromer_nexus_boots": "Armorr Nexus Boots",
@@ -1385,6 +1399,7 @@
       "item.literal_fever_dream.googleblock": "google",
       "item.literal_fever_dream.rickroll_arrmor_chestplate": "Rickroll Arrmor Chestplate",
       "item.literal_fever_dream.rickroll_arrmor_helmet": "Rickroll Arrmor Helmet",
+      "item.literal_fever_dream.rickrollingot": "Rickrollingot",
       "advancements.mmmradiation.descr": "you might not want to hold that you\u0027re going to fucking die",
       "item.literal_fever_dream.graphite_block": "Graphite Block",
       "item.literal_fever_dream.rickroll_arrmor_boots": "Rickroll Arrmor Boots",
