@@ -20,6 +20,7 @@ import net.mcreator.literalfeverdream.item.RickrollingotItem;
 import net.mcreator.literalfeverdream.item.RickrollItem;
 import net.mcreator.literalfeverdream.item.RickrollArrmorItem;
 import net.mcreator.literalfeverdream.item.RainbowcoreItem;
+import net.mcreator.literalfeverdream.item.RBMKItem;
 import net.mcreator.literalfeverdream.item.NiceDiensItem;
 import net.mcreator.literalfeverdream.item.NexusshellholeItem;
 import net.mcreator.literalfeverdream.item.NexusingotItem;
@@ -27,6 +28,7 @@ import net.mcreator.literalfeverdream.item.NexusSwordItem;
 import net.mcreator.literalfeverdream.item.NexusPicItem;
 import net.mcreator.literalfeverdream.item.NexusHoetoolItem;
 import net.mcreator.literalfeverdream.item.NexusAxeItem;
+import net.mcreator.literalfeverdream.item.ManyRBMKrodsItem;
 import net.mcreator.literalfeverdream.item.KnifeItem;
 import net.mcreator.literalfeverdream.item.IrradiatedpieceofshitItem;
 import net.mcreator.literalfeverdream.item.HahaAsyncGoBRRRRRRRRRRRRRRRRRRRRRRRItem;
@@ -43,6 +45,7 @@ import net.mcreator.literalfeverdream.item.EggItem;
 import net.mcreator.literalfeverdream.item.CurseddiamondpickaxeItem;
 import net.mcreator.literalfeverdream.item.CosmoItem;
 import net.mcreator.literalfeverdream.item.CosmoArmmorItem;
+import net.mcreator.literalfeverdream.item.ControlRodItem;
 import net.mcreator.literalfeverdream.item.ConeehashellplaceItem;
 import net.mcreator.literalfeverdream.item.ConeehaArrmorItem;
 import net.mcreator.literalfeverdream.item.ArromerNexusItem;
@@ -105,8 +108,11 @@ public class LiteralFeverDreamModItems {
 	public static final RegistryObject<Item> RADIATION_PLANT = block(LiteralFeverDreamModBlocks.RADIATION_PLANT, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
 	public static final RegistryObject<Item> FAKE_DIAMOND_AXE = REGISTRY.register("fake_diamond_axe", () -> new FakeDiamondAxeItem());
 	public static final RegistryObject<Item> FAKE_DIAMOND_PIC = REGISTRY.register("fake_diamond_pic", () -> new FakeDiamondPicItem());
+	public static final RegistryObject<Item> CONTROL_ROD = REGISTRY.register("control_rod", () -> new ControlRodItem());
 	public static final RegistryObject<Item> FAKE_DIAMOND_HOE = REGISTRY.register("fake_diamond_hoe", () -> new FakeDiamondHoeItem());
 	public static final RegistryObject<Item> FAKE_DIAMOND_SH = REGISTRY.register("fake_diamond_sh", () -> new FakeDiamondShItem());
+	public static final RegistryObject<Item> MANY_RBM_KRODS = REGISTRY.register("many_rbm_krods", () -> new ManyRBMKrodsItem());
+	public static final RegistryObject<Item> RBMK = REGISTRY.register("rbmk", () -> new RBMKItem());
 	public static final RegistryObject<Item> FAKE_DIMOND_BLOCK = block(LiteralFeverDreamModBlocks.FAKE_DIMOND_BLOCK, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {

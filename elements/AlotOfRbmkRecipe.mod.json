@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "rbmk",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ControlRod"
+      },
+      {
+        "value": "CUSTOM:ControlRod"
+      },
+      {
+        "value": "CUSTOM:ControlRod"
+      },
+      {
+        "value": "CUSTOM:ControlRod"
+      },
+      {
+        "value": "CUSTOM:ControlRod"
+      },
+      {
+        "value": "CUSTOM:ControlRod"
+      },
+      {
+        "value": "CUSTOM:ControlRod"
+      },
+      {
+        "value": "CUSTOM:ControlRod"
+      },
+      {
+        "value": "CUSTOM:ControlRod"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ManyRBMKrods"
+    },
+    "name": "alot_of_rbmk_recipe",
+    "namespace": "mod"
+  }
+}

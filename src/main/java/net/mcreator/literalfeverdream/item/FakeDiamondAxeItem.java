@@ -1,12 +1,7 @@
 
 package net.mcreator.literalfeverdream.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.AxeItem;
-
-import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class FakeDiamondAxeItem extends AxeItem {
 	public FakeDiamondAxeItem() {
