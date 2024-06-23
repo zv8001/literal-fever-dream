@@ -1,21 +1,7 @@
 
 package net.mcreator.literalfeverdream.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.network.chat.Component;
-
-import net.mcreator.literalfeverdream.procedures.PureSlownessProcedure;
-import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
-import net.mcreator.literalfeverdream.init.LiteralFeverDreamModItems;
-
-import java.util.List;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class RBMKItem extends SwordItem {
 	public RBMKItem() {
@@ -41,7 +27,7 @@ public class RBMKItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(LiteralFeverDreamModItems.MANY_RBM_KRODS.get()));
+				return Ingredient.of(new ItemStack(LiteralFeverDreamModItems.DELETED_MOD_ELEMENT.get()));
 			}
 		}, 3, -3.995f, new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM).fireResistant());
 	}
@@ -56,7 +42,7 @@ public class RBMKItem extends SwordItem {
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
-			PureSlownessProcedure.execute(entity);
-		PureSlownessProcedure.execute(entity);
+			PureSlownessProcedure.execute();
+		PureSlownessProcedure.execute();
 	}
 }

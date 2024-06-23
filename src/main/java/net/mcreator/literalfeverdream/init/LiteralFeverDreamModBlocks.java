@@ -21,6 +21,7 @@ import net.mcreator.literalfeverdream.block.NexusBlockBlock;
 import net.mcreator.literalfeverdream.block.FusionDimensionPortalBlock;
 import net.mcreator.literalfeverdream.block.FusionBlockBlock;
 import net.mcreator.literalfeverdream.block.FurrytrainBlock;
+import net.mcreator.literalfeverdream.block.FakeDimondBlockBlock;
 import net.mcreator.literalfeverdream.block.CosmoPortalBlock;
 import net.mcreator.literalfeverdream.block.ConeehashellplacePortalBlock;
 import net.mcreator.literalfeverdream.block.Coneeha1092Block;
@@ -42,4 +43,5 @@ public class LiteralFeverDreamModBlocks {
 	public static final RegistryObject<Block> FUSION_DIMENSION_PORTAL = REGISTRY.register("fusion_dimension_portal", () -> new FusionDimensionPortalBlock());
 	public static final RegistryObject<Block> RICKROLL_ORE = REGISTRY.register("rickroll_ore", () -> new RickrollOreBlock());
 	public static final RegistryObject<Block> RADIATION_PLANT = REGISTRY.register("radiation_plant", () -> new RadiationPlantBlock());
+	public static final RegistryObject<Block> FAKE_DIMOND_BLOCK = REGISTRY.register("fake_dimond_block", () -> new FakeDimondBlockBlock());
 }

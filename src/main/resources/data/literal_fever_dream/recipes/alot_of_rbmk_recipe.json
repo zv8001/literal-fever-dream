@@ -8,35 +8,35 @@
   ],
   "key": {
     "0": {
-      "item": "literal_fever_dream:control_rod"
+      "item": "literal_fever_dream:deleted_mod_element"
     },
     "1": {
-      "item": "literal_fever_dream:control_rod"
+      "item": "literal_fever_dream:deleted_mod_element"
     },
     "2": {
-      "item": "literal_fever_dream:control_rod"
+      "item": "literal_fever_dream:deleted_mod_element"
     },
     "3": {
-      "item": "literal_fever_dream:control_rod"
+      "item": "literal_fever_dream:deleted_mod_element"
     },
     "4": {
-      "item": "literal_fever_dream:control_rod"
+      "item": "literal_fever_dream:deleted_mod_element"
     },
     "5": {
-      "item": "literal_fever_dream:control_rod"
+      "item": "literal_fever_dream:deleted_mod_element"
     },
     "6": {
-      "item": "literal_fever_dream:control_rod"
+      "item": "literal_fever_dream:deleted_mod_element"
     },
     "7": {
-      "item": "literal_fever_dream:control_rod"
+      "item": "literal_fever_dream:deleted_mod_element"
     },
     "8": {
-      "item": "literal_fever_dream:control_rod"
+      "item": "literal_fever_dream:deleted_mod_element"
     }
   },
   "result": {
-    "item": "literal_fever_dream:many_rbm_krods",
+    "item": "literal_fever_dream:deleted_mod_element",
     "count": 1
   }
 }

@@ -36,7 +36,11 @@ import net.mcreator.literalfeverdream.item.HahaAsyncGoBRRRRRRRRRRRRRRRRRRRRRRRIt
 import net.mcreator.literalfeverdream.item.GraphiteBlockItem;
 import net.mcreator.literalfeverdream.item.GoogleblockItem;
 import net.mcreator.literalfeverdream.item.FusionDimensionItem;
+import net.mcreator.literalfeverdream.item.FakeDiamondShItem;
+import net.mcreator.literalfeverdream.item.FakeDiamondPicItem;
 import net.mcreator.literalfeverdream.item.FakeDiamondItem;
+import net.mcreator.literalfeverdream.item.FakeDiamondHoeItem;
+import net.mcreator.literalfeverdream.item.FakeDiamondAxeItem;
 import net.mcreator.literalfeverdream.item.FakeDiamondArrmorItem;
 import net.mcreator.literalfeverdream.item.EggItem;
 import net.mcreator.literalfeverdream.item.CurseddiamondpickaxeItem;
@@ -103,10 +107,15 @@ public class LiteralFeverDreamModItems {
 	public static final RegistryObject<Item> EGG = REGISTRY.register("egg", () -> new EggItem());
 	public static final RegistryObject<Item> RICKROLLINGOT = REGISTRY.register("rickrollingot", () -> new RickrollingotItem());
 	public static final RegistryObject<Item> RADIATION_PLANT = block(LiteralFeverDreamModBlocks.RADIATION_PLANT, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
+	public static final RegistryObject<Item> FAKE_DIAMOND_AXE = REGISTRY.register("fake_diamond_axe", () -> new FakeDiamondAxeItem());
 	public static final RegistryObject<Item> CONTROL_ROD = REGISTRY.register("control_rod", () -> new ControlRodItem());
+	public static final RegistryObject<Item> FAKE_DIAMOND_PIC = REGISTRY.register("fake_diamond_pic", () -> new FakeDiamondPicItem());
+	public static final RegistryObject<Item> FAKE_DIAMOND_HOE = REGISTRY.register("fake_diamond_hoe", () -> new FakeDiamondHoeItem());
+	public static final RegistryObject<Item> FAKE_DIAMOND_SH = REGISTRY.register("fake_diamond_sh", () -> new FakeDiamondShItem());
 	public static final RegistryObject<Item> MANY_RBM_KRODS = REGISTRY.register("many_rbm_krods", () -> new ManyRBMKrodsItem());
 	public static final RegistryObject<Item> RBMK = REGISTRY.register("rbmk", () -> new RBMKItem());
 	public static final RegistryObject<Item> PI = REGISTRY.register("pi", () -> new PiItem());
+	public static final RegistryObject<Item> FAKE_DIMOND_BLOCK = block(LiteralFeverDreamModBlocks.FAKE_DIMOND_BLOCK, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
