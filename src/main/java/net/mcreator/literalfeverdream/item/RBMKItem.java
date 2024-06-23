@@ -43,7 +43,7 @@ public class RBMKItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(LiteralFeverDreamModItems.MANY_RBM_KRODS.get()));
 			}
-		}, 3, -3.97f, new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM).fireResistant());
+		}, 3, -3.96f, new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM).fireResistant());
 	}
 
 	@Override
