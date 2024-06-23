@@ -9,9 +9,10 @@
     ]
   },
   "async-third_test": {
+    "subtitle": "subtitles.async-third_test",
     "sounds": [
       {
-        "name": "literal_fever_dream:backrooms_-_the_third_test",
+        "name": "literal_fever_dream:backrooms-the-third-test",
         "stream": true
       }
     ]

@@ -13,7 +13,7 @@
     "music": {
       "value": "CUSTOM:async-third_test"
     },
-    "lengthInTicks": 2920,
+    "lengthInTicks": 100,
     "analogOutput": 0
   }
 }
