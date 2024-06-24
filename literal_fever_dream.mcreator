@@ -1704,6 +1704,52 @@
           "src/main/resources/data/literal_fever_dream/recipes/broken_rbmk_recipe.json"
         ]
       }
+    },
+    {
+      "name": "UraniumOnAStick",
+      "type": "tool",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_on_a_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/item/UraniumOnAStickItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/uranium_on_a_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumOnAStickLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_on_a_stick_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/procedures/UraniumOnAStickLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UraniumOnAStickRes",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_on_a_stick_res",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/uranium_on_a_stick_res.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1795,6 +1841,7 @@
       "item.literal_fever_dream.rickroll_arrmor_leggings": "Rickroll Arrmor Leggings",
       "item.literal_fever_dream.haha_async_go_brrrrrrrrrrrrrrrrrrrrrrr": "Unknown Disc 1",
       "item.literal_fever_dream.knife": "Knife",
+      "item.literal_fever_dream.uranium_on_a_stick": "Uranium On A Stick",
       "block.literal_fever_dream.fake_dimond_block": "Fake Dimond Block",
       "itemGroup.tabliteralfeverdream": "Literalfeverdream",
       "item.literal_fever_dream.thermonuclearmissile": "uranium knife",
