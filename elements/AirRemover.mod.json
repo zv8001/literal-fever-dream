@@ -1,0 +1,29 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "noair",
+    "customModelName": "Normal",
+    "name": "Air Remover",
+    "specialInfo": [
+      "remove someones privileges of breathing"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Literalfeverdream"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 50.0,
+    "enchantability": 0,
+    "damageVsEntity": 60000.0,
+    "usageCount": 1,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

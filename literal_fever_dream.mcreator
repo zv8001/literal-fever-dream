@@ -1750,6 +1750,33 @@
           "src/main/resources/data/literal_fever_dream/recipes/uranium_on_a_stick_res.json"
         ]
       }
+    },
+    {
+      "name": "AirRemover",
+      "type": "tool",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_remover",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/literal_fever_dream/models/item/air_remover.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/AirRemoverItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AirRemoverRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_remover_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/air_remover_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1777,8 +1804,8 @@
       "item.literal_fever_dream.control_rod": "Control Rod",
       "advancements.coneeha_adv.descr": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
       "item.literal_fever_dream.fake_diamond_arrmor_leggings": "Fake Diamond Arrmor Leggings",
-      "item.literal_fever_dream.fake_diamond_arrmor_boots": "Fake Diamond Arrmor Boots",
       "block.literal_fever_dream.coneeha_1092": "Coneeha 1 0 9 2",
+      "item.literal_fever_dream.fake_diamond_arrmor_boots": "Fake Diamond Arrmor Boots",
       "block.literal_fever_dream.nexus_block": "Nexus Block",
       "item.literal_fever_dream.thermonuclearbomb": "Thermonuclearbomb",
       "item.literal_fever_dream.rickroll_ingot": "Rickroll Ingot",
@@ -1792,6 +1819,7 @@
       "item.literal_fever_dream.irradiatedpieceofshit": "Irradiatedpieceofshit",
       "item.literal_fever_dream.rbmk": "RBMK",
       "item.literal_fever_dream.arromer_nexus_boots": "Armorr Nexus Boots",
+      "item.literal_fever_dream.air_remover": "Air Remover",
       "item.literal_fever_dream.rickroll": "Rickroll",
       "item.literal_fever_dream.haha_async_go_brrrrrrrrrrrrrrrrrrrrrrr.desc": "who knows who made this",
       "item.literal_fever_dream.googleblock": "google",
