@@ -13,7 +13,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.literalfeverdream.item.UraniumOnAStickItem;
 import net.mcreator.literalfeverdream.item.Uranium235Item;
 import net.mcreator.literalfeverdream.item.ThermonuclearmissileItem;
 import net.mcreator.literalfeverdream.item.ThermonuclearbombItem;
@@ -119,7 +118,6 @@ public class LiteralFeverDreamModItems {
 	public static final RegistryObject<Item> PI = REGISTRY.register("pi", () -> new PiItem());
 	public static final RegistryObject<Item> FAKE_DIMOND_BLOCK = block(LiteralFeverDreamModBlocks.FAKE_DIMOND_BLOCK, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
 	public static final RegistryObject<Item> DESTROYED_RBMK = REGISTRY.register("destroyed_rbmk", () -> new DestroyedRBMKItem());
-	public static final RegistryObject<Item> URANIUM_ON_A_STICK = REGISTRY.register("uranium_on_a_stick", () -> new UraniumOnAStickItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
