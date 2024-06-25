@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "literal_fever_dream:blocks/topandbottomtexture",
+    "up": "literal_fever_dream:blocks/topandbottomtexture",
+    "north": "literal_fever_dream:blocks/walltexture",
+    "east": "literal_fever_dream:blocks/walltexture",
+    "south": "literal_fever_dream:blocks/walltexture",
+    "west": "literal_fever_dream:blocks/walltexture",
+    "particle": "literal_fever_dream:blocks/topandbottomtexture"
+  },
+  "render_type": "solid"
+}

@@ -13,10 +13,12 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.literalfeverdream.item.WeirdRadioactiveLiquidItem;
 import net.mcreator.literalfeverdream.item.UraniumOnAStickItem;
 import net.mcreator.literalfeverdream.item.Uranium235Item;
 import net.mcreator.literalfeverdream.item.ThermonuclearmissileItem;
 import net.mcreator.literalfeverdream.item.ThermonuclearbombItem;
+import net.mcreator.literalfeverdream.item.TestItem;
 import net.mcreator.literalfeverdream.item.RickrollingotItem;
 import net.mcreator.literalfeverdream.item.RickrollItem;
 import net.mcreator.literalfeverdream.item.RickrollArrmorItem;
@@ -122,6 +124,9 @@ public class LiteralFeverDreamModItems {
 	public static final RegistryObject<Item> DESTROYED_RBMK = REGISTRY.register("destroyed_rbmk", () -> new DestroyedRBMKItem());
 	public static final RegistryObject<Item> URANIUM_ON_A_STICK = REGISTRY.register("uranium_on_a_stick", () -> new UraniumOnAStickItem());
 	public static final RegistryObject<Item> AIR_REMOVER = REGISTRY.register("air_remover", () -> new AirRemoverItem());
+	public static final RegistryObject<Item> WEIRD_RADIOACTIVE_LIQUID_BUCKET = REGISTRY.register("weird_radioactive_liquid_bucket", () -> new WeirdRadioactiveLiquidItem());
+	public static final RegistryObject<Item> WALLS = block(LiteralFeverDreamModBlocks.WALLS, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
+	public static final RegistryObject<Item> TEST = REGISTRY.register("test", () -> new TestItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

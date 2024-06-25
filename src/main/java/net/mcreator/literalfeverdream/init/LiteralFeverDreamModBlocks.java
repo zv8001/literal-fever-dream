@@ -10,8 +10,11 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.literalfeverdream.block.WeirdRadioactiveLiquidBlock;
+import net.mcreator.literalfeverdream.block.WallsBlock;
 import net.mcreator.literalfeverdream.block.UraniumBlockBlock;
 import net.mcreator.literalfeverdream.block.TrainBlockBlock;
+import net.mcreator.literalfeverdream.block.TestPortalBlock;
 import net.mcreator.literalfeverdream.block.RickrollOreBlock;
 import net.mcreator.literalfeverdream.block.RadiationPlantBlock;
 import net.mcreator.literalfeverdream.block.NiceDiensPortalBlock;
@@ -44,4 +47,7 @@ public class LiteralFeverDreamModBlocks {
 	public static final RegistryObject<Block> RICKROLL_ORE = REGISTRY.register("rickroll_ore", () -> new RickrollOreBlock());
 	public static final RegistryObject<Block> RADIATION_PLANT = REGISTRY.register("radiation_plant", () -> new RadiationPlantBlock());
 	public static final RegistryObject<Block> FAKE_DIMOND_BLOCK = REGISTRY.register("fake_dimond_block", () -> new FakeDimondBlockBlock());
+	public static final RegistryObject<Block> WEIRD_RADIOACTIVE_LIQUID = REGISTRY.register("weird_radioactive_liquid", () -> new WeirdRadioactiveLiquidBlock());
+	public static final RegistryObject<Block> WALLS = REGISTRY.register("walls", () -> new WallsBlock());
+	public static final RegistryObject<Block> TEST_PORTAL = REGISTRY.register("test_portal", () -> new TestPortalBlock());
 }
