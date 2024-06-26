@@ -127,6 +127,7 @@ public class LiteralFeverDreamModItems {
 	public static final RegistryObject<Item> WEIRD_RADIOACTIVE_LIQUID_BUCKET = REGISTRY.register("weird_radioactive_liquid_bucket", () -> new WeirdRadioactiveLiquidItem());
 	public static final RegistryObject<Item> WALLS = block(LiteralFeverDreamModBlocks.WALLS, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
 	public static final RegistryObject<Item> TEST = REGISTRY.register("test", () -> new TestItem());
+	public static final RegistryObject<Item> WEIRD_RUG = block(LiteralFeverDreamModBlocks.WEIRD_RUG, LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

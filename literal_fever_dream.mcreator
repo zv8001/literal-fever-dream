@@ -1835,6 +1835,48 @@
           "src/main/java/net/mcreator/literalfeverdream/world/teleporter/TestTeleporter.java"
         ]
       }
+    },
+    {
+      "name": "Bacteria",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bacteria",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/entity/BacteriaEntity.java",
+          "src/main/java/net/mcreator/literalfeverdream/client/renderer/BacteriaRenderer.java",
+          "src/main/resources/data/literal_fever_dream/forge/biome_modifier/bacteria_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "WeirdRug",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weird_rug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/block/WeirdRugBlock.java",
+          "src/main/resources/assets/literal_fever_dream/blockstates/weird_rug.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/weird_rug.json",
+          "src/main/resources/assets/literal_fever_dream/models/block/weird_rug.json"
+        ]
+      }
+    },
+    {
+      "name": "THEFOGISCOMING",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thefogiscoming",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/world/biome/THEFOGISCOMINGBiome.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1854,6 +1896,22 @@
       ],
       "category": "record",
       "subtitle": "asynccfdgh"
+    },
+    {
+      "name": "backrooms",
+      "files": [
+        "backrooms-ambience"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "footstepsdges",
+      "files": [
+        "footstep"
+      ],
+      "category": "hostile",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -1864,10 +1922,12 @@
       "item.literal_fever_dream.control_rod": "Control Rod",
       "advancements.coneeha_adv.descr": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
       "item.literal_fever_dream.fake_diamond_arrmor_leggings": "Fake Diamond Arrmor Leggings",
+      "entity.literal_fever_dream.bacteria": "Bacteria",
       "item.literal_fever_dream.fake_diamond_arrmor_boots": "Fake Diamond Arrmor Boots",
       "block.literal_fever_dream.coneeha_1092": "Coneeha 1 0 9 2",
       "block.literal_fever_dream.nexus_block": "Nexus Block",
       "item.literal_fever_dream.thermonuclearbomb": "Thermonuclearbomb",
+      "block.literal_fever_dream.weird_rug": "Weird Rug",
       "item.literal_fever_dream.rickroll_ingot": "Rickroll Ingot",
       "block.literal_fever_dream.fusion_block": "Fusion Block",
       "item.literal_fever_dream.rainbowcore": "Rainbowcore",
@@ -1886,6 +1946,7 @@
       "item.literal_fever_dream.rickroll_arrmor_chestplate": "Rickroll Arrmor Chestplate",
       "item.literal_fever_dream.fake_diamond_pic": "Fake Diamond Pic",
       "item.literal_fever_dream.rickroll_arrmor_helmet": "Rickroll Arrmor Helmet",
+      "subtitles.backrooms": "",
       "item.literal_fever_dream.rickrollingot": "Rickrollingot",
       "item.literal_fever_dream.test": "Test Portal Igniter",
       "advancements.mmmradiation.descr": "you might not want to hold that you\u0027re going to fucking die",
@@ -1908,6 +1969,7 @@
       "advancements.coneeha_adv.title": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
       "block.literal_fever_dream.uranium_block": "Uranium Block",
       "item.literal_fever_dream.weird_radioactive_liquid_bucket": "Weird Radioactive Liquid Bucket",
+      "subtitles.footstepsdges": "",
       "item.literal_fever_dream.nexus_hoetool": "Nexus Hoetool",
       "item.literal_fever_dream.nexus_sword": "Nexus Sword",
       "item.literal_fever_dream.nice_diens": "Nice Diens Portal Igniter",
@@ -1930,6 +1992,7 @@
       "item.literal_fever_dream.rickroll.desc": "just a rickroll",
       "subtitles.async-third_test": "asynccfdgh",
       "item.literal_fever_dream.rickroll_arrmor_leggings": "Rickroll Arrmor Leggings",
+      "biome.literal_fever_dream.thefogiscoming": "THEFOGISCOMING",
       "item.literal_fever_dream.haha_async_go_brrrrrrrrrrrrrrrrrrrrrrr": "Unknown Disc 1",
       "item.literal_fever_dream.knife": "Knife",
       "item.literal_fever_dream.uranium_on_a_stick": "Uranium On A Stick",

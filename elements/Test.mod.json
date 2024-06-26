@@ -4,7 +4,7 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "ocean"
+        "value": "CUSTOM:THEFOGISCOMING"
       }
     ],
     "worldGenType": "Normal world gen",
