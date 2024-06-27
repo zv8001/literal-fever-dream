@@ -23,7 +23,7 @@ import net.mcreator.literalfeverdream.LiteralFeverDreamMod;
 public class LiteralFeverDreamModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, LiteralFeverDreamMod.MODID);
 	public static final RegistryObject<EntityType<BacteriaEntity>> BACTERIA = register("bacteria",
-			EntityType.Builder.<BacteriaEntity>of(BacteriaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BacteriaEntity::new)
+			EntityType.Builder.<BacteriaEntity>of(BacteriaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(40).setUpdateInterval(3).setCustomClientFactory(BacteriaEntity::new)
 
 					.sized(0.6f, 2f));
 

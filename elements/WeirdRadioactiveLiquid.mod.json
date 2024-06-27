@@ -4,8 +4,8 @@
   "definition": {
     "name": "Weird Radioactive Liquid",
     "bucketName": "Weird Radioactive Liquid Bucket",
-    "textureStill": "liquidtexture",
-    "textureFlowing": "liquidtexture",
+    "textureStill": "stillwater",
+    "textureFlowing": "stillwater",
     "tintType": "No tint",
     "canMultiply": false,
     "flowRate": 5,

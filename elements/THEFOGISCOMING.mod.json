@@ -99,7 +99,7 @@
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,
-    "spawnSwampHut": true,
+    "spawnSwampHut": false,
     "spawnIgloo": false,
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
@@ -108,7 +108,7 @@
     "oceanRuinType": "WARM",
     "spawnNetherBridge": false,
     "spawnNetherFossil": false,
-    "spawnBastionRemnant": true,
+    "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
     "spawnEntries": [
@@ -117,7 +117,7 @@
           "value": "CUSTOM:Bacteria"
         },
         "minGroup": 1,
-        "maxGroup": 4,
+        "maxGroup": 1,
         "weight": 1,
         "spawnType": "monster"
       }

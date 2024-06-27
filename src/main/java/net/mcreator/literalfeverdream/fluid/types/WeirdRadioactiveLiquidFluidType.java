@@ -19,7 +19,7 @@ public class WeirdRadioactiveLiquidFluidType extends FluidType {
 	@Override
 	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
 		consumer.accept(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("literal_fever_dream:blocks/liquidtexture"), FLOWING_TEXTURE = new ResourceLocation("literal_fever_dream:blocks/liquidtexture");
+			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("literal_fever_dream:blocks/stillwater"), FLOWING_TEXTURE = new ResourceLocation("literal_fever_dream:blocks/stillwater");
 
 			@Override
 			public ResourceLocation getStillTexture() {
