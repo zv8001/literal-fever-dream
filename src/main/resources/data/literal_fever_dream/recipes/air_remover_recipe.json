@@ -1,0 +1,30 @@
+{
+  "group": "noair",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "literal_fever_dream:thermonuclearbomb"
+    },
+    "3": {
+      "item": "literal_fever_dream:thermonuclearbomb"
+    },
+    "4": {
+      "item": "minecraft:lava_bucket"
+    },
+    "5": {
+      "item": "literal_fever_dream:thermonuclearbomb"
+    },
+    "7": {
+      "item": "literal_fever_dream:thermonuclearbomb"
+    }
+  },
+  "result": {
+    "item": "literal_fever_dream:deleted_mod_element",
+    "count": 1
+  }
+}

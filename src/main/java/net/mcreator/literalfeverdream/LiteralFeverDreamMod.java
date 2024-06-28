@@ -33,8 +33,12 @@ import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModSounds;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModPaintings;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModItems;
+import net.mcreator.literalfeverdream.init.LiteralFeverDreamModFluids;
+import net.mcreator.literalfeverdream.init.LiteralFeverDreamModFluidTypes;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModFeatures;
+import net.mcreator.literalfeverdream.init.LiteralFeverDreamModEntities;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModBlocks;
+import net.mcreator.literalfeverdream.init.LiteralFeverDreamModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -57,10 +61,15 @@ public class LiteralFeverDreamMod {
 		LiteralFeverDreamModSounds.REGISTRY.register(bus);
 		LiteralFeverDreamModBlocks.REGISTRY.register(bus);
 		LiteralFeverDreamModItems.REGISTRY.register(bus);
+		LiteralFeverDreamModEntities.REGISTRY.register(bus);
 
 		LiteralFeverDreamModFeatures.REGISTRY.register(bus);
 		LiteralFeverDreamModPaintings.REGISTRY.register(bus);
 
+		LiteralFeverDreamModBiomes.REGISTRY.register(bus);
+
+		LiteralFeverDreamModFluids.REGISTRY.register(bus);
+		LiteralFeverDreamModFluidTypes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

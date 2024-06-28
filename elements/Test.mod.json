@@ -1,0 +1,43 @@
+{
+  "_fv": 43,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:THEFOGISCOMING"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Walls"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:WeirdRadioactiveLiquid"
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:UraniumBlock"
+    },
+    "portalParticles": {
+      "value": "END_ROD"
+    },
+    "portalLuminance": 8,
+    "portalSound": {
+      "value": "ambient.cave"
+    },
+    "enableIgniter": true,
+    "igniterName": "Backrooms Portal Igniter?",
+    "igniterTab": {
+      "value": "CUSTOM:Literalfeverdream"
+    },
+    "texture": "async_disc",
+    "portalTexture": "portaltxture",
+    "enablePortal": true
+  }
+}

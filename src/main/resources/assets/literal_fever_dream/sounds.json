@@ -16,5 +16,21 @@
         "stream": true
       }
     ]
+  },
+  "footstepsdges": {
+    "sounds": [
+      {
+        "name": "literal_fever_dream:footstep",
+        "stream": false
+      }
+    ]
+  },
+  "backrooms": {
+    "sounds": [
+      {
+        "name": "literal_fever_dream:backrooms-ambience",
+        "stream": false
+      }
+    ]
   }
 }

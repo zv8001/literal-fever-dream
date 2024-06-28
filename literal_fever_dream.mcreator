@@ -1750,6 +1750,146 @@
           "src/main/resources/data/literal_fever_dream/recipes/uranium_on_a_stick_res.json"
         ]
       }
+    },
+    {
+      "name": "THEFOGISCOMING",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thefogiscoming",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/world/biome/THEFOGISCOMINGBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "dimension",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/dimension/test.json",
+          "src/main/java/net/mcreator/literalfeverdream/world/dimension/TestDimension.java",
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/TestPortalShape.java",
+          "src/main/resources/data/literal_fever_dream/dimension_type/test.json",
+          "src/main/resources/assets/literal_fever_dream/models/block/test_portal_ns.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/TestItem.java",
+          "src/main/java/net/mcreator/literalfeverdream/block/TestPortalBlock.java",
+          "src/main/resources/assets/literal_fever_dream/blockstates/test_portal.json",
+          "src/main/resources/assets/literal_fever_dream/models/block/test_portal_ew.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/test.json",
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/TestTeleporter.java"
+        ]
+      }
+    },
+    {
+      "name": "AirRemoverRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_remover_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/air_remover_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WeirdRadioactiveLiquid",
+      "type": "fluid",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weird_radioactive_liquid",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/literal_fever_dream/blockstates/weird_radioactive_liquid.json",
+          "src/main/java/net/mcreator/literalfeverdream/fluid/WeirdRadioactiveLiquidFluid.java",
+          "src/main/java/net/mcreator/literalfeverdream/block/WeirdRadioactiveLiquidBlock.java",
+          "src/main/java/net/mcreator/literalfeverdream/fluid/types/WeirdRadioactiveLiquidFluidType.java",
+          "src/main/resources/assets/literal_fever_dream/models/block/weird_radioactive_liquid.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/WeirdRadioactiveLiquidItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/weird_radioactive_liquid_bucket.json"
+        ]
+      }
+    },
+    {
+      "name": "Bacteria",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bacteria",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/entity/BacteriaEntity.java",
+          "src/main/java/net/mcreator/literalfeverdream/client/renderer/BacteriaRenderer.java",
+          "src/main/resources/data/literal_fever_dream/forge/biome_modifier/bacteria_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "BackroomsIgniterRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backrooms_igniter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/backrooms_igniter_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WeirdRug",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weird_rug",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/literal_fever_dream/models/item/weird_rug.json",
+          "src/main/java/net/mcreator/literalfeverdream/block/WeirdRugBlock.java",
+          "src/main/resources/assets/literal_fever_dream/blockstates/weird_rug.json",
+          "src/main/resources/assets/literal_fever_dream/models/block/weird_rug.json"
+        ]
+      }
+    },
+    {
+      "name": "AirRemover",
+      "type": "tool",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_remover",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/literal_fever_dream/models/item/air_remover.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/AirRemoverItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Walls",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walls",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/literal_fever_dream/models/block/walls.json",
+          "src/main/java/net/mcreator/literalfeverdream/block/WallsBlock.java",
+          "src/main/resources/assets/literal_fever_dream/blockstates/walls.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/walls.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1769,6 +1909,22 @@
       ],
       "category": "record",
       "subtitle": "asynccfdgh"
+    },
+    {
+      "name": "footstepsdges",
+      "files": [
+        "footstep"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "backrooms",
+      "files": [
+        "backrooms-ambience"
+      ],
+      "category": "ambient",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -1798,7 +1954,9 @@
       "item.literal_fever_dream.rickroll_arrmor_chestplate": "Rickroll Arrmor Chestplate",
       "item.literal_fever_dream.fake_diamond_pic": "Fake Diamond Pic",
       "item.literal_fever_dream.rickroll_arrmor_helmet": "Rickroll Arrmor Helmet",
+      "subtitles.backrooms": "",
       "item.literal_fever_dream.rickrollingot": "Rickrollingot",
+      "item.literal_fever_dream.test": "Backrooms Portal Igniter?",
       "advancements.mmmradiation.descr": "you might not want to hold that you\u0027re going to fucking die",
       "item.literal_fever_dream.graphite_block": "Graphite Block",
       "item.literal_fever_dream.rickroll_arrmor_boots": "Rickroll Arrmor Boots",
@@ -1817,6 +1975,7 @@
       "death.attack.DMU": "%s ",
       "advancements.coneeha_adv.title": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
       "block.literal_fever_dream.uranium_block": "Uranium Block",
+      "subtitles.footstepsdges": "",
       "item.literal_fever_dream.nexus_hoetool": "Nexus Hoetool",
       "item.literal_fever_dream.nexus_sword": "Nexus Sword",
       "item.literal_fever_dream.nice_diens": "Nice Diens Portal Igniter",

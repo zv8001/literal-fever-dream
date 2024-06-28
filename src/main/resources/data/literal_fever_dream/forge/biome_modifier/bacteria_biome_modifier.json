@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "literal_fever_dream:bacteria",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

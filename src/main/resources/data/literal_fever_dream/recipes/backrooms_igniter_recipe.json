@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "literal_fever_dream:coneehashellplace"
+    },
+    "1": {
+      "item": "literal_fever_dream:coneehashellplace"
+    },
+    "2": {
+      "item": "literal_fever_dream:coneehashellplace"
+    },
+    "3": {
+      "item": "literal_fever_dream:coneehashellplace"
+    },
+    "4": {
+      "item": "literal_fever_dream:coneeha_1092"
+    },
+    "5": {
+      "item": "literal_fever_dream:coneehashellplace"
+    },
+    "6": {
+      "item": "literal_fever_dream:coneehashellplace"
+    },
+    "7": {
+      "item": "literal_fever_dream:coneehashellplace"
+    },
+    "8": {
+      "item": "literal_fever_dream:coneehashellplace"
+    }
+  },
+  "result": {
+    "item": "literal_fever_dream:test",
+    "count": 1
+  }
+}
