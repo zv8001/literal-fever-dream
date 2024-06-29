@@ -1845,7 +1845,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/literalfeverdream/entity/BacteriaEntity.java",
-          "src/main/java/net/mcreator/literalfeverdream/client/renderer/BacteriaRenderer.java"
+          "src/main/java/net/mcreator/literalfeverdream/client/renderer/BacteriaRenderer.java",
+          "src/main/resources/data/literal_fever_dream/forge/biome_modifier/bacteria_biome_modifier.json"
         ]
       }
     },
