@@ -1845,8 +1845,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/literalfeverdream/entity/BacteriaEntity.java",
-          "src/main/java/net/mcreator/literalfeverdream/client/renderer/BacteriaRenderer.java",
-          "src/main/resources/data/literal_fever_dream/forge/biome_modifier/bacteria_biome_modifier.json"
+          "src/main/java/net/mcreator/literalfeverdream/client/renderer/BacteriaRenderer.java"
         ]
       }
     },
@@ -1888,6 +1887,19 @@
       "metadata": {
         "files": [
           "src/main/resources/data/literal_fever_dream/recipes/backrooms_igniter_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RainbowcoreRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainbowcore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/literal_fever_dream/recipes/rainbowcore_recipe.json"
         ]
       }
     }

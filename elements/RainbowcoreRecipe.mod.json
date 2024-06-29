@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FusionBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FusionBlock"
+      },
+      {
+        "value": "CUSTOM:Thermonuclearbomb"
+      },
+      {
+        "value": "CUSTOM:FusionBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FusionBlock"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Rainbowcore"
+    },
+    "name": "rainbowcore_recipe",
+    "namespace": "mod"
+  }
+}
