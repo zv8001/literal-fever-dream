@@ -1,11 +1,9 @@
 {
   "type": "forge:add_spawns",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": "literal_fever_dream:thefogiscoming",
   "spawners": {
     "type": "literal_fever_dream:bacteria",
-    "weight": 20,
+    "weight": 1,
     "minCount": 1,
     "maxCount": 1
   }
