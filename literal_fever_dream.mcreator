@@ -606,11 +606,11 @@
       "registry_name": "arromer_nexus",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/arromer_nexus_boots.json",
-          "src/main/resources/assets/literal_fever_dream/models/item/arromer_nexus_chestplate.json",
           "src/main/resources/assets/literal_fever_dream/models/item/arromer_nexus_helmet.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/arromer_nexus_leggings.json",
           "src/main/java/net/mcreator/literalfeverdream/item/ArromerNexusItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/arromer_nexus_leggings.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/arromer_nexus_chestplate.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/arromer_nexus_boots.json"
         ]
       }
     },
