@@ -2,12 +2,12 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "cursed_train",
-    "textureTop": "cursed_train",
-    "textureLeft": "cursed_train",
-    "textureFront": "cursed_train",
-    "textureRight": "cursed_train",
-    "textureBack": "cursed_train",
+    "texture": "minecraft_missing_texture_block.svg",
+    "textureTop": "minecraft_missing_texture_block.svg",
+    "textureLeft": "minecraft_missing_texture_block.svg",
+    "textureFront": "minecraft_missing_texture_block.svg",
+    "textureRight": "minecraft_missing_texture_block.svg",
+    "textureBack": "minecraft_missing_texture_block.svg",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,18 +33,18 @@
         "subtract": false
       }
     ],
-    "name": "Furry Train Block",
+    "name": "ERROR",
     "specialInfo": [],
-    "hardness": 40.0,
+    "hardness": 1.0,
     "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Literalfeverdream"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Cosmo"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "SCAFFOLDING"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""

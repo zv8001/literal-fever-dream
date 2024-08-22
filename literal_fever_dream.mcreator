@@ -945,10 +945,10 @@
       "registry_name": "furrytrain",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/block/furrytrain.json",
-          "src/main/java/net/mcreator/literalfeverdream/block/FurrytrainBlock.java",
           "src/main/resources/assets/literal_fever_dream/models/item/furrytrain.json",
-          "src/main/resources/assets/literal_fever_dream/blockstates/furrytrain.json"
+          "src/main/java/net/mcreator/literalfeverdream/block/FurrytrainBlock.java",
+          "src/main/resources/assets/literal_fever_dream/blockstates/furrytrain.json",
+          "src/main/resources/assets/literal_fever_dream/models/block/furrytrain.json"
         ]
       }
     },
@@ -1999,7 +1999,7 @@
       "item.literal_fever_dream.nexus_hoetool": "Nexus Hoetool",
       "item.literal_fever_dream.nexus_sword": "Nexus Sword",
       "item.literal_fever_dream.nice_diens": "Nice Diens Portal Igniter",
-      "block.literal_fever_dream.furrytrain": "Furry Train Block",
+      "block.literal_fever_dream.furrytrain": "ERROR",
       "item.literal_fever_dream.cosmo_armmor_chestplate": "Cosmo Armmor Chestplate",
       "subtitles.test": "",
       "item.literal_fever_dream.fake_diamond_sh": "Fake Diamond Sh",

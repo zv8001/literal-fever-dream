@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "literal_fever_dream:blocks/cursed_train",
-    "up": "literal_fever_dream:blocks/cursed_train",
-    "north": "literal_fever_dream:blocks/cursed_train",
-    "east": "literal_fever_dream:blocks/cursed_train",
-    "south": "literal_fever_dream:blocks/cursed_train",
-    "west": "literal_fever_dream:blocks/cursed_train",
-    "particle": "literal_fever_dream:blocks/cursed_train"
+    "down": "literal_fever_dream:blocks/minecraft_missing_texture_block.svg",
+    "up": "literal_fever_dream:blocks/minecraft_missing_texture_block.svg",
+    "north": "literal_fever_dream:blocks/minecraft_missing_texture_block.svg",
+    "east": "literal_fever_dream:blocks/minecraft_missing_texture_block.svg",
+    "south": "literal_fever_dream:blocks/minecraft_missing_texture_block.svg",
+    "west": "literal_fever_dream:blocks/minecraft_missing_texture_block.svg",
+    "particle": "literal_fever_dream:blocks/minecraft_missing_texture_block.svg"
   },
   "render_type": "solid"
 }

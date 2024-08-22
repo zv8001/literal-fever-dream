@@ -11,21 +11,19 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.literalfeverdream.init.LiteralFeverDreamModItems;
-
 import java.util.List;
 import java.util.Collections;
 
 public class FurrytrainBlock extends Block {
 	public FurrytrainBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.SCAFFOLDING).strength(40f, 0f).lightLevel(s -> 1).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.GRAVEL).strength(1f, 0f).lightLevel(s -> 1).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -50,7 +48,7 @@ public class FurrytrainBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 3;
 		return false;
 	}
@@ -60,6 +58,6 @@ public class FurrytrainBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(LiteralFeverDreamModItems.COSMO.get()));
+		return Collections.singletonList(new ItemStack(this, 1));
 	}
 }
