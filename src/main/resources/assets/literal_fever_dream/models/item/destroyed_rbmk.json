@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "literal_fever_dream:items/blown_up_rbmk"
+    "layer0": "literal_fever_dream:item/blown_up_rbmk"
   }
 }

@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "literal_fever_dream:blocks/coneehablock",
-    "up": "literal_fever_dream:blocks/coneehablock",
-    "north": "literal_fever_dream:blocks/coneehablock",
-    "east": "literal_fever_dream:blocks/coneehablock",
-    "south": "literal_fever_dream:blocks/coneehablock",
-    "west": "literal_fever_dream:blocks/coneehablock",
-    "particle": "literal_fever_dream:blocks/coneehablock"
+    "down": "literal_fever_dream:block/coneehablock",
+    "up": "literal_fever_dream:block/coneehablock",
+    "north": "literal_fever_dream:block/coneehablock",
+    "east": "literal_fever_dream:block/coneehablock",
+    "south": "literal_fever_dream:block/coneehablock",
+    "west": "literal_fever_dream:block/coneehablock",
+    "particle": "literal_fever_dream:block/coneehablock"
   },
   "render_type": "solid"
 }

@@ -10,19 +10,18 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 
 import net.mcreator.literalfeverdream.procedures.PureSlownessProcedure;
-import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
 
 import java.util.List;
 
 public class ManyRBMKrodsItem extends Item {
 	public ManyRBMKrodsItem() {
-		super(new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM).stacksTo(64).fireResistant().rarity(Rarity.EPIC));
+		super(new Item.Properties().stacksTo(64).fireResistant().rarity(Rarity.EPIC));
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("thats a lot"));
+	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
+		list.add(Component.translatable("item.literal_fever_dream.many_rbm_krods.description_0"));
 	}
 
 	@Override

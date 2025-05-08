@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "literal_fever_dream:items/nexusaromr_leggings"
+    "layer0": "literal_fever_dream:item/nexusaromr_leggings"
   }
 }

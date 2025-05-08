@@ -1,15 +1,19 @@
 {
-  "_fv": 43,
+  "_fv": 73,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "rainbow_core",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Rainbowcore",
     "rarity": "COMMON",
-    "creativeTab": {
-      "value": "CUSTOM:Literalfeverdream"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Literalfeverdream"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 64,
@@ -24,16 +28,20 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "dont eat this. (takes a long time to eat)"
-    ],
-    "hasGlow": false,
-    "guiBoundTo": "<NONE>",
+    "specialInformation": {
+      "fixedValue": [
+        "dont eat this. (takes a long time to eat)"
+      ]
+    },
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onEntityHitWith": {
       "name": "FIREEEE"
     },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectileDisableAmmoCheck": false,
     "isFood": true,
     "nutritionalValue": 6,
     "saturation": 0.0,
@@ -42,6 +50,9 @@
     },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "eat"
+    "animation": "eat",
+    "isMusicDisc": false,
+    "musicDiscLengthInTicks": 0,
+    "musicDiscAnalogOutput": 0
   }
 }

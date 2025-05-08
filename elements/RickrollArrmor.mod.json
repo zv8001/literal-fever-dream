@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 73,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,18 +10,28 @@
     "textureLeggings": "rickrollarmor_leggings",
     "enableBoots": true,
     "textureBoots": "rickrollarmor_boots",
-    "creativeTab": {
-      "value": "CUSTOM:Literalfeverdream"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Literalfeverdream"
+      }
+    ],
     "armorTextureFile": "rickrollarmor",
     "helmetName": "Rickroll Arrmor Helmet",
     "bodyName": "Rickroll Arrmor Chestplate",
     "leggingsName": "Rickroll Arrmor Leggings",
     "bootsName": "Rickroll Arrmor Boots",
-    "helmetSpecialInfo": [],
-    "bodySpecialInfo": [],
-    "leggingsSpecialInfo": [],
-    "bootsSpecialInfo": [],
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

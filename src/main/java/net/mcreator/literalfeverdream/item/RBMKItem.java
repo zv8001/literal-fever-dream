@@ -12,7 +12,6 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 
 import net.mcreator.literalfeverdream.procedures.PureSlownessProcedure;
-import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModItems;
 
 import java.util.List;
@@ -29,7 +28,7 @@ public class RBMKItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 998f;
+				return 996f;
 			}
 
 			public int getLevel() {
@@ -43,13 +42,13 @@ public class RBMKItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(LiteralFeverDreamModItems.MANY_RBM_KRODS.get()));
 			}
-		}, 3, -3.96f, new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM).fireResistant());
+		}, 3, -3.96f, new Item.Properties().fireResistant());
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("HOW AND WHY???"));
+	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
+		list.add(Component.translatable("item.literal_fever_dream.rbmk.description_0"));
 	}
 
 	@Override

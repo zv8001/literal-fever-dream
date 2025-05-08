@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "literal_fever_dream:items/screenshot_2024-06-21_032522"
+    "layer0": "literal_fever_dream:item/screenshot_2024-06-21_032522"
   }
 }

@@ -1,37 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aba",
+    "aaa"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "literal_fever_dream:nice"
     },
-    "1": {
-      "item": "literal_fever_dream:nice"
-    },
-    "2": {
-      "item": "literal_fever_dream:nice"
-    },
-    "3": {
-      "item": "literal_fever_dream:nice"
-    },
-    "4": {
+    "b": {
       "item": "literal_fever_dream:irradiatedpieceofshit"
-    },
-    "5": {
-      "item": "literal_fever_dream:nice"
-    },
-    "6": {
-      "item": "literal_fever_dream:nice"
-    },
-    "7": {
-      "item": "literal_fever_dream:nice"
-    },
-    "8": {
-      "item": "literal_fever_dream:nice"
     }
   },
   "result": {

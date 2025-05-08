@@ -26,7 +26,7 @@ public class LiteralFeverDreamModFluids {
 	public static final RegistryObject<FlowingFluid> FLOWING_WEIRD_RADIOACTIVE_LIQUID = REGISTRY.register("flowing_weird_radioactive_liquid", () -> new WeirdRadioactiveLiquidFluid.Flowing());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-	public static class ClientSideHandler {
+	public static class FluidsClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			ItemBlockRenderTypes.setRenderLayer(WEIRD_RADIOACTIVE_LIQUID.get(), RenderType.translucent());

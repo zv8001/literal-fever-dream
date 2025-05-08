@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "literal_fever_dream:blocks/fusion_portal_img",
-    "portal": "literal_fever_dream:blocks/fusion_portal_img"
+    "particle": "literal_fever_dream:block/fusion_portal_img",
+    "portal": "literal_fever_dream:block/fusion_portal_img"
   },
   "elements": [
     {

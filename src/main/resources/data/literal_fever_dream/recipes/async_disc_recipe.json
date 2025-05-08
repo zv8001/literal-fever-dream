@@ -1,38 +1,21 @@
 {
-  "group": "async_disc",
   "type": "minecraft:crafting_shaped",
+  "group": "async_disc",
+  "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "bcb",
+    "aba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "literal_fever_dream:coneehashellplace"
     },
-    "1": {
+    "b": {
       "item": "literal_fever_dream:coneeha_1092"
     },
-    "2": {
-      "item": "literal_fever_dream:coneehashellplace"
-    },
-    "3": {
-      "item": "literal_fever_dream:coneeha_1092"
-    },
-    "4": {
+    "c": {
       "item": "literal_fever_dream:thermonuclearbomb"
-    },
-    "5": {
-      "item": "literal_fever_dream:coneeha_1092"
-    },
-    "6": {
-      "item": "literal_fever_dream:coneehashellplace"
-    },
-    "7": {
-      "item": "literal_fever_dream:coneeha_1092"
-    },
-    "8": {
-      "item": "literal_fever_dream:coneehashellplace"
     }
   },
   "result": {

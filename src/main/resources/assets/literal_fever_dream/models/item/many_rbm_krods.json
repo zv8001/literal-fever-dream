@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "literal_fever_dream:items/many_rbmk_rods"
+    "layer0": "literal_fever_dream:item/many_rbmk_rods"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "literal_fever_dream:items/graphine_block"
+    "layer0": "literal_fever_dream:item/graphine_block"
   }
 }

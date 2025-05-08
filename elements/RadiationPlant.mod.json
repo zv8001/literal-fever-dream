@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 73,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -11,12 +11,23 @@
     "tintType": "No tint",
     "isItemTinted": false,
     "plantType": "normal",
-    "staticPlantGenerationType": "Flower",
     "suspiciousStewEffect": "WITHER",
     "suspiciousStewDuration": 200,
+    "secondaryTreeChance": 0.1,
+    "trees": [
+      null,
+      null
+    ],
+    "flowerTrees": [
+      null,
+      null
+    ],
+    "megaTrees": [
+      null,
+      null
+    ],
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
-    "doublePlantGenerationType": "Flower",
     "customBoundingBox": false,
     "disableOffset": false,
     "boundingBoxes": [
@@ -31,15 +42,20 @@
       }
     ],
     "name": "Radiationized Plant",
-    "specialInfo": [],
-    "creativeTab": {
-      "value": "CUSTOM:Literalfeverdream"
+    "specialInformation": {
+      "fixedValue": []
     },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Literalfeverdream"
+      }
+    ],
     "hardness": 0.0,
     "resistance": 0.0,
     "luminance": 0,
     "unbreakable": false,
     "isSolid": true,
+    "isWaterloggable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
       "value": "PLANT"
@@ -81,10 +97,13 @@
     "canBePlacedOn": [],
     "isBonemealable": false,
     "frequencyOnChunks": 5,
-    "spawnWorldTypes": [
-      "Surface"
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "#is_overworld"
+      }
     ],
-    "restrictionBiomes": [],
+    "generationType": "Flower",
     "patchSize": 64,
     "generateAtAnyHeight": false,
     "onEntityCollides": {

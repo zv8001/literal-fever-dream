@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "literal_fever_dream:blocks/radiation_plant",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "literal_fever_dream:radiation_plant"
+        }
+      ]
+    }
+  ]
+}

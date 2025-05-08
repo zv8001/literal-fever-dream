@@ -1,33 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
-    "0 2",
-    "345",
-    "678"
+    "a a",
+    "aaa",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "literal_fever_dream:rickrollingot"
-    },
-    "2": {
-      "item": "literal_fever_dream:rickrollingot"
-    },
-    "3": {
-      "item": "literal_fever_dream:rickrollingot"
-    },
-    "4": {
-      "item": "literal_fever_dream:rickrollingot"
-    },
-    "5": {
-      "item": "literal_fever_dream:rickrollingot"
-    },
-    "6": {
-      "item": "literal_fever_dream:rickrollingot"
-    },
-    "7": {
-      "item": "literal_fever_dream:rickrollingot"
-    },
-    "8": {
+    "a": {
       "item": "literal_fever_dream:rickrollingot"
     }
   },

@@ -9,7 +9,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
 
 import net.mcreator.literalfeverdream.procedures.UraniumOnAStickLivingEntityIsHitWithToolProcedure;
-import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModItems;
 
 public class UraniumOnAStickItem extends SwordItem {
@@ -24,7 +23,7 @@ public class UraniumOnAStickItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 0f;
 			}
 
 			public int getLevel() {
@@ -38,7 +37,7 @@ public class UraniumOnAStickItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(LiteralFeverDreamModItems.URANIUM_235.get()));
 			}
-		}, 3, -4f, new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM).fireResistant());
+		}, 3, -4f, new Item.Properties().fireResistant());
 	}
 
 	@Override

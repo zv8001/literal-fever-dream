@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "literal_fever_dream:items/knife-png-238"
+    "layer0": "literal_fever_dream:item/knife-png-238"
   }
 }

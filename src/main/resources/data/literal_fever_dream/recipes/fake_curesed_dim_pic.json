@@ -1,24 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
-    "012",
-    " 4 ",
-    " 7 "
+    "aaa",
+    " b ",
+    " b "
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:stick"
     },
-    "1": {
-      "item": "minecraft:stick"
-    },
-    "2": {
-      "item": "minecraft:stick"
-    },
-    "4": {
-      "item": "minecraft:diamond"
-    },
-    "7": {
+    "b": {
       "item": "minecraft:diamond"
     }
   },

@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "mmmradiation": {
+    "mmmradiation_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

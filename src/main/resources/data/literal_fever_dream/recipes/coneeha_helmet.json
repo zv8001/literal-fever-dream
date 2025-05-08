@@ -1,23 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
-    "012",
-    "3 5"
+    "aaa",
+    "a a"
   ],
   "key": {
-    "0": {
-      "item": "literal_fever_dream:coneeha_1092"
-    },
-    "1": {
-      "item": "literal_fever_dream:coneeha_1092"
-    },
-    "2": {
-      "item": "literal_fever_dream:coneeha_1092"
-    },
-    "3": {
-      "item": "literal_fever_dream:coneeha_1092"
-    },
-    "5": {
+    "a": {
       "item": "literal_fever_dream:coneeha_1092"
     }
   },

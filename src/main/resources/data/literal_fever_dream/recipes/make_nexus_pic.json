@@ -1,24 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
-    "012",
-    " 4 ",
-    " 7 "
+    "aaa",
+    " b ",
+    " b "
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "literal_fever_dream:nexusingot"
     },
-    "1": {
-      "item": "literal_fever_dream:nexusingot"
-    },
-    "2": {
-      "item": "literal_fever_dream:nexusingot"
-    },
-    "4": {
-      "item": "minecraft:stick"
-    },
-    "7": {
+    "b": {
       "item": "minecraft:stick"
     }
   },

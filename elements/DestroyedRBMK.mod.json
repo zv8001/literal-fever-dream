@@ -1,28 +1,33 @@
 {
-  "_fv": 43,
+  "_fv": 73,
   "_type": "tool",
   "definition": {
+    "toolType": "Sword",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "blown_up_rbmk",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Destroyed RBMK",
-    "specialInfo": [
-      "why is it frozen"
-    ],
-    "creativeTab": {
-      "value": "CUSTOM:Literalfeverdream"
+    "specialInformation": {
+      "fixedValue": [
+        "why is it frozen"
+      ]
     },
-    "toolType": "Sword",
-    "harvestLevel": 1,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Literalfeverdream"
+      }
+    ],
     "efficiency": 4.0,
     "attackSpeed": 0.36,
     "enchantability": 2,
     "damageVsEntity": 15000.0,
     "usageCount": 31000,
-    "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [],
     "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onItemInInventoryTick": {

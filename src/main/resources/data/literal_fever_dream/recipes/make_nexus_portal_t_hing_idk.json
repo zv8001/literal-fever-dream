@@ -1,31 +1,29 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
-    " 1 ",
-    "345",
-    "678"
+    " a ",
+    "bcd",
+    "efe"
   ],
   "key": {
-    "1": {
+    "a": {
       "item": "minecraft:quartz"
     },
-    "3": {
+    "b": {
       "item": "minecraft:lapis_lazuli"
     },
-    "4": {
+    "c": {
       "item": "minecraft:flint"
     },
-    "5": {
+    "d": {
       "item": "minecraft:copper_ingot"
     },
-    "6": {
+    "e": {
       "item": "minecraft:salmon"
     },
-    "7": {
+    "f": {
       "item": "minecraft:magma_cream"
-    },
-    "8": {
-      "item": "minecraft:salmon"
     }
   },
   "result": {

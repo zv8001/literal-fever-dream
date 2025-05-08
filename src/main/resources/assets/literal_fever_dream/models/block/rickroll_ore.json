@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "literal_fever_dream:blocks/rickroll_4k",
-    "up": "literal_fever_dream:blocks/rickroll_4k",
-    "north": "literal_fever_dream:blocks/rickroll_4k",
-    "east": "literal_fever_dream:blocks/rickroll_4k",
-    "south": "literal_fever_dream:blocks/rickroll_4k",
-    "west": "literal_fever_dream:blocks/rickroll_4k",
-    "particle": "literal_fever_dream:blocks/rickroll_4k"
+    "down": "literal_fever_dream:block/rickroll_4k",
+    "up": "literal_fever_dream:block/rickroll_4k",
+    "north": "literal_fever_dream:block/rickroll_4k",
+    "east": "literal_fever_dream:block/rickroll_4k",
+    "south": "literal_fever_dream:block/rickroll_4k",
+    "west": "literal_fever_dream:block/rickroll_4k",
+    "particle": "literal_fever_dream:block/rickroll_4k"
   },
   "render_type": "solid"
 }

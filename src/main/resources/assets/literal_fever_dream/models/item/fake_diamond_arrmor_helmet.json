@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "literal_fever_dream:items/coneehaparrefpoiwfse_head"
+    "layer0": "literal_fever_dream:item/coneehaparrefpoiwfse_head"
   }
 }

@@ -1,19 +1,17 @@
 {
-  "group": "rbmk",
   "type": "minecraft:crafting_shaped",
+  "group": "rbmk",
+  "category": "misc",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    "a",
+    "b",
+    "b"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:iron_block"
     },
-    "1": {
-      "item": "literal_fever_dream:graphite_block"
-    },
-    "2": {
+    "b": {
       "item": "literal_fever_dream:graphite_block"
     }
   },

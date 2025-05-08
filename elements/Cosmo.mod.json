@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 73,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
@@ -278,13 +278,33 @@
     "fluidBlock": {
       "value": "Blocks.WATER"
     },
+    "seaLevel": 32,
+    "generateOreVeins": false,
+    "generateAquifers": false,
+    "horizontalNoiseSize": 1,
+    "verticalNoiseSize": 2,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": false,
+    "cloudHeight": 192.0,
+    "skyType": "NONE",
+    "sunHeightAffectsFog": false,
     "canRespawnHere": false,
     "hasFog": false,
-    "isDark": false,
+    "ambientLight": 0.5,
     "doesWaterVaporize": false,
-    "sleepResult": "ALLOW",
+    "hasFixedTime": false,
+    "fixedTimeValue": 0,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "bedWorks": true,
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
+    "piglinSafe": true,
+    "hasRaids": false,
+    "minMonsterSpawnLightLimit": 11,
+    "maxMonsterSpawnLightLimit": 11,
+    "monsterSpawnBlockLightLimit": 15,
     "portalFrame": {
       "value": "Blocks.GLASS"
     },
@@ -297,9 +317,15 @@
     },
     "enableIgniter": true,
     "igniterName": "train01256's weapon of mass destruction.",
-    "igniterTab": {
-      "value": "CUSTOM:Literalfeverdream"
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
     },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Literalfeverdream"
+      }
+    ],
     "texture": "latest",
     "portalTexture": "cosmo",
     "enablePortal": true

@@ -6,8 +6,6 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.AxeItem;
 
-import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
-
 public class FakeDiamondAxeItem extends AxeItem {
 	public FakeDiamondAxeItem() {
 		super(new Tier() {
@@ -34,6 +32,6 @@ public class FakeDiamondAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, -3f, new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM));
+		}, 1, -3f, new Item.Properties());
 	}
 }

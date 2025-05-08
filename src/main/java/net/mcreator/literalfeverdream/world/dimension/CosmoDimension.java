@@ -1,9 +1,9 @@
 
 package net.mcreator.literalfeverdream.world.dimension;
 
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.client.event.RegisterDimensionSpecialEffectsEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -14,10 +14,10 @@ import net.minecraft.client.renderer.DimensionSpecialEffects;
 @Mod.EventBusSubscriber
 public class CosmoDimension {
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-	public static class Fixers {
+	public static class CosmoSpecialEffectsHandler {
 		@SubscribeEvent
 		@OnlyIn(Dist.CLIENT)
-		public static void registerDimensionSpecialEffects(FMLClientSetupEvent event) {
+		public static void registerDimensionSpecialEffects(RegisterDimensionSpecialEffectsEvent event) {
 			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(Float.NaN, true, DimensionSpecialEffects.SkyType.NONE, false, false) {
 				@Override
 				public Vec3 getBrightnessDependentFogColor(Vec3 color, float sunHeight) {
@@ -29,7 +29,7 @@ public class CosmoDimension {
 					return false;
 				}
 			};
-			event.enqueueWork(() -> DimensionSpecialEffects.EFFECTS.put(new ResourceLocation("literal_fever_dream:cosmo"), customEffect));
+			event.register(new ResourceLocation("literal_fever_dream:cosmo"), customEffect);
 		}
 	}
 }

@@ -1,25 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
-    " 1 ",
-    "345",
-    " 7 "
+    " a ",
+    "aba",
+    " a "
   ],
   "key": {
-    "1": {
+    "a": {
       "item": "literal_fever_dream:fusion_block"
     },
-    "3": {
-      "item": "literal_fever_dream:fusion_block"
-    },
-    "4": {
+    "b": {
       "item": "literal_fever_dream:thermonuclearbomb"
-    },
-    "5": {
-      "item": "literal_fever_dream:fusion_block"
-    },
-    "7": {
-      "item": "literal_fever_dream:fusion_block"
     }
   },
   "result": {

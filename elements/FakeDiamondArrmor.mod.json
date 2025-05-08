@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 73,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,18 +10,28 @@
     "textureLeggings": "coneehaparrefpoiwfse_leggings",
     "enableBoots": true,
     "textureBoots": "coneehaparrefpoiwfse_boots",
-    "creativeTab": {
-      "value": "CUSTOM:Literalfeverdream"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Literalfeverdream"
+      }
+    ],
     "armorTextureFile": "fakediamondarrmortxt",
     "helmetName": "Fake Diamond Arrmor Helmet",
     "bodyName": "Fake Diamond Arrmor Chestplate",
     "leggingsName": "Fake Diamond Arrmor Leggings",
     "bootsName": "Fake Diamond Arrmor Boots",
-    "helmetSpecialInfo": [],
-    "bodySpecialInfo": [],
-    "leggingsSpecialInfo": [],
-    "bootsSpecialInfo": [],
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

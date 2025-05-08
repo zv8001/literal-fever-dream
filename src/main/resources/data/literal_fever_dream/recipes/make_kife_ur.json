@@ -1,13 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
-    "01"
+    "ab"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "literal_fever_dream:knife"
     },
-    "1": {
+    "b": {
       "item": "literal_fever_dream:irradiatedpieceofshit"
     }
   },

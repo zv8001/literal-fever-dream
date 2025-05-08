@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "literal_fever_dream:blocks/9k",
-    "portal": "literal_fever_dream:blocks/9k"
+    "particle": "literal_fever_dream:block/9k",
+    "portal": "literal_fever_dream:block/9k"
   },
   "elements": [
     {

@@ -1,26 +1,31 @@
 {
-  "_fv": 43,
+  "_fv": 73,
   "_type": "tool",
   "definition": {
+    "toolType": "Axe",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "nexusaxepic",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Nexus Axe",
-    "specialInfo": [],
-    "creativeTab": {
-      "value": "CUSTOM:Literalfeverdream"
+    "specialInformation": {
+      "fixedValue": []
     },
-    "toolType": "Axe",
-    "harvestLevel": 1,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Literalfeverdream"
+      }
+    ],
     "efficiency": 7.0,
     "attackSpeed": 5.0,
     "enchantability": 2,
     "damageVsEntity": 4.0,
     "usageCount": 50,
-    "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [],
     "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

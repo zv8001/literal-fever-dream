@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "literal_fever_dream:blocks/carpet",
-    "up": "literal_fever_dream:blocks/carpet",
-    "north": "literal_fever_dream:blocks/carpet",
-    "east": "literal_fever_dream:blocks/carpet",
-    "south": "literal_fever_dream:blocks/carpet",
-    "west": "literal_fever_dream:blocks/carpet",
-    "particle": "literal_fever_dream:blocks/carpet"
+    "down": "literal_fever_dream:block/carpet",
+    "up": "literal_fever_dream:block/carpet",
+    "north": "literal_fever_dream:block/carpet",
+    "east": "literal_fever_dream:block/carpet",
+    "south": "literal_fever_dream:block/carpet",
+    "west": "literal_fever_dream:block/carpet",
+    "particle": "literal_fever_dream:block/carpet"
   },
   "render_type": "solid"
 }

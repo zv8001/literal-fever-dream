@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "literal_fever_dream:blocks/images_1",
-    "portal": "literal_fever_dream:blocks/images_1"
+    "particle": "literal_fever_dream:block/images_1",
+    "portal": "literal_fever_dream:block/images_1"
   },
   "elements": [
     {

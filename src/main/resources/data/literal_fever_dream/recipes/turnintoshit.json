@@ -1,20 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
-    "01",
-    "23"
+    "aa",
+    "aa"
   ],
   "key": {
-    "0": {
-      "item": "literal_fever_dream:uranium_235"
-    },
-    "1": {
-      "item": "literal_fever_dream:uranium_235"
-    },
-    "2": {
-      "item": "literal_fever_dream:uranium_235"
-    },
-    "3": {
+    "a": {
       "item": "literal_fever_dream:uranium_235"
     }
   },

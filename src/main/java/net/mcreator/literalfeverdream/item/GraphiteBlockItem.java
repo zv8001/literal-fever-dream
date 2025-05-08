@@ -12,7 +12,6 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 
 import net.mcreator.literalfeverdream.procedures.TooHeavyProcedure;
-import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModItems;
 
 import java.util.List;
@@ -29,7 +28,7 @@ public class GraphiteBlockItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 598f;
+				return 596f;
 			}
 
 			public int getLevel() {
@@ -43,19 +42,19 @@ public class GraphiteBlockItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(LiteralFeverDreamModItems.URANIUM_235.get()));
 			}
-		}, 3, -3.95f, new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM).fireResistant());
+		}, 3, -3.95f, new Item.Properties().fireResistant());
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("you're just dead. WHY DO YOU HAVE THIS"));
+	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
+		list.add(Component.translatable("item.literal_fever_dream.graphite_block.description_0"));
 	}
 
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
-			TooHeavyProcedure.execute(entity);
+			TooHeavyProcedure.execute(world, entity);
 	}
 }

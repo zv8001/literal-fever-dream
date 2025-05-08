@@ -1,26 +1,31 @@
 {
-  "_fv": 43,
+  "_fv": 73,
   "_type": "tool",
   "definition": {
+    "toolType": "Sword",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "swordtxt",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Nexus Sword",
-    "specialInfo": [],
-    "creativeTab": {
-      "value": "CUSTOM:Literalfeverdream"
+    "specialInformation": {
+      "fixedValue": []
     },
-    "toolType": "Sword",
-    "harvestLevel": 1,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Literalfeverdream"
+      }
+    ],
     "efficiency": 5.0,
     "attackSpeed": 1.0,
     "enchantability": 100,
     "damageVsEntity": 10.0,
     "usageCount": 100,
-    "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [],
     "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

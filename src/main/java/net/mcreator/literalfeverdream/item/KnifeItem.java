@@ -6,8 +6,6 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Item;
 
-import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
-
 public class KnifeItem extends SwordItem {
 	public KnifeItem() {
 		super(new Tier() {
@@ -20,7 +18,7 @@ public class KnifeItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 0f;
 			}
 
 			public int getLevel() {
@@ -34,6 +32,6 @@ public class KnifeItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3f, new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM));
+		}, 3, -3f, new Item.Properties());
 	}
 }

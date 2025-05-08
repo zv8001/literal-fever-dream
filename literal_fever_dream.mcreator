@@ -3,16 +3,16 @@
     {
       "name": "TrainBlock",
       "type": "block",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "train_block",
       "metadata": {
         "files": [
           "src/main/resources/assets/literal_fever_dream/models/item/train_block.json",
-          "src/main/resources/assets/literal_fever_dream/blockstates/train_block.json",
           "src/main/resources/assets/literal_fever_dream/models/block/train_block.json",
-          "src/main/java/net/mcreator/literalfeverdream/block/TrainBlockBlock.java"
+          "src/main/java/net/mcreator/literalfeverdream/block/TrainBlockBlock.java",
+          "src/main/resources/assets/literal_fever_dream/blockstates/train_block.json",
+          "src/main/resources/data/literal_fever_dream/loot_tables/blocks/train_block.json"
         ]
       }
     },
@@ -29,30 +29,28 @@
     {
       "name": "Cosmo",
       "type": "dimension",
-      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cosmo",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/block/CosmoPortalBlock.java",
-          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/CosmoTeleporter.java",
-          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/CosmoPortalShape.java",
           "src/main/java/net/mcreator/literalfeverdream/world/dimension/CosmoDimension.java",
           "src/main/resources/data/literal_fever_dream/dimension/cosmo.json",
-          "src/main/resources/assets/literal_fever_dream/models/block/cosmo_portal_ns.json",
-          "src/main/resources/data/literal_fever_dream/dimension_type/cosmo.json",
-          "src/main/resources/assets/literal_fever_dream/models/block/cosmo_portal_ew.json",
-          "src/main/resources/assets/literal_fever_dream/blockstates/cosmo_portal.json",
           "src/main/resources/assets/literal_fever_dream/models/item/cosmo.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/CosmoItem.java"
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/CosmoPortalShape.java",
+          "src/main/resources/assets/literal_fever_dream/blockstates/cosmo_portal.json",
+          "src/main/resources/assets/literal_fever_dream/models/block/cosmo_portal_ew.json",
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/CosmoTeleporter.java",
+          "src/main/java/net/mcreator/literalfeverdream/item/CosmoItem.java",
+          "src/main/resources/data/literal_fever_dream/dimension_type/cosmo.json",
+          "src/main/java/net/mcreator/literalfeverdream/block/CosmoPortalBlock.java",
+          "src/main/resources/assets/literal_fever_dream/models/block/cosmo_portal_ns.json"
         ]
       }
     },
     {
       "name": "Createweaponofmassdestruction",
       "type": "recipe",
-      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "createweaponofmassdestruction",
@@ -65,46 +63,44 @@
     {
       "name": "Coneeha1092",
       "type": "block",
-      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coneeha_1092",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/block/coneeha_1092.json",
           "src/main/java/net/mcreator/literalfeverdream/block/Coneeha1092Block.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/coneeha_1092.json",
-          "src/main/resources/assets/literal_fever_dream/blockstates/coneeha_1092.json"
+          "src/main/resources/assets/literal_fever_dream/models/block/coneeha_1092.json",
+          "src/main/resources/data/literal_fever_dream/loot_tables/blocks/coneeha_1092.json",
+          "src/main/resources/assets/literal_fever_dream/blockstates/coneeha_1092.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/coneeha_1092.json"
         ]
       }
     },
     {
       "name": "Coneehashellplace",
       "type": "dimension",
-      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coneehashellplace",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/blockstates/coneehashellplace_portal.json",
-          "src/main/resources/assets/literal_fever_dream/models/block/coneehashellplace_portal_ns.json",
-          "src/main/resources/data/literal_fever_dream/dimension/coneehashellplace.json",
           "src/main/java/net/mcreator/literalfeverdream/world/teleporter/ConeehashellplacePortalShape.java",
           "src/main/resources/assets/literal_fever_dream/models/block/coneehashellplace_portal_ew.json",
-          "src/main/java/net/mcreator/literalfeverdream/world/dimension/ConeehashellplaceDimension.java",
-          "src/main/resources/data/literal_fever_dream/dimension_type/coneehashellplace.json",
-          "src/main/java/net/mcreator/literalfeverdream/block/ConeehashellplacePortalBlock.java",
           "src/main/resources/assets/literal_fever_dream/models/item/coneehashellplace.json",
+          "src/main/resources/assets/literal_fever_dream/models/block/coneehashellplace_portal_ns.json",
+          "src/main/java/net/mcreator/literalfeverdream/block/ConeehashellplacePortalBlock.java",
+          "src/main/java/net/mcreator/literalfeverdream/item/ConeehashellplaceItem.java",
           "src/main/java/net/mcreator/literalfeverdream/world/teleporter/ConeehashellplaceTeleporter.java",
-          "src/main/java/net/mcreator/literalfeverdream/item/ConeehashellplaceItem.java"
+          "src/main/resources/data/literal_fever_dream/dimension_type/coneehashellplace.json",
+          "src/main/resources/assets/literal_fever_dream/blockstates/coneehashellplace_portal.json",
+          "src/main/resources/data/literal_fever_dream/dimension/coneehashellplace.json",
+          "src/main/java/net/mcreator/literalfeverdream/world/dimension/ConeehashellplaceDimension.java"
         ]
       }
     },
     {
       "name": "Hellconeeha",
       "type": "recipe",
-      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hellconeeha",
@@ -117,16 +113,15 @@
     {
       "name": "CosmoArmmor",
       "type": "armor",
-      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cosmo_armmor",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/literalfeverdream/item/CosmoArmmorItem.java",
           "src/main/resources/assets/literal_fever_dream/models/item/cosmo_armmor_leggings.json",
           "src/main/resources/assets/literal_fever_dream/models/item/cosmo_armmor_chestplate.json",
           "src/main/resources/assets/literal_fever_dream/models/item/cosmo_armmor_helmet.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/CosmoArmmorItem.java",
           "src/main/resources/assets/literal_fever_dream/models/item/cosmo_armmor_boots.json"
         ]
       }
@@ -134,7 +129,6 @@
     {
       "name": "Helmetcosmo",
       "type": "recipe",
-      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "helmetcosmo",
@@ -147,7 +141,6 @@
     {
       "name": "Legcosmo",
       "type": "recipe",
-      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "legcosmo",
@@ -160,7 +153,6 @@
     {
       "name": "Bootcosmo",
       "type": "recipe",
-      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bootcosmo",
@@ -173,7 +165,6 @@
     {
       "name": "Chescosmo",
       "type": "recipe",
-      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chescosmo",
@@ -186,7 +177,6 @@
     {
       "name": "Youfoundthefuckingfeverdream",
       "type": "achievement",
-      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "youfoundthefuckingfeverdream",
@@ -199,7 +189,6 @@
     {
       "name": "ConeehaADV",
       "type": "achievement",
-      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coneeha_adv",
@@ -212,24 +201,22 @@
     {
       "name": "ConeehaArrmor",
       "type": "armor",
-      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coneeha_arrmor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/coneeha_arrmor_chestplate.json",
           "src/main/resources/assets/literal_fever_dream/models/item/coneeha_arrmor_boots.json",
-          "src/main/resources/assets/literal_fever_dream/models/item/coneeha_arrmor_helmet.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/ConeehaArrmorItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/coneeha_arrmor_chestplate.json",
           "src/main/resources/assets/literal_fever_dream/models/item/coneeha_arrmor_leggings.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/ConeehaArrmorItem.java"
+          "src/main/resources/assets/literal_fever_dream/models/item/coneeha_arrmor_helmet.json"
         ]
       }
     },
     {
       "name": "ConeehaHelmet",
       "type": "recipe",
-      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coneeha_helmet",
@@ -242,7 +229,6 @@
     {
       "name": "Legconeeha",
       "type": "recipe",
-      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "legconeeha",
@@ -255,7 +241,6 @@
     {
       "name": "Coneehaboot",
       "type": "recipe",
-      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coneehaboot",
@@ -268,7 +253,6 @@
     {
       "name": "Coneehachges",
       "type": "recipe",
-      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coneehachges",
@@ -281,35 +265,32 @@
     {
       "name": "Thermonuclearbomb",
       "type": "item",
-      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thermonuclearbomb",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/thermonuclearbomb.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/ThermonuclearbombItem.java"
+          "src/main/java/net/mcreator/literalfeverdream/item/ThermonuclearbombItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/thermonuclearbomb.json"
         ]
       }
     },
     {
       "name": "Uranium235",
       "type": "item",
-      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_235",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/uranium_235.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/Uranium235Item.java"
+          "src/main/java/net/mcreator/literalfeverdream/item/Uranium235Item.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/uranium_235.json"
         ]
       }
     },
     {
       "name": "Makeuracon",
       "type": "recipe",
-      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "makeuracon",
@@ -322,7 +303,6 @@
     {
       "name": "MakeNuke",
       "type": "recipe",
-      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "make_nuke",
@@ -335,21 +315,19 @@
     {
       "name": "Irradiatedpieceofshit",
       "type": "item",
-      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "irradiatedpieceofshit",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/IrradiatedpieceofshitItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/irradiatedpieceofshit.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/irradiatedpieceofshit.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/IrradiatedpieceofshitItem.java"
         ]
       }
     },
     {
       "name": "Turnintoshit",
       "type": "recipe",
-      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "turnintoshit",
@@ -362,7 +340,6 @@
     {
       "name": "Turnintoiron",
       "type": "recipe",
-      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "turnintoiron",
@@ -375,21 +352,19 @@
     {
       "name": "Curseddiamondpickaxe",
       "type": "tool",
-      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "curseddiamondpickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/curseddiamondpickaxe.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/CurseddiamondpickaxeItem.java"
+          "src/main/java/net/mcreator/literalfeverdream/item/CurseddiamondpickaxeItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/curseddiamondpickaxe.json"
         ]
       }
     },
     {
       "name": "FakeCuresedDimPic",
       "type": "recipe",
-      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_curesed_dim_pic",
@@ -402,35 +377,32 @@
     {
       "name": "Thermonuclearmissile",
       "type": "tool",
-      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thermonuclearmissile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/ThermonuclearmissileItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/thermonuclearmissile.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/thermonuclearmissile.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/ThermonuclearmissileItem.java"
         ]
       }
     },
     {
       "name": "Knife",
       "type": "tool",
-      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "knife",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/knife.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/KnifeItem.java"
+          "src/main/java/net/mcreator/literalfeverdream/item/KnifeItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/knife.json"
         ]
       }
     },
     {
       "name": "GiveKnife",
       "type": "recipe",
-      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "give_knife",
@@ -443,7 +415,6 @@
     {
       "name": "MakeKifeUr",
       "type": "recipe",
-      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "make_kife_ur",
@@ -456,13 +427,13 @@
     {
       "name": "Nice",
       "type": "block",
-      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nice",
       "metadata": {
         "files": [
           "src/main/resources/assets/literal_fever_dream/models/block/nice.json",
+          "src/main/resources/data/literal_fever_dream/loot_tables/blocks/nice.json",
           "src/main/resources/assets/literal_fever_dream/blockstates/nice.json",
           "src/main/java/net/mcreator/literalfeverdream/block/NiceBlock.java",
           "src/main/resources/assets/literal_fever_dream/models/item/nice.json"
@@ -472,7 +443,6 @@
     {
       "name": "Idfkturnintonice",
       "type": "recipe",
-      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "idfkturnintonice",
@@ -485,21 +455,19 @@
     {
       "name": "Googleblock",
       "type": "item",
-      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "googleblock",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/GoogleblockItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/googleblock.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/googleblock.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/GoogleblockItem.java"
         ]
       }
     },
     {
       "name": "Thegooglemakemaker",
       "type": "recipe",
-      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thegooglemakemaker",
@@ -512,30 +480,28 @@
     {
       "name": "NiceDiens",
       "type": "dimension",
-      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nice_diens",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/literalfeverdream/block/NiceDiensPortalBlock.java",
-          "src/main/java/net/mcreator/literalfeverdream/world/dimension/NiceDiensDimension.java",
-          "src/main/resources/assets/literal_fever_dream/models/block/nice_diens_portal_ew.json",
-          "src/main/resources/assets/literal_fever_dream/models/block/nice_diens_portal_ns.json",
-          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/NiceDiensTeleporter.java",
           "src/main/resources/data/literal_fever_dream/dimension/nice_diens.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/NiceDiensItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/nice_diens.json",
           "src/main/resources/data/literal_fever_dream/dimension_type/nice_diens.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/nice_diens.json",
+          "src/main/resources/assets/literal_fever_dream/blockstates/nice_diens_portal.json",
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/NiceDiensTeleporter.java",
+          "src/main/resources/assets/literal_fever_dream/models/block/nice_diens_portal_ns.json",
+          "src/main/java/net/mcreator/literalfeverdream/world/dimension/NiceDiensDimension.java",
           "src/main/java/net/mcreator/literalfeverdream/world/teleporter/NiceDiensPortalShape.java",
-          "src/main/resources/assets/literal_fever_dream/blockstates/nice_diens_portal.json"
+          "src/main/java/net/mcreator/literalfeverdream/item/NiceDiensItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/block/nice_diens_portal_ew.json"
         ]
       }
     },
     {
       "name": "Uraniumpoweredtranslocatortxt",
       "type": "recipe",
-      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uraniumpoweredtranslocatortxt",
@@ -548,46 +514,44 @@
     {
       "name": "NexusBlock",
       "type": "block",
-      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nexus_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/block/NexusBlockBlock.java",
           "src/main/resources/assets/literal_fever_dream/blockstates/nexus_block.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/nexus_block.json",
           "src/main/resources/assets/literal_fever_dream/models/block/nexus_block.json",
-          "src/main/resources/assets/literal_fever_dream/models/item/nexus_block.json"
+          "src/main/java/net/mcreator/literalfeverdream/block/NexusBlockBlock.java",
+          "src/main/resources/data/literal_fever_dream/loot_tables/blocks/nexus_block.json"
         ]
       }
     },
     {
       "name": "Nexusshellhole",
       "type": "dimension",
-      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nexusshellhole",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/nexusshellhole.json",
           "src/main/resources/data/literal_fever_dream/dimension/nexusshellhole.json",
-          "src/main/java/net/mcreator/literalfeverdream/block/NexusshellholePortalBlock.java",
-          "src/main/java/net/mcreator/literalfeverdream/item/NexusshellholeItem.java",
-          "src/main/java/net/mcreator/literalfeverdream/world/dimension/NexusshellholeDimension.java",
-          "src/main/resources/data/literal_fever_dream/dimension_type/nexusshellhole.json",
           "src/main/resources/assets/literal_fever_dream/blockstates/nexusshellhole_portal.json",
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/NexusshellholePortalShape.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/nexusshellhole.json",
+          "src/main/java/net/mcreator/literalfeverdream/block/NexusshellholePortalBlock.java",
           "src/main/resources/assets/literal_fever_dream/models/block/nexusshellhole_portal_ew.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/NexusshellholeItem.java",
+          "src/main/resources/data/literal_fever_dream/dimension_type/nexusshellhole.json",
           "src/main/resources/assets/literal_fever_dream/models/block/nexusshellhole_portal_ns.json",
-          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/NexusshellholeTeleporter.java",
-          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/NexusshellholePortalShape.java"
+          "src/main/java/net/mcreator/literalfeverdream/world/dimension/NexusshellholeDimension.java",
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/NexusshellholeTeleporter.java"
         ]
       }
     },
     {
       "name": "MakeNexusPortalTHingIdk",
       "type": "recipe",
-      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "make_nexus_portal_t_hing_idk",
@@ -600,14 +564,13 @@
     {
       "name": "ArromerNexus",
       "type": "armor",
-      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arromer_nexus",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/arromer_nexus_helmet.json",
           "src/main/resources/assets/literal_fever_dream/models/item/arromer_nexus_leggings.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/arromer_nexus_helmet.json",
           "src/main/java/net/mcreator/literalfeverdream/item/ArromerNexusItem.java",
           "src/main/resources/assets/literal_fever_dream/models/item/arromer_nexus_chestplate.json",
           "src/main/resources/assets/literal_fever_dream/models/item/arromer_nexus_boots.json"
@@ -617,21 +580,19 @@
     {
       "name": "Nexusingot",
       "type": "item",
-      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nexusingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/NexusingotItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/nexusingot.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/nexusingot.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/NexusingotItem.java"
         ]
       }
     },
     {
       "name": "MakeNexusIngot",
       "type": "recipe",
-      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "make_nexus_ingot",
@@ -644,7 +605,6 @@
     {
       "name": "MakeChestPlateNexus",
       "type": "recipe",
-      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "make_chest_plate_nexus",
@@ -657,7 +617,6 @@
     {
       "name": "NexusLeg",
       "type": "recipe",
-      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nexus_leg",
@@ -670,7 +629,6 @@
     {
       "name": "NexusBoots",
       "type": "recipe",
-      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nexus_boots",
@@ -683,7 +641,6 @@
     {
       "name": "NexusChestPlate",
       "type": "recipe",
-      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nexus_chest_plate",
@@ -696,7 +653,6 @@
     {
       "name": "NexusSword",
       "type": "tool",
-      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nexus_sword",
@@ -710,7 +666,6 @@
     {
       "name": "NexusSwordRes",
       "type": "recipe",
-      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nexus_sword_res",
@@ -723,7 +678,6 @@
     {
       "name": "NexusPic",
       "type": "tool",
-      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nexus_pic",
@@ -737,7 +691,6 @@
     {
       "name": "MakeNexusPic",
       "type": "recipe",
-      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "make_nexus_pic",
@@ -750,7 +703,6 @@
     {
       "name": "NexusAxe",
       "type": "tool",
-      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nexus_axe",
@@ -764,7 +716,6 @@
     {
       "name": "MakeNexusAxe",
       "type": "recipe",
-      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "make_nexus_axe",
@@ -777,21 +728,19 @@
     {
       "name": "NexusHoetool",
       "type": "tool",
-      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nexus_hoetool",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/nexus_hoetool.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/NexusHoetoolItem.java"
+          "src/main/java/net/mcreator/literalfeverdream/item/NexusHoetoolItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/nexus_hoetool.json"
         ]
       }
     },
     {
       "name": "Weirdguyandskeleton",
       "type": "painting",
-      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weirdguyandskeleton",
@@ -802,7 +751,6 @@
     {
       "name": "Trainandayden",
       "type": "painting",
-      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trainandayden",
@@ -813,21 +761,19 @@
     {
       "name": "GraphiteBlock",
       "type": "tool",
-      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "graphite_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/GraphiteBlockItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/graphite_block.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/graphite_block.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/GraphiteBlockItem.java"
         ]
       }
     },
     {
       "name": "TooHeavy",
       "type": "procedure",
-      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "too_heavy",
@@ -839,6 +785,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -846,7 +796,6 @@
     {
       "name": "Graphite",
       "type": "recipe",
-      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "graphite",
@@ -859,7 +808,6 @@
     {
       "name": "Uranium235ItemInHandTick",
       "type": "procedure",
-      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_235_item_in_hand_tick",
@@ -871,6 +819,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -878,7 +830,6 @@
     {
       "name": "Mmmradiation",
       "type": "achievement",
-      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mmmradiation",
@@ -891,15 +842,15 @@
     {
       "name": "UraniumBlock",
       "type": "block",
-      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_block",
       "metadata": {
         "files": [
           "src/main/resources/assets/literal_fever_dream/blockstates/uranium_block.json",
-          "src/main/resources/assets/literal_fever_dream/models/block/uranium_block.json",
           "src/main/resources/assets/literal_fever_dream/models/item/uranium_block.json",
+          "src/main/resources/data/literal_fever_dream/loot_tables/blocks/uranium_block.json",
+          "src/main/resources/assets/literal_fever_dream/models/block/uranium_block.json",
           "src/main/java/net/mcreator/literalfeverdream/block/UraniumBlockBlock.java"
         ]
       }
@@ -907,7 +858,6 @@
     {
       "name": "Uraniumized",
       "type": "procedure",
-      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uraniumized",
@@ -919,6 +869,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -926,7 +880,6 @@
     {
       "name": "UraniumBlockRecipe",
       "type": "recipe",
-      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_block_recipe",
@@ -939,23 +892,22 @@
     {
       "name": "Furrytrain",
       "type": "block",
-      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "furrytrain",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/furrytrain.json",
           "src/main/java/net/mcreator/literalfeverdream/block/FurrytrainBlock.java",
           "src/main/resources/assets/literal_fever_dream/blockstates/furrytrain.json",
-          "src/main/resources/assets/literal_fever_dream/models/block/furrytrain.json"
+          "src/main/resources/data/literal_fever_dream/loot_tables/blocks/furrytrain.json",
+          "src/main/resources/assets/literal_fever_dream/models/block/furrytrain.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/furrytrain.json"
         ]
       }
     },
     {
       "name": "FurryTrainBlockRecipe",
       "type": "recipe",
-      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "furry_train_block_recipe",
@@ -968,21 +920,19 @@
     {
       "name": "Rainbowcore",
       "type": "item",
-      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rainbowcore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/RainbowcoreItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/rainbowcore.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/rainbowcore.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/RainbowcoreItem.java"
         ]
       }
     },
     {
       "name": "FIREEEE",
       "type": "procedure",
-      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fireeee",
@@ -994,6 +944,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -1001,22 +955,21 @@
     {
       "name": "FusionDimension",
       "type": "dimension",
-      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fusion_dimension",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/FusionDimensionItem.java",
-          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/FusionDimensionPortalShape.java",
-          "src/main/resources/data/literal_fever_dream/dimension_type/fusion_dimension.json",
           "src/main/resources/data/literal_fever_dream/dimension/fusion_dimension.json",
-          "src/main/java/net/mcreator/literalfeverdream/world/dimension/FusionDimensionDimension.java",
-          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/FusionDimensionTeleporter.java",
           "src/main/resources/assets/literal_fever_dream/models/block/fusion_dimension_portal_ew.json",
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/FusionDimensionTeleporter.java",
           "src/main/resources/assets/literal_fever_dream/models/block/fusion_dimension_portal_ns.json",
           "src/main/resources/assets/literal_fever_dream/models/item/fusion_dimension.json",
+          "src/main/java/net/mcreator/literalfeverdream/world/dimension/FusionDimensionDimension.java",
+          "src/main/java/net/mcreator/literalfeverdream/item/FusionDimensionItem.java",
+          "src/main/resources/data/literal_fever_dream/dimension_type/fusion_dimension.json",
           "src/main/resources/assets/literal_fever_dream/blockstates/fusion_dimension_portal.json",
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/FusionDimensionPortalShape.java",
           "src/main/java/net/mcreator/literalfeverdream/block/FusionDimensionPortalBlock.java"
         ]
       }
@@ -1024,23 +977,22 @@
     {
       "name": "FusionBlock",
       "type": "block",
-      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fusion_block",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/literalfeverdream/block/FusionBlockBlock.java",
-          "src/main/resources/assets/literal_fever_dream/blockstates/fusion_block.json",
+          "src/main/resources/data/literal_fever_dream/loot_tables/blocks/fusion_block.json",
           "src/main/resources/assets/literal_fever_dream/models/block/fusion_block.json",
-          "src/main/resources/assets/literal_fever_dream/models/item/fusion_block.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/fusion_block.json",
+          "src/main/resources/assets/literal_fever_dream/blockstates/fusion_block.json"
         ]
       }
     },
     {
       "name": "FusionBlockBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fusion_block_block_destroyed_by_player",
@@ -1059,7 +1011,6 @@
     {
       "name": "FusionPortalIgnitor",
       "type": "recipe",
-      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fusion_portal_ignitor",
@@ -1072,7 +1023,6 @@
     {
       "name": "FakeDimondArrmorChest",
       "type": "recipe",
-      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_dimond_arrmor_chest",
@@ -1085,7 +1035,6 @@
     {
       "name": "FakeDimondArrmorHelmretRes",
       "type": "recipe",
-      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_dimond_arrmor_helmret_res",
@@ -1098,7 +1047,6 @@
     {
       "name": "FakeDiamond",
       "type": "item",
-      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_diamond",
@@ -1112,24 +1060,22 @@
     {
       "name": "FakeDiamondArrmor",
       "type": "armor",
-      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_diamond_arrmor",
       "metadata": {
         "files": [
           "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_boots.json",
-          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_leggings.json",
           "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_helmet.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/FakeDiamondArrmorItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_chestplate.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_leggings.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_arrmor_chestplate.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/FakeDiamondArrmorItem.java"
         ]
       }
     },
     {
       "name": "FakeDiamondArrmorLeg",
       "type": "recipe",
-      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_diamond_arrmor_leg",
@@ -1142,7 +1088,6 @@
     {
       "name": "FakeDiamondRes",
       "type": "recipe",
-      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_diamond_res",
@@ -1155,7 +1100,6 @@
     {
       "name": "FakeDamondBootsRes",
       "type": "recipe",
-      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_damond_boots_res",
@@ -1168,21 +1112,19 @@
     {
       "name": "Rickrollingot",
       "type": "item",
-      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rickrollingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/rickrollingot.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/RickrollingotItem.java"
+          "src/main/java/net/mcreator/literalfeverdream/item/RickrollingotItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/rickrollingot.json"
         ]
       }
     },
     {
       "name": "GetRickrollChestplate",
       "type": "recipe",
-      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "get_rickroll_chestplate",
@@ -1195,7 +1137,6 @@
     {
       "name": "GetRickrollLeg",
       "type": "recipe",
-      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "get_rickroll_leg",
@@ -1208,24 +1149,22 @@
     {
       "name": "RickrollArrmor",
       "type": "armor",
-      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rickroll_arrmor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/rickroll_arrmor_chestplate.json",
-          "src/main/resources/assets/literal_fever_dream/models/item/rickroll_arrmor_leggings.json",
           "src/main/resources/assets/literal_fever_dream/models/item/rickroll_arrmor_helmet.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/rickroll_arrmor_boots.json",
           "src/main/java/net/mcreator/literalfeverdream/item/RickrollArrmorItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/rickroll_arrmor_boots.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/rickroll_arrmor_leggings.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/rickroll_arrmor_chestplate.json"
         ]
       }
     },
     {
       "name": "RickrollBoots",
       "type": "recipe",
-      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rickroll_boots",
@@ -1238,7 +1177,6 @@
     {
       "name": "GetRickrollHelmet",
       "type": "recipe",
-      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "get_rickroll_helmet",
@@ -1251,7 +1189,6 @@
     {
       "name": "GetRickrollDisk",
       "type": "recipe",
-      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "get_rickroll_disk",
@@ -1262,53 +1199,24 @@
       }
     },
     {
-      "name": "Rickroll",
-      "type": "musicdisc",
-      "sortid": 74,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rickroll",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/rickroll.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/RickrollItem.java"
-        ]
-      }
-    },
-    {
       "name": "RickrollOre",
       "type": "block",
-      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rickroll_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/block/RickrollOreBlock.java",
+          "src/main/resources/data/literal_fever_dream/loot_tables/blocks/rickroll_ore.json",
+          "src/main/resources/assets/literal_fever_dream/models/block/rickroll_ore.json",
           "src/main/resources/assets/literal_fever_dream/models/item/rickroll_ore.json",
           "src/main/resources/assets/literal_fever_dream/blockstates/rickroll_ore.json",
-          "src/main/resources/assets/literal_fever_dream/models/block/rickroll_ore.json"
-        ]
-      }
-    },
-    {
-      "name": "HahaAsyncGoBRRRRRRRRRRRRRRRRRRRRRRR",
-      "type": "musicdisc",
-      "sortid": 84,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "haha_async_go_brrrrrrrrrrrrrrrrrrrrrrr",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/HahaAsyncGoBRRRRRRRRRRRRRRRRRRRRRRRItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/haha_async_go_brrrrrrrrrrrrrrrrrrrrrrr.json"
+          "src/main/java/net/mcreator/literalfeverdream/block/RickrollOreBlock.java"
         ]
       }
     },
     {
       "name": "AsyncDiscRecipe",
       "type": "recipe",
-      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "async_disc_recipe",
@@ -1321,7 +1229,6 @@
     {
       "name": "Getrickrollingot",
       "type": "recipe",
-      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "getrickrollingot",
@@ -1334,7 +1241,6 @@
     {
       "name": "EggRecipeForEgg",
       "type": "recipe",
-      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "egg_recipe_for_egg",
@@ -1347,7 +1253,6 @@
     {
       "name": "Egg",
       "type": "item",
-      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "egg",
@@ -1361,39 +1266,38 @@
     {
       "name": "RadiationPlant",
       "type": "plant",
-      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "radiation_plant",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/block/RadiationPlantBlock.java",
-          "src/main/resources/data/literal_fever_dream/forge/biome_modifier/radiation_plant_biome_modifier.json",
+          "src/main/resources/data/literal_fever_dream/worldgen/placed_feature/radiation_plant.json",
+          "src/main/resources/data/literal_fever_dream/loot_tables/blocks/radiation_plant.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/radiation_plant.json",
           "src/main/resources/assets/literal_fever_dream/models/block/radiation_plant.json",
+          "src/main/resources/data/literal_fever_dream/worldgen/configured_feature/radiation_plant.json",
           "src/main/resources/assets/literal_fever_dream/blockstates/radiation_plant.json",
-          "src/main/java/net/mcreator/literalfeverdream/world/features/plants/RadiationPlantFeature.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/radiation_plant.json"
+          "src/main/resources/data/literal_fever_dream/forge/biome_modifier/radiation_plant_biome_modifier.json",
+          "src/main/java/net/mcreator/literalfeverdream/block/RadiationPlantBlock.java"
         ]
       }
     },
     {
       "name": "ControlRod",
       "type": "item",
-      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "control_rod",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/control_rod.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/ControlRodItem.java"
+          "src/main/java/net/mcreator/literalfeverdream/item/ControlRodItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/control_rod.json"
         ]
       }
     },
     {
       "name": "RbmkRodRecipe",
       "type": "recipe",
-      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rbmk_rod_recipe",
@@ -1406,7 +1310,6 @@
     {
       "name": "PureSlowness",
       "type": "procedure",
-      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_slowness",
@@ -1425,21 +1328,19 @@
     {
       "name": "ManyRBMKrods",
       "type": "item",
-      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "many_rbm_krods",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/ManyRBMKrodsItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/many_rbm_krods.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/many_rbm_krods.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/ManyRBMKrodsItem.java"
         ]
       }
     },
     {
       "name": "AlotOfRbmkRecipe",
       "type": "recipe",
-      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alot_of_rbmk_recipe",
@@ -1452,21 +1353,19 @@
     {
       "name": "RBMK",
       "type": "tool",
-      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rbmk",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/rbmk.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/RBMKItem.java"
+          "src/main/java/net/mcreator/literalfeverdream/item/RBMKItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/rbmk.json"
         ]
       }
     },
     {
       "name": "RbmkProcedure",
       "type": "procedure",
-      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rbmk_procedure",
@@ -1485,7 +1384,6 @@
     {
       "name": "PiRecipe",
       "type": "recipe",
-      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pi_recipe",
@@ -1498,7 +1396,6 @@
     {
       "name": "Pi",
       "type": "tool",
-      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pi",
@@ -1512,7 +1409,6 @@
     {
       "name": "MakeFakeDiamondAxe",
       "type": "recipe",
-      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "make_fake_diamond_axe",
@@ -1525,21 +1421,19 @@
     {
       "name": "FakeDiamondPic",
       "type": "tool",
-      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_diamond_pic",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/item/FakeDiamondPicItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_pic.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/fake_diamond_pic.json",
+          "src/main/java/net/mcreator/literalfeverdream/item/FakeDiamondPicItem.java"
         ]
       }
     },
     {
       "name": "MakeFakeDiamondPic",
       "type": "recipe",
-      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "make_fake_diamond_pic",
@@ -1552,14 +1446,14 @@
     {
       "name": "FakeDimondBlock",
       "type": "block",
-      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_dimond_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/block/FakeDimondBlockBlock.java",
+          "src/main/resources/data/literal_fever_dream/loot_tables/blocks/fake_dimond_block.json",
           "src/main/resources/assets/literal_fever_dream/blockstates/fake_dimond_block.json",
+          "src/main/java/net/mcreator/literalfeverdream/block/FakeDimondBlockBlock.java",
           "src/main/resources/assets/literal_fever_dream/models/block/fake_dimond_block.json",
           "src/main/resources/assets/literal_fever_dream/models/item/fake_dimond_block.json"
         ]
@@ -1568,7 +1462,6 @@
     {
       "name": "FakeDiamondAxe",
       "type": "tool",
-      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_diamond_axe",
@@ -1582,7 +1475,6 @@
     {
       "name": "FakeDiamondHoe",
       "type": "tool",
-      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_diamond_hoe",
@@ -1596,7 +1488,6 @@
     {
       "name": "FakeDiamondHoeMake",
       "type": "recipe",
-      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_diamond_hoe_make",
@@ -1609,7 +1500,6 @@
     {
       "name": "FakeDiamondSh",
       "type": "tool",
-      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_diamond_sh",
@@ -1623,7 +1513,6 @@
     {
       "name": "MakeFakeDiamondSh",
       "type": "recipe",
-      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "make_fake_diamond_sh",
@@ -1636,7 +1525,6 @@
     {
       "name": "MakeFakeDimondBlock",
       "type": "recipe",
-      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "make_fake_dimond_block",
@@ -1649,7 +1537,6 @@
     {
       "name": "RBMKRecipe",
       "type": "recipe",
-      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rbmk_recipe",
@@ -1662,7 +1549,6 @@
     {
       "name": "BrokenRBMKProdecure",
       "type": "procedure",
-      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "broken_rbmk_prodecure",
@@ -1674,6 +1560,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -1681,7 +1571,6 @@
     {
       "name": "DestroyedRBMK",
       "type": "tool",
-      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "destroyed_rbmk",
@@ -1695,7 +1584,6 @@
     {
       "name": "BrokenRBMKRecipe",
       "type": "recipe",
-      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "broken_rbmk_recipe",
@@ -1708,7 +1596,6 @@
     {
       "name": "UraniumOnAStick",
       "type": "tool",
-      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_on_a_stick",
@@ -1722,7 +1609,6 @@
     {
       "name": "UraniumOnAStickLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_on_a_stick_living_entity_is_hit_with_tool",
@@ -1741,7 +1627,6 @@
     {
       "name": "UraniumOnAStickRes",
       "type": "recipe",
-      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_on_a_stick_res",
@@ -1759,37 +1644,37 @@
       "registry_name": "thefogiscoming",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/literalfeverdream/world/biome/THEFOGISCOMINGBiome.java"
+          "src/main/resources/data/literal_fever_dream/worldgen/placed_feature/thefogiscoming_tree.json",
+          "src/main/resources/data/literal_fever_dream/worldgen/configured_feature/thefogiscoming_tree.json",
+          "src/main/resources/data/literal_fever_dream/worldgen/biome/thefogiscoming.json"
         ]
       }
     },
     {
       "name": "Test",
       "type": "dimension",
-      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test",
       "metadata": {
         "files": [
-          "src/main/resources/data/literal_fever_dream/dimension/test.json",
-          "src/main/java/net/mcreator/literalfeverdream/world/dimension/TestDimension.java",
-          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/TestPortalShape.java",
-          "src/main/resources/data/literal_fever_dream/dimension_type/test.json",
-          "src/main/resources/assets/literal_fever_dream/models/block/test_portal_ns.json",
           "src/main/java/net/mcreator/literalfeverdream/item/TestItem.java",
-          "src/main/java/net/mcreator/literalfeverdream/block/TestPortalBlock.java",
+          "src/main/resources/data/literal_fever_dream/dimension_type/test.json",
           "src/main/resources/assets/literal_fever_dream/blockstates/test_portal.json",
+          "src/main/resources/assets/literal_fever_dream/models/block/test_portal_ns.json",
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/TestTeleporter.java",
+          "src/main/java/net/mcreator/literalfeverdream/block/TestPortalBlock.java",
+          "src/main/resources/data/literal_fever_dream/dimension/test.json",
           "src/main/resources/assets/literal_fever_dream/models/block/test_portal_ew.json",
+          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/TestPortalShape.java",
           "src/main/resources/assets/literal_fever_dream/models/item/test.json",
-          "src/main/java/net/mcreator/literalfeverdream/world/teleporter/TestTeleporter.java"
+          "src/main/java/net/mcreator/literalfeverdream/world/dimension/TestDimension.java"
         ]
       }
     },
     {
       "name": "AirRemoverRecipe",
       "type": "recipe",
-      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "air_remover_recipe",
@@ -1802,19 +1687,18 @@
     {
       "name": "WeirdRadioactiveLiquid",
       "type": "fluid",
-      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weird_radioactive_liquid",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/blockstates/weird_radioactive_liquid.json",
-          "src/main/java/net/mcreator/literalfeverdream/fluid/WeirdRadioactiveLiquidFluid.java",
           "src/main/java/net/mcreator/literalfeverdream/block/WeirdRadioactiveLiquidBlock.java",
           "src/main/java/net/mcreator/literalfeverdream/fluid/types/WeirdRadioactiveLiquidFluidType.java",
-          "src/main/resources/assets/literal_fever_dream/models/block/weird_radioactive_liquid.json",
+          "src/main/resources/assets/literal_fever_dream/blockstates/weird_radioactive_liquid.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/weird_radioactive_liquid_bucket.json",
           "src/main/java/net/mcreator/literalfeverdream/item/WeirdRadioactiveLiquidItem.java",
-          "src/main/resources/assets/literal_fever_dream/models/item/weird_radioactive_liquid_bucket.json"
+          "src/main/java/net/mcreator/literalfeverdream/fluid/WeirdRadioactiveLiquidFluid.java",
+          "src/main/resources/assets/literal_fever_dream/models/block/weird_radioactive_liquid.json"
         ]
       }
     },
@@ -1835,7 +1719,6 @@
     {
       "name": "BackroomsIgniterRecipe",
       "type": "recipe",
-      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "backrooms_igniter_recipe",
@@ -1848,59 +1731,83 @@
     {
       "name": "WeirdRug",
       "type": "block",
-      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weird_rug",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/weird_rug.json",
           "src/main/java/net/mcreator/literalfeverdream/block/WeirdRugBlock.java",
-          "src/main/resources/assets/literal_fever_dream/blockstates/weird_rug.json",
-          "src/main/resources/assets/literal_fever_dream/models/block/weird_rug.json"
+          "src/main/resources/assets/literal_fever_dream/models/block/weird_rug.json",
+          "src/main/resources/data/literal_fever_dream/loot_tables/blocks/weird_rug.json",
+          "src/main/resources/assets/literal_fever_dream/models/item/weird_rug.json",
+          "src/main/resources/assets/literal_fever_dream/blockstates/weird_rug.json"
         ]
       }
     },
     {
       "name": "AirRemover",
       "type": "tool",
-      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "air_remover",
       "metadata": {
         "files": [
-          "src/main/resources/assets/literal_fever_dream/models/item/air_remover.json",
-          "src/main/java/net/mcreator/literalfeverdream/item/AirRemoverItem.java"
+          "src/main/java/net/mcreator/literalfeverdream/item/AirRemoverItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/air_remover.json"
         ]
       }
     },
     {
       "name": "Walls",
       "type": "block",
-      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "walls",
       "metadata": {
         "files": [
+          "src/main/resources/data/literal_fever_dream/loot_tables/blocks/walls.json",
           "src/main/resources/assets/literal_fever_dream/models/block/walls.json",
           "src/main/java/net/mcreator/literalfeverdream/block/WallsBlock.java",
-          "src/main/resources/assets/literal_fever_dream/blockstates/walls.json",
-          "src/main/resources/assets/literal_fever_dream/models/item/walls.json"
+          "src/main/resources/assets/literal_fever_dream/models/item/walls.json",
+          "src/main/resources/assets/literal_fever_dream/blockstates/walls.json"
         ]
       }
     },
     {
       "name": "RainbowcoreRecipe",
       "type": "recipe",
-      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rainbowcore_recipe",
       "metadata": {
         "files": [
           "src/main/resources/data/literal_fever_dream/recipes/rainbowcore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rickroll",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rickroll",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/item/RickrollItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/rickroll.json"
+        ]
+      }
+    },
+    {
+      "name": "HahaAsyncGoBRRRRRRRRRRRRRRRRRRRRRRR",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haha_async_go_brrrrrrrrrrrrrrrrrrrrrrr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/literalfeverdream/item/HahaAsyncGoBRRRRRRRRRRRRRRRRRRRRRRRItem.java",
+          "src/main/resources/assets/literal_fever_dream/models/item/haha_async_go_brrrrrrrrrrrrrrrrrrrrrrr.json"
         ]
       }
     }
@@ -1940,98 +1847,183 @@
       "subtitle": ""
     }
   ],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/ocean_ruin_warm": [
+      "~CUSTOM:THEFOGISCOMING"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Furrytrain"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:WeirdRadioactiveLiquid"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Walls"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:FakeDiamondSh",
+      "~CUSTOM:FakeDiamondPic",
+      "~CUSTOM:NexusPic",
+      "~CUSTOM:Curseddiamondpickaxe"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:THEFOGISCOMING"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:FakeDiamondHoe",
+      "~CUSTOM:NexusHoetool"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:WeirdRug",
+      "~CUSTOM:Walls",
+      "~CUSTOM:FusionBlock",
+      "~CUSTOM:NexusBlock",
+      "~CUSTOM:Nice",
+      "~CUSTOM:Coneeha1092",
+      "~CUSTOM:TrainBlock"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:HahaAsyncGoBRRRRRRRRRRRRRRRRRRRRRRR",
+      "~CUSTOM:Rickroll"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Walls",
+      "~CUSTOM:FusionBlock",
+      "~CUSTOM:UraniumBlock",
+      "~CUSTOM:Coneeha1092",
+      "~CUSTOM:TrainBlock"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:FusionBlock",
+      "~CUSTOM:UraniumBlock",
+      "~CUSTOM:Coneeha1092",
+      "~CUSTOM:TrainBlock"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:FakeDiamondAxe",
+      "~CUSTOM:NexusAxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:AirRemover",
+      "~CUSTOM:UraniumOnAStick",
+      "~CUSTOM:DestroyedRBMK",
+      "~CUSTOM:Pi",
+      "~CUSTOM:RBMK",
+      "~CUSTOM:GraphiteBlock",
+      "~CUSTOM:NexusSword",
+      "~CUSTOM:Knife",
+      "~CUSTOM:Thermonuclearmissile"
+    ]
+  },
+  "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.literal_fever_dream.walls": "Walls",
       "item.literal_fever_dream.uranium_235": "highly enriched Uranium-235",
-      "fluid.literal_fever_dream.weird_radioactive_liquid": "Weird Radioactive Liquid",
-      "item.literal_fever_dream.control_rod": "Control Rod",
+      "item.literal_fever_dream.destroyed_rbmk.description_0": "why is it frozen",
       "item.literal_fever_dream.fake_diamond_arrmor_leggings": "Fake Diamond Arrmor Leggings",
-      "advancements.coneeha_adv.descr": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
-      "entity.literal_fever_dream.bacteria": "Bacteria",
-      "block.literal_fever_dream.coneeha_1092": "Coneeha 1 0 9 2",
       "item.literal_fever_dream.fake_diamond_arrmor_boots": "Fake Diamond Arrmor Boots",
       "block.literal_fever_dream.nexus_block": "Nexus Block",
-      "item.literal_fever_dream.thermonuclearbomb": "Thermonuclearbomb",
-      "block.literal_fever_dream.weird_rug": "Weird Rug",
-      "item.literal_fever_dream.rickroll_ingot": "Rickroll Ingot",
-      "block.literal_fever_dream.fusion_block": "Fusion Block",
       "item.literal_fever_dream.rainbowcore": "Rainbowcore",
-      "advancements.mmmradiation.title": "Mmm radiation",
-      "block.literal_fever_dream.rickroll_ore": "Rickroll Ore",
+      "block.literal_fever_dream.fusion_block": "Fusion Block",
+      "item.literal_fever_dream.thermonuclearmissile.description_0": "how does one do this",
       "item.literal_fever_dream.pi": "Pi",
-      "block.literal_fever_dream.radiation_plant": "Radiationized Plant",
-      "item.literal_fever_dream.destroyed_rbmk": "Destroyed RBMK",
+      "item.literal_fever_dream.many_rbm_krods.description_0": "thats a lot",
       "item.literal_fever_dream.irradiatedpieceofshit": "Irradiatedpieceofshit",
       "item.literal_fever_dream.rbmk": "RBMK",
       "item.literal_fever_dream.arromer_nexus_boots": "Armorr Nexus Boots",
       "item.literal_fever_dream.air_remover": "Air Remover",
       "item.literal_fever_dream.rickroll": "Rickroll",
       "item.literal_fever_dream.haha_async_go_brrrrrrrrrrrrrrrrrrrrrrr.desc": "who knows who made this",
+      "painting.literal_fever_dream.weirdguyandskeleton.title": "Painting the Dead",
       "item.literal_fever_dream.googleblock": "google",
       "item.literal_fever_dream.rickroll_arrmor_chestplate": "Rickroll Arrmor Chestplate",
       "item.literal_fever_dream.fake_diamond_pic": "Fake Diamond Pic",
-      "item.literal_fever_dream.rickroll_arrmor_helmet": "Rickroll Arrmor Helmet",
+      "item_group.literal_fever_dream.literalfeverdream": "Literalfeverdream",
       "subtitles.backrooms": "",
       "item.literal_fever_dream.rickrollingot": "Rickrollingot",
       "item.literal_fever_dream.test": "Backrooms Portal Igniter?",
       "advancements.mmmradiation.descr": "you might not want to hold that you\u0027re going to fucking die",
-      "block.literal_fever_dream.weird_radioactive_liquid": "Weird Radioactive Liquid",
-      "item.literal_fever_dream.graphite_block": "Graphite Block",
       "item.literal_fever_dream.rickroll_arrmor_boots": "Rickroll Arrmor Boots",
       "item.literal_fever_dream.fake_diamond_arrmor_helmet": "Fake Diamond Arrmor Helmet",
-      "item.literal_fever_dream.fake_diamond_axe": "Fake Diamond Axe",
-      "item.literal_fever_dream.arromer_nexus_chestplate": "Armor Nexus Chestplate",
       "item.literal_fever_dream.cosmo_armmor_boots": "Cosmo Armmor Boots",
-      "advancements.youfoundthefuckingfeverdream.title": "Youfoundthefuckingfeverdream",
       "item.literal_fever_dream.nexus_axe": "Nexus Axe",
       "item.literal_fever_dream.cosmo_armmor_leggings": "Cosmo Armmor Leggings",
       "item.literal_fever_dream.curseddiamondpickaxe": "Curseddiamondpickaxe",
+      "item.literal_fever_dream.rainbowcore.description_0": "dont eat this. (takes a long time to eat)",
+      "death.attack.DMU": "%s ",
+      "advancements.coneeha_adv.title": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
+      "item.literal_fever_dream.nice_diens": "Nice Diens Portal Igniter",
+      "subtitles.test": "",
+      "item.literal_fever_dream.nexusingot": "Nexusingot",
+      "item.literal_fever_dream.fusion_dimension": "Fusion from Core Inc.",
+      "item.literal_fever_dream.fake_diamond_hoe": "Fake Diamond Hoe",
+      "item.literal_fever_dream.rbmk.description_0": "HOW AND WHY???",
+      "item.literal_fever_dream.arromer_nexus_leggings": "Armor Nexus Leggings",
+      "item.literal_fever_dream.pi.description_0": "pi",
+      "item.literal_fever_dream.arromer_nexus_helmet": "Armor Nexus Helmet",
+      "item.literal_fever_dream.air_remover.description_0": "remove someones privileges of breathing",
+      "item.literal_fever_dream.rickroll_arrmor_leggings": "Rickroll Arrmor Leggings",
+      "item.literal_fever_dream.uranium_on_a_stick": "Uranium On A Stick",
+      "block.literal_fever_dream.fake_dimond_block": "Fake Dimond Block",
+      "item.literal_fever_dream.thermonuclearmissile": "uranium knife",
+      "painting.literal_fever_dream.weirdguyandskeleton.author": "Mysterious Painter",
+      "item.literal_fever_dream.cosmo_armmor_helmet": "Cosmo Armmor Helmet",
+      "item.literal_fever_dream.fake_diamond": "Fake Diamond",
+      "block.literal_fever_dream.walls": "Walls",
+      "fluid.literal_fever_dream.weird_radioactive_liquid": "Weird Radioactive Liquid",
+      "item.literal_fever_dream.control_rod": "Control Rod",
+      "item.literal_fever_dream.rickrollingot.description_0": "rick",
+      "painting.literal_fever_dream.trainandayden.author": "zv800",
+      "advancements.coneeha_adv.descr": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
+      "entity.literal_fever_dream.bacteria": "Bacteria",
+      "block.literal_fever_dream.coneeha_1092": "Coneeha 1 0 9 2",
+      "item.literal_fever_dream.thermonuclearbomb": "Thermonuclearbomb",
+      "block.literal_fever_dream.weird_rug": "Weird Rug",
+      "item.literal_fever_dream.rickroll_ingot": "Rickroll Ingot",
+      "advancements.mmmradiation.title": "Mmm radiation",
+      "block.literal_fever_dream.rickroll_ore": "Rickroll Ore",
+      "block.literal_fever_dream.radiation_plant": "Radiationized Plant",
+      "item.literal_fever_dream.destroyed_rbmk": "Destroyed RBMK",
+      "item.literal_fever_dream.rickroll_arrmor_helmet": "Rickroll Arrmor Helmet",
+      "block.literal_fever_dream.weird_radioactive_liquid": "Weird Radioactive Liquid",
+      "item.literal_fever_dream.graphite_block.description_0": "you\u0027re just dead. WHY DO YOU HAVE THIS",
+      "item.literal_fever_dream.graphite_block": "Graphite Block",
+      "item.literal_fever_dream.egg.description_0": "egg",
+      "item.literal_fever_dream.fake_diamond_axe": "Fake Diamond Axe",
+      "item.literal_fever_dream.arromer_nexus_chestplate": "Armor Nexus Chestplate",
+      "advancements.youfoundthefuckingfeverdream.title": "Youfoundthefuckingfeverdream",
       "item.literal_fever_dream.nexus_pic": "Nexus Pic",
       "item.literal_fever_dream.cosmo": "train01256\u0027s weapon of mass destruction.",
       "item.literal_fever_dream.nexusshellhole": "Nexusshellhole Portal Igniter",
       "item.literal_fever_dream.coneeha_arrmor_chestplate": "Coneeha Armor Chestplate",
-      "death.attack.DMU": "%s ",
-      "advancements.coneeha_adv.title": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
       "block.literal_fever_dream.uranium_block": "Uranium Block",
       "item.literal_fever_dream.weird_radioactive_liquid_bucket": "Weird Radioactive Liquid Bucket",
       "subtitles.footstepsdges": "",
       "item.literal_fever_dream.nexus_hoetool": "Nexus Hoetool",
       "item.literal_fever_dream.nexus_sword": "Nexus Sword",
-      "item.literal_fever_dream.nice_diens": "Nice Diens Portal Igniter",
       "block.literal_fever_dream.furrytrain": "ERROR",
       "item.literal_fever_dream.cosmo_armmor_chestplate": "Cosmo Armmor Chestplate",
-      "subtitles.test": "",
       "item.literal_fever_dream.fake_diamond_sh": "Fake Diamond Sh",
-      "item.literal_fever_dream.nexusingot": "Nexusingot",
       "item.literal_fever_dream.coneeha_arrmor_leggings": "Coneeha Armor Leggings",
       "block.literal_fever_dream.nice": "Nice",
       "item.literal_fever_dream.egg": "Egg",
-      "item.literal_fever_dream.fusion_dimension": "Fusion from Core Inc.",
-      "item.literal_fever_dream.fake_diamond_hoe": "Fake Diamond Hoe",
       "block.literal_fever_dream.train_block": "Train Block",
-      "item.literal_fever_dream.arromer_nexus_leggings": "Armor Nexus Leggings",
       "item.literal_fever_dream.fake_diamond_arrmor_chestplate": "Fake Diamond Arrmor Chestplate",
-      "item.literal_fever_dream.arromer_nexus_helmet": "Armor Nexus Helmet",
       "item.literal_fever_dream.coneehashellplace": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
+      "item.literal_fever_dream.control_rod.description_0": "why again?",
       "item.literal_fever_dream.many_rbm_krods": "Many RBMK rods",
       "item.literal_fever_dream.rickroll.desc": "just a rickroll",
       "subtitles.async-third_test": "asynccfdgh",
-      "item.literal_fever_dream.rickroll_arrmor_leggings": "Rickroll Arrmor Leggings",
       "biome.literal_fever_dream.thefogiscoming": "THEFOGISCOMING",
       "item.literal_fever_dream.haha_async_go_brrrrrrrrrrrrrrrrrrrrrrr": "Unknown Disc 1",
       "item.literal_fever_dream.knife": "Knife",
-      "item.literal_fever_dream.uranium_on_a_stick": "Uranium On A Stick",
-      "block.literal_fever_dream.fake_dimond_block": "Fake Dimond Block",
       "itemGroup.tabliteralfeverdream": "Literalfeverdream",
-      "item.literal_fever_dream.thermonuclearmissile": "uranium knife",
       "subtitles.rickroll": "rickroll",
       "advancements.youfoundthefuckingfeverdream.descr": "congratulations you found the complete disaster I made at 12:00 in the fucking morning I need to go sleep someone sent help",
       "item.literal_fever_dream.coneeha_arrmor_boots": "Coneeha Armor Boots",
       "item.literal_fever_dream.coneeha_arrmor_helmet": "Coneeha Armor Helmet",
       "subtitles.async": "test",
-      "item.literal_fever_dream.cosmo_armmor_helmet": "Cosmo Armmor Helmet",
-      "item.literal_fever_dream.fake_diamond": "Fake Diamond"
+      "painting.literal_fever_dream.trainandayden.title": "Trainandayden"
     }
   },
   "foldersRoot": {
@@ -2045,16 +2037,14 @@
     "author": "denve, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
-    "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.19.2",
+    "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.literalfeverdream",
-    "lockBaseModFiles": false
+    "modElementsPackage": "net.mcreator.literalfeverdream"
   },
-  "mcreatorVersion": 202300224119
+  "mcreatorVersion": 202400452410
 }

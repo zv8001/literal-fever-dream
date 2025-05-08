@@ -1,25 +1,26 @@
 {
-  "group": "stupid_furry",
   "type": "minecraft:crafting_shaped",
+  "group": "stupid_furry",
+  "category": "misc",
   "pattern": [
-    " 1 ",
-    "345",
-    " 7 "
+    " a ",
+    "bcd",
+    " e "
   ],
   "key": {
-    "1": {
+    "a": {
       "item": "minecraft:rabbit_hide"
     },
-    "3": {
+    "b": {
       "item": "literal_fever_dream:cosmo"
     },
-    "4": {
+    "c": {
       "item": "literal_fever_dream:train_block"
     },
-    "5": {
+    "d": {
       "item": "minecraft:feather"
     },
-    "7": {
+    "e": {
       "item": "minecraft:rabbit_foot"
     }
   },

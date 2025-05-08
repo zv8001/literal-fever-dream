@@ -1,20 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
-    "0 2",
-    "3 5"
+    "a a",
+    "a a"
   ],
   "key": {
-    "0": {
-      "item": "literal_fever_dream:nexusingot"
-    },
-    "2": {
-      "item": "literal_fever_dream:nexusingot"
-    },
-    "3": {
-      "item": "literal_fever_dream:nexusingot"
-    },
-    "5": {
+    "a": {
       "item": "literal_fever_dream:nexusingot"
     }
   },

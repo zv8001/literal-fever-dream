@@ -1,19 +1,20 @@
 {
-  "group": "dimensions",
   "type": "minecraft:crafting_shaped",
+  "group": "dimensions",
+  "category": "misc",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    "a",
+    "b",
+    "c"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:large_amethyst_bud"
     },
-    "1": {
+    "b": {
       "tag": "minecraft:planks"
     },
-    "2": {
+    "c": {
       "item": "minecraft:flint_and_steel"
     }
   },

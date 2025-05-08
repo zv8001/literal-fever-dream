@@ -13,7 +13,6 @@ import net.minecraft.network.chat.Component;
 
 import net.mcreator.literalfeverdream.procedures.RbmkProcedureProcedure;
 import net.mcreator.literalfeverdream.procedures.BrokenRBMKProdecureProcedure;
-import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
 
 import java.util.List;
 
@@ -29,7 +28,7 @@ public class DestroyedRBMKItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 14998f;
+				return 14996f;
 			}
 
 			public int getLevel() {
@@ -43,20 +42,20 @@ public class DestroyedRBMKItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3.64f, new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM));
+		}, 3, -3.64f, new Item.Properties());
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("why is it frozen"));
+	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
+		list.add(Component.translatable("item.literal_fever_dream.destroyed_rbmk.description_0"));
 	}
 
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
-			BrokenRBMKProdecureProcedure.execute(entity);
+			BrokenRBMKProdecureProcedure.execute(world, entity);
 		RbmkProcedureProcedure.execute(entity);
 	}
 }

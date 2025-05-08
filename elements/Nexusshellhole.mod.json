@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 73,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
@@ -278,17 +278,37 @@
     "fluidBlock": {
       "value": "Blocks.WATER"
     },
+    "seaLevel": 63,
+    "generateOreVeins": true,
+    "generateAquifers": true,
+    "horizontalNoiseSize": 1,
+    "verticalNoiseSize": 2,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": false,
+    "cloudHeight": 192.0,
+    "skyType": "NONE",
     "airColor": {
       "value": -10092442,
       "falpha": 0.0
     },
+    "sunHeightAffectsFog": false,
     "canRespawnHere": false,
     "hasFog": true,
-    "isDark": false,
+    "ambientLight": 0.5,
     "doesWaterVaporize": false,
-    "sleepResult": "ALLOW",
+    "hasFixedTime": false,
+    "fixedTimeValue": 0,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "bedWorks": true,
     "hasSkyLight": true,
     "imitateOverworldBehaviour": false,
+    "piglinSafe": true,
+    "hasRaids": false,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 7,
+    "monsterSpawnBlockLightLimit": 0,
     "portalFrame": {
       "value": "Blocks.OBSIDIAN"
     },
@@ -301,9 +321,15 @@
     },
     "enableIgniter": true,
     "igniterName": "Nexusshellhole Portal Igniter",
-    "igniterTab": {
-      "value": "CUSTOM:Literalfeverdream"
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
     },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Literalfeverdream"
+      }
+    ],
     "texture": "8bakek4x34kcuaaaaasuvork5cyii",
     "portalTexture": "9k",
     "enablePortal": true

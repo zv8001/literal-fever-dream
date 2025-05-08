@@ -11,8 +11,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
-
 import java.util.List;
 
 public class PiItem extends SwordItem {
@@ -27,7 +25,7 @@ public class PiItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 29.419f;
+				return 27.419f;
 			}
 
 			public int getLevel() {
@@ -41,12 +39,12 @@ public class PiItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.PUMPKIN_PIE));
 			}
-		}, 3, -0.86f, new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM).fireResistant());
+		}, 3, -0.86f, new Item.Properties().fireResistant());
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("pi"));
+	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
+		list.add(Component.translatable("item.literal_fever_dream.pi.description_0"));
 	}
 }

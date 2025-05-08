@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 73,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
@@ -65,17 +65,37 @@
     "fluidBlock": {
       "value": "Blocks.FLOWING_WATER"
     },
+    "seaLevel": 63,
+    "generateOreVeins": true,
+    "generateAquifers": true,
+    "horizontalNoiseSize": 1,
+    "verticalNoiseSize": 2,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": false,
+    "cloudHeight": 192.0,
+    "skyType": "NONE",
     "airColor": {
       "value": -16751002,
       "falpha": 0.0
     },
+    "sunHeightAffectsFog": false,
     "canRespawnHere": false,
     "hasFog": false,
-    "isDark": false,
+    "ambientLight": 0.5,
     "doesWaterVaporize": false,
-    "sleepResult": "ALLOW",
+    "hasFixedTime": false,
+    "fixedTimeValue": 0,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "bedWorks": true,
     "hasSkyLight": true,
     "imitateOverworldBehaviour": false,
+    "piglinSafe": true,
+    "hasRaids": false,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 7,
+    "monsterSpawnBlockLightLimit": 0,
     "portalFrame": {
       "value": "Blocks.GLASS"
     },
@@ -88,9 +108,15 @@
     },
     "enableIgniter": true,
     "igniterName": "ON JULY 2ND, 1988 THE ASYNC RESEARCH FACILITY TESTED ITS LOW PROXIMITY MAGNETIC DISTORTION SYSTEM FOR THE THIRD TIME. DETAILS REGARDING THE RESULTS OF THE EXPERIMENTATION HAVE NOT YET BEEN RELEASED. DURING A PRESS CONFERENCE HELD IN APRIL OF 1988, [REDACTED], VICE DIRECTOR OF THE ASYNC FOUNDATION, DESCRIBED THE INTENTON OF THESE TEST, STATING THAT THE PROGRAM, IF GRANTED SUFFICIENT BACKING FROM THE UNITED STATES GOVERNMENT, WILL OFFER A SOLUTION TO ALL CURRENT AND FUTURE STORAGE AND RESIDENTIAL NEEDS, AND SAVE BILLIONS OF DOLLARS ON PROPERTY CONSTRUCTION AND MANAGEMENT.",
-    "igniterTab": {
-      "value": "CUSTOM:Literalfeverdream"
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
     },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Literalfeverdream"
+      }
+    ],
     "texture": "latest_1",
     "portalTexture": "nofilter",
     "enablePortal": true

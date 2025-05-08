@@ -1,26 +1,31 @@
 {
-  "_fv": 43,
+  "_fv": 73,
   "_type": "tool",
   "definition": {
+    "toolType": "Sword",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "knife-png-238",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Knife",
-    "specialInfo": [],
-    "creativeTab": {
-      "value": "CUSTOM:Literalfeverdream"
+    "specialInformation": {
+      "fixedValue": []
     },
-    "toolType": "Sword",
-    "harvestLevel": 1,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Literalfeverdream"
+      }
+    ],
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
     "damageVsEntity": 4.0,
     "usageCount": 100,
-    "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [],
     "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

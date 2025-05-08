@@ -1,15 +1,19 @@
 {
-  "_fv": 43,
+  "_fv": 73,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "egg",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Egg",
     "rarity": "COMMON",
-    "creativeTab": {
-      "value": "CUSTOM:Literalfeverdream"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Literalfeverdream"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 32,
@@ -24,13 +28,17 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "egg"
-    ],
-    "hasGlow": false,
-    "guiBoundTo": "<NONE>",
+    "specialInformation": {
+      "fixedValue": [
+        "egg"
+      ]
+    },
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectileDisableAmmoCheck": false,
     "isFood": true,
     "nutritionalValue": 12,
     "saturation": 0.0,
@@ -39,6 +47,9 @@
     },
     "isMeat": false,
     "isAlwaysEdible": true,
-    "animation": "eat"
+    "animation": "eat",
+    "isMusicDisc": false,
+    "musicDiscLengthInTicks": 0,
+    "musicDiscAnalogOutput": 0
   }
 }

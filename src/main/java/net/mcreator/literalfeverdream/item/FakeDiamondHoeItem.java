@@ -6,8 +6,6 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
 
-import net.mcreator.literalfeverdream.init.LiteralFeverDreamModTabs;
-
 public class FakeDiamondHoeItem extends HoeItem {
 	public FakeDiamondHoeItem() {
 		super(new Tier() {
@@ -20,7 +18,7 @@ public class FakeDiamondHoeItem extends HoeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 3f;
 			}
 
 			public int getLevel() {
@@ -34,6 +32,6 @@ public class FakeDiamondHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 0, -3f, new Item.Properties().tab(LiteralFeverDreamModTabs.TAB_LITERALFEVERDREAM));
+		}, 0, -3f, new Item.Properties());
 	}
 }

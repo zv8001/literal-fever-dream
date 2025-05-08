@@ -1,37 +1,20 @@
 {
-  "group": "radioactive",
   "type": "minecraft:crafting_shaped",
+  "group": "radioactive",
+  "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "abc",
+    "ccc"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:gravel"
     },
-    "1": {
-      "item": "minecraft:gravel"
-    },
-    "2": {
-      "item": "minecraft:gravel"
-    },
-    "3": {
-      "item": "minecraft:gravel"
-    },
-    "4": {
+    "b": {
       "item": "literal_fever_dream:thermonuclearbomb"
     },
-    "5": {
-      "item": "literal_fever_dream:uranium_235"
-    },
-    "6": {
-      "item": "literal_fever_dream:uranium_235"
-    },
-    "7": {
-      "item": "literal_fever_dream:uranium_235"
-    },
-    "8": {
+    "c": {
       "item": "literal_fever_dream:uranium_235"
     }
   },

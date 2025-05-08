@@ -1,24 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
-    "01",
-    "23",
-    "4 "
+    "aa",
+    "ba",
+    "b "
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "literal_fever_dream:fake_diamond"
     },
-    "1": {
-      "item": "literal_fever_dream:fake_diamond"
-    },
-    "2": {
-      "item": "minecraft:stick"
-    },
-    "3": {
-      "item": "literal_fever_dream:fake_diamond"
-    },
-    "4": {
+    "b": {
       "item": "minecraft:stick"
     }
   },

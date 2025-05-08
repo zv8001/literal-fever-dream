@@ -1,36 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "bcb",
+    "ddd"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "literal_fever_dream:graphite_block"
     },
-    "1": {
-      "item": "literal_fever_dream:graphite_block"
-    },
-    "2": {
-      "item": "literal_fever_dream:graphite_block"
-    },
-    "3": {
+    "b": {
       "item": "literal_fever_dream:uranium_block"
     },
-    "4": {
+    "c": {
       "item": "literal_fever_dream:rbmk"
     },
-    "5": {
-      "item": "literal_fever_dream:uranium_block"
-    },
-    "6": {
-      "item": "literal_fever_dream:thermonuclearbomb"
-    },
-    "7": {
-      "item": "literal_fever_dream:thermonuclearbomb"
-    },
-    "8": {
+    "d": {
       "item": "literal_fever_dream:thermonuclearbomb"
     }
   },

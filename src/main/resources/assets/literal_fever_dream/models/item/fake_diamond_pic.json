@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "literal_fever_dream:items/diamond_pickaxe_je3_be3"
+    "layer0": "literal_fever_dream:item/diamond_pickaxe_je3_be3"
   }
 }

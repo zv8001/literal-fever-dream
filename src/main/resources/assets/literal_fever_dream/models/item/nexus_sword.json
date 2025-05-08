@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "literal_fever_dream:items/swordtxt"
+    "layer0": "literal_fever_dream:item/swordtxt"
   }
 }

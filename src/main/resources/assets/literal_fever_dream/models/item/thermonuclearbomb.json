@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "literal_fever_dream:items/pngimg.com_-_nuclear_bomb_png18"
+    "layer0": "literal_fever_dream:item/pngimg.com_-_nuclear_bomb_png18"
   }
 }
