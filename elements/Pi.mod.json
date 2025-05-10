@@ -24,6 +24,9 @@
     "enchantability": 2,
     "damageVsEntity": 31.419,
     "usageCount": 100,
+    "glowCondition": {
+      "fixedValue": false
+    },
     "repairItems": [
       {
         "value": "Items.PUMPKIN_PIE"
