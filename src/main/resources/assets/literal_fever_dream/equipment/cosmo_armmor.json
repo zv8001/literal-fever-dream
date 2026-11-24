@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "literal_fever_dream:cosmo_armmor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "literal_fever_dream:cosmo_armmor"
+      }
+    ]
+  }
+}

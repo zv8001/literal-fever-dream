@@ -1,47 +1,28 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "dimensions",
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.LARGE_AMETHYST_BUD"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.PLANKS"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.FLINT_AND_STEEL"
-      },
-      {
-        "value": ""
-      }
+      "",
+      "Blocks.LARGE_AMETHYST_BUD",
+      "",
+      "",
+      "Blocks.PLANKS",
+      "",
+      "",
+      "Items.FLINT_AND_STEEL",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:FusionDimension"
-    },
+    "recipeReturnStack": "CUSTOM:FusionDimension",
     "name": "fusion_portal_ignitor",
     "namespace": "mod"
   }

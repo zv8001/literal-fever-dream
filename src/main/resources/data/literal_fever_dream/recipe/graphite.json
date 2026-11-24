@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "radioactive",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "abc",
+    "ccc"
+  ],
+  "key": {
+    "a": "minecraft:gravel",
+    "b": "literal_fever_dream:thermonuclearbomb",
+    "c": "literal_fever_dream:uranium_235"
+  },
+  "result": {
+    "id": "literal_fever_dream:graphite_block",
+    "count": 1
+  }
+}

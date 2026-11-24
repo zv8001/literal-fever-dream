@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "minecraft:redstone",
+    "b": "minecraft:stone_button"
+  },
+  "result": {
+    "id": "literal_fever_dream:cosmo",
+    "count": 1
+  }
+}

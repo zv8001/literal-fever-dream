@@ -1,47 +1,28 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 2,
     "group": "rbmk",
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.IRON_BLOCK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:GraphiteBlock"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:GraphiteBlock"
-      },
-      {
-        "value": ""
-      }
+      "",
+      "Blocks.IRON_BLOCK",
+      "",
+      "",
+      "CUSTOM:GraphiteBlock",
+      "",
+      "",
+      "CUSTOM:GraphiteBlock",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:ControlRod"
-    },
+    "recipeReturnStack": "CUSTOM:ControlRod",
     "name": "rbmk_rod_recipe",
     "namespace": "mod"
   }

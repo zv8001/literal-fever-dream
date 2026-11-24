@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    "efe"
+  ],
+  "key": {
+    "a": "minecraft:quartz",
+    "b": "minecraft:lapis_lazuli",
+    "c": "minecraft:flint",
+    "d": "minecraft:copper_ingot",
+    "e": "minecraft:salmon",
+    "f": "minecraft:magma_cream"
+  },
+  "result": {
+    "id": "literal_fever_dream:nexusshellhole",
+    "count": 1
+  }
+}

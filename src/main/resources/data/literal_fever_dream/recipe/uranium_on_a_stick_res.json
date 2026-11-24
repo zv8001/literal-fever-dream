@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": "literal_fever_dream:uranium_235",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "literal_fever_dream:uranium_on_a_stick",
+    "count": 1
+  }
+}

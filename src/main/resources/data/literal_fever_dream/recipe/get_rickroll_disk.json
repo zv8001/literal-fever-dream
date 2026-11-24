@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "a a",
+    " a "
+  ],
+  "key": {
+    "a": "literal_fever_dream:rickrollingot"
+  },
+  "result": {
+    "id": "literal_fever_dream:rickroll",
+    "count": 1
+  }
+}

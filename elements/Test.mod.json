@@ -1,19 +1,14 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
-      {
-        "value": "CUSTOM:THEFOGISCOMING"
-      }
+      "CUSTOM:THEFOGISCOMING"
     ],
+    "biomesInDimensionCaves": [],
     "worldGenType": "Normal world gen",
-    "mainFillerBlock": {
-      "value": "CUSTOM:Walls"
-    },
-    "fluidBlock": {
-      "value": "CUSTOM:WeirdRadioactiveLiquid"
-    },
+    "mainFillerBlock": "CUSTOM:Walls",
+    "fluidBlock": "CUSTOM:WeirdRadioactiveLiquid",
     "seaLevel": 63,
     "generateOreVeins": true,
     "generateAquifers": true,
@@ -22,7 +17,7 @@
     "defaultEffects": "overworld",
     "useCustomEffects": true,
     "hasClouds": false,
-    "cloudHeight": 192.0,
+    "cloudHeight": 192,
     "skyType": "NONE",
     "sunHeightAffectsFog": false,
     "canRespawnHere": false,
@@ -33,6 +28,8 @@
     "fixedTimeValue": 0,
     "coordinateScale": 1.0,
     "infiniburnTag": "minecraft:infiniburn_overworld",
+    "enableCustomSkyboxTextures": false,
+    "enableCustomSunMoonTextures": false,
     "bedWorks": false,
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
@@ -41,16 +38,10 @@
     "minMonsterSpawnLightLimit": 0,
     "maxMonsterSpawnLightLimit": 7,
     "monsterSpawnBlockLightLimit": 0,
-    "portalFrame": {
-      "value": "CUSTOM:UraniumBlock"
-    },
-    "portalParticles": {
-      "value": "END_ROD"
-    },
+    "portalFrame": "CUSTOM:UraniumBlock",
+    "portalParticles": "END_ROD",
     "portalLuminance": 8,
-    "portalSound": {
-      "value": "ambient.cave"
-    },
+    "portalSound": "ambient.cave",
     "enableIgniter": true,
     "igniterName": "Backrooms Portal Igniter?",
     "igniterRarity": "COMMON",
@@ -58,9 +49,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Literalfeverdream"
-      }
+      "CUSTOM:Literalfeverdream"
     ],
     "texture": "async_disc",
     "portalTexture": "portaltxture",

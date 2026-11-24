@@ -1,14 +1,11 @@
-
 package net.mcreator.literalfeverdream.fluid.types;
 
-import net.minecraftforge.fluids.FluidType;
-import net.minecraftforge.common.SoundActions;
-import net.minecraftforge.client.extensions.common.IClientFluidTypeExtensions;
+import net.neoforged.neoforge.fluids.FluidType;
+import net.neoforged.neoforge.common.SoundActions;
 
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.resources.ResourceLocation;
-
-import java.util.function.Consumer;
 
 public class WeirdRadioactiveLiquidFluidType extends FluidType {
 	public WeirdRadioactiveLiquidFluidType() {
@@ -17,20 +14,8 @@ public class WeirdRadioactiveLiquidFluidType extends FluidType {
 	}
 
 	@Override
-	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
-		consumer.accept(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("literal_fever_dream:block/stillwater");
-			private static final ResourceLocation FLOWING_TEXTURE = new ResourceLocation("literal_fever_dream:block/stillwater");
-
-			@Override
-			public ResourceLocation getStillTexture() {
-				return STILL_TEXTURE;
-			}
-
-			@Override
-			public ResourceLocation getFlowingTexture() {
-				return FLOWING_TEXTURE;
-			}
-		});
+	public boolean move(LivingEntity entity, Vec3 movementVector, double gravity) {
+		entity.travelInWater(movementVector, gravity, entity.getDeltaMovement().y <= 0, entity.getY());
+		return true;
 	}
 }

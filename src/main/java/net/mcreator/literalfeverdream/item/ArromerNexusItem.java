@@ -1,102 +1,48 @@
-
 package net.mcreator.literalfeverdream.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.equipment.EquipmentAssets;
+import net.minecraft.world.item.equipment.ArmorType;
+import net.minecraft.world.item.equipment.ArmorMaterial;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.entity.Entity;
+import net.minecraft.tags.TagKey;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.sounds.SoundEvent;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.core.registries.BuiltInRegistries;
 
-public abstract class ArromerNexusItem extends ArmorItem {
-	public ArromerNexusItem(ArmorItem.Type type, Item.Properties properties) {
-		super(new ArmorMaterial() {
-			@Override
-			public int getDurabilityForType(ArmorItem.Type type) {
-				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 899;
-			}
+import java.util.Map;
 
-			@Override
-			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{35, 35, 35, 35}[type.getSlot().getIndex()];
-			}
+public abstract class ArromerNexusItem extends Item {
+	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(899, Map.of(ArmorType.BOOTS, 35, ArmorType.LEGGINGS, 35, ArmorType.CHESTPLATE, 35, ArmorType.HELMET, 35, ArmorType.BODY, 35), 100,
+			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 10f, 2f, TagKey.create(Registries.ITEM, Identifier.parse("literal_fever_dream:arromer_nexus_repair_items")),
+			ResourceKey.create(EquipmentAssets.ROOT_ID, Identifier.parse("literal_fever_dream:arromer_nexus")));
 
-			@Override
-			public int getEnchantmentValue() {
-				return 100;
-			}
-
-			@Override
-			public SoundEvent getEquipSound() {
-				return SoundEvents.EMPTY;
-			}
-
-			@Override
-			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
-			}
-
-			@Override
-			public String getName() {
-				return "arromer_nexus";
-			}
-
-			@Override
-			public float getToughness() {
-				return 10f;
-			}
-
-			@Override
-			public float getKnockbackResistance() {
-				return 2f;
-			}
-		}, type, properties);
+	private ArromerNexusItem(Item.Properties properties) {
+		super(properties);
 	}
 
 	public static class Helmet extends ArromerNexusItem {
-		public Helmet() {
-			super(ArmorItem.Type.HELMET, new Item.Properties());
-		}
-
-		@Override
-		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "literal_fever_dream:textures/models/armor/nexusaromr_layer_1.png";
+		public Helmet(Item.Properties properties) {
+			super(properties.humanoidArmor(ARMOR_MATERIAL, ArmorType.HELMET));
 		}
 	}
 
 	public static class Chestplate extends ArromerNexusItem {
-		public Chestplate() {
-			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
-		}
-
-		@Override
-		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "literal_fever_dream:textures/models/armor/nexusaromr_layer_1.png";
+		public Chestplate(Item.Properties properties) {
+			super(properties.humanoidArmor(ARMOR_MATERIAL, ArmorType.CHESTPLATE));
 		}
 	}
 
 	public static class Leggings extends ArromerNexusItem {
-		public Leggings() {
-			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
-		}
-
-		@Override
-		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "literal_fever_dream:textures/models/armor/nexusaromr_layer_2.png";
+		public Leggings(Item.Properties properties) {
+			super(properties.humanoidArmor(ARMOR_MATERIAL, ArmorType.LEGGINGS));
 		}
 	}
 
 	public static class Boots extends ArromerNexusItem {
-		public Boots() {
-			super(ArmorItem.Type.BOOTS, new Item.Properties());
-		}
-
-		@Override
-		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "literal_fever_dream:textures/models/armor/nexusaromr_layer_1.png";
+		public Boots(Item.Properties properties) {
+			super(properties.humanoidArmor(ARMOR_MATERIAL, ArmorType.BOOTS));
 		}
 	}
 }

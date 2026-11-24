@@ -1,21 +1,18 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
     "recipeRetstackSize": 1,
     "group": "",
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 1.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "CUSTOM:Coneeha1092"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:Uranium235"
-    },
+    "smeltingInputStack": "CUSTOM:Coneeha1092",
+    "smeltingReturnStack": "CUSTOM:Uranium235",
     "name": "makeuracon",
     "namespace": "mod"
   }

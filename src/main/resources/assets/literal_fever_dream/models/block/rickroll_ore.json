@@ -8,6 +8,5 @@
     "south": "literal_fever_dream:block/rickroll_4k",
     "west": "literal_fever_dream:block/rickroll_4k",
     "particle": "literal_fever_dream:block/rickroll_4k"
-  },
-  "render_type": "solid"
+  }
 }

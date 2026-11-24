@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "minecraft:pumpkin_pie",
+    "b": "literal_fever_dream:nice"
+  },
+  "result": {
+    "id": "literal_fever_dream:pi",
+    "count": 1
+  }
+}

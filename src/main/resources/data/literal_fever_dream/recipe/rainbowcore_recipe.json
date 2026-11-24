@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "literal_fever_dream:fusion_block",
+    "b": "literal_fever_dream:thermonuclearbomb"
+  },
+  "result": {
+    "id": "literal_fever_dream:rainbowcore",
+    "count": 4
+  }
+}

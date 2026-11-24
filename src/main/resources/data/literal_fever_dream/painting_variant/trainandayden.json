@@ -1,0 +1,13 @@
+{
+  "asset_id": "literal_fever_dream:trainandayden",
+  "height": 2,
+  "width": 2,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.literal_fever_dream.trainandayden.title"
+  },
+  "author": {
+    "color": "gray",
+    "translate": "painting.literal_fever_dream.trainandayden.author"
+  }
+}

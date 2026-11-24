@@ -3,6 +3,5 @@
   "textures": {
     "cross": "literal_fever_dream:block/deadplant",
     "particle": "literal_fever_dream:block/deadplant"
-  },
-  "render_type": "cutout"
+  }
 }

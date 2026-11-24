@@ -1,5 +1,5 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "block",
   "definition": {
     "texture": "uranium_block",
@@ -14,8 +14,12 @@
     "enablePitch": false,
     "emissiveRendering": true,
     "displayFluidOverlay": false,
+    "states": [],
+    "animations": [],
     "itemTexture": "",
     "particleTexture": "",
+    "blockSetType": "OAK",
+    "leavesParticleChance": 0.0,
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -42,25 +46,25 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
+    "hasBlockItem": true,
+    "maxStackSize": 64,
+    "rarity": "COMMON",
+    "immuneToFire": false,
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Literalfeverdream"
-      }
+      "CUSTOM:Literalfeverdream"
     ],
     "destroyTool": "pickaxe",
-    "customDrop": {
-      "value": "CUSTOM:Uranium235"
-    },
+    "customDrop": "CUSTOM:Uranium235",
     "dropAmount": 9,
+    "xpAmountMin": 0,
+    "xpAmountMax": 0,
     "useLootTableForDrops": false,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
+    "hasCustomOpacity": false,
     "lightOpacity": 15,
-    "material": {
-      "value": "IRON"
-    },
     "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
@@ -69,11 +73,11 @@
       "fixedValue": 15.0
     },
     "colorOnMap": "DEFAULT",
-    "creativePickItem": {
-      "value": ""
-    },
+    "noteBlockInstrument": "harp",
+    "creativePickItem": "",
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
@@ -82,29 +86,21 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
+    "soundOnStep": "NETHERITE",
     "isCustomSoundType": false,
-    "soundOnStep": {
-      "value": "NETHERITE"
+    "breakSound": "",
+    "fallSound": "",
+    "hitSound": "",
+    "placeSound": "",
+    "stepSound": "",
+    "luminance": {
+      "fixedValue": 0.0
     },
-    "breakSound": {
-      "value": ""
-    },
-    "fallSound": {
-      "value": ""
-    },
-    "hitSound": {
-      "value": ""
-    },
-    "placeSound": {
-      "value": ""
-    },
-    "stepSound": {
-      "value": ""
-    },
-    "luminance": 0,
     "unbreakable": false,
     "vanillaToolTier": "STONE",
     "isBonemealable": false,
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
     "hasInventory": false,
     "openGUIOnRightClick": false,
     "inventorySize": 9,
@@ -121,21 +117,11 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onDestroyedByPlayer": {
-      "name": "Uraniumized"
-    },
-    "onStartToDestroy": {
-      "name": "Uraniumized"
-    },
-    "onEntityCollides": {
-      "name": "Uraniumized"
-    },
-    "onEntityWalksOn": {
-      "name": "Uraniumized"
-    },
-    "onBlockPlayedBy": {
-      "name": "Uraniumized"
-    },
+    "onDestroyedByPlayer": "Uraniumized",
+    "onStartToDestroy": "Uraniumized",
+    "onEntityCollides": "Uraniumized",
+    "onEntityWalksOn": "Uraniumized",
+    "onBlockPlayedBy": "Uraniumized",
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],

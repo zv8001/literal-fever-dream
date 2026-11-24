@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": "minecraft:lever",
+    "b": "minecraft:redstone",
+    "c": "literal_fever_dream:uranium_235"
+  },
+  "result": {
+    "id": "literal_fever_dream:nice_diens",
+    "count": 1
+  }
+}

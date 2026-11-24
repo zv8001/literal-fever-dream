@@ -1,21 +1,18 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
     "recipeRetstackSize": 1,
     "group": "",
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 1.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "Items.COAL#0"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:FakeDiamond"
-    },
+    "smeltingInputStack": "Items.COAL#0",
+    "smeltingReturnStack": "CUSTOM:FakeDiamond",
     "name": "fake_diamond_res",
     "namespace": "mod"
   }

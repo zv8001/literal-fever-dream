@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#is_overworld",
+  "features": "literal_fever_dream:radiation_plant",
+  "step": "vegetal_decoration"
+}

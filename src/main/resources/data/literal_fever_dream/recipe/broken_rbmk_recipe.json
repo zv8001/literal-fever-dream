@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": "literal_fever_dream:graphite_block",
+    "b": "literal_fever_dream:uranium_block",
+    "c": "literal_fever_dream:rbmk",
+    "d": "literal_fever_dream:thermonuclearbomb"
+  },
+  "result": {
+    "id": "literal_fever_dream:destroyed_rbmk",
+    "count": 1
+  }
+}

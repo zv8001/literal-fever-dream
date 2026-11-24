@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "literal_fever_dream:coneeha_arrmor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "literal_fever_dream:coneeha_arrmor"
+      }
+    ]
+  }
+}

@@ -1,57 +1,65 @@
-
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
 package net.mcreator.literalfeverdream.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredBlock;
 
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.literalfeverdream.block.WeirdRugBlock;
-import net.mcreator.literalfeverdream.block.WeirdRadioactiveLiquidBlock;
-import net.mcreator.literalfeverdream.block.WallsBlock;
-import net.mcreator.literalfeverdream.block.UraniumBlockBlock;
-import net.mcreator.literalfeverdream.block.TrainBlockBlock;
-import net.mcreator.literalfeverdream.block.TestPortalBlock;
-import net.mcreator.literalfeverdream.block.RickrollOreBlock;
-import net.mcreator.literalfeverdream.block.RadiationPlantBlock;
-import net.mcreator.literalfeverdream.block.NiceDiensPortalBlock;
-import net.mcreator.literalfeverdream.block.NiceBlock;
-import net.mcreator.literalfeverdream.block.NexusshellholePortalBlock;
-import net.mcreator.literalfeverdream.block.NexusBlockBlock;
-import net.mcreator.literalfeverdream.block.FusionDimensionPortalBlock;
-import net.mcreator.literalfeverdream.block.FusionBlockBlock;
-import net.mcreator.literalfeverdream.block.FurrytrainBlock;
-import net.mcreator.literalfeverdream.block.FakeDimondBlockBlock;
-import net.mcreator.literalfeverdream.block.CosmoPortalBlock;
-import net.mcreator.literalfeverdream.block.ConeehashellplacePortalBlock;
-import net.mcreator.literalfeverdream.block.Coneeha1092Block;
+import net.mcreator.literalfeverdream.block.*;
 import net.mcreator.literalfeverdream.LiteralFeverDreamMod;
 
+import java.util.function.Function;
+
 public class LiteralFeverDreamModBlocks {
-	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, LiteralFeverDreamMod.MODID);
-	public static final RegistryObject<Block> TRAIN_BLOCK = REGISTRY.register("train_block", () -> new TrainBlockBlock());
-	public static final RegistryObject<Block> COSMO_PORTAL = REGISTRY.register("cosmo_portal", () -> new CosmoPortalBlock());
-	public static final RegistryObject<Block> CONEEHA_1092 = REGISTRY.register("coneeha_1092", () -> new Coneeha1092Block());
-	public static final RegistryObject<Block> CONEEHASHELLPLACE_PORTAL = REGISTRY.register("coneehashellplace_portal", () -> new ConeehashellplacePortalBlock());
-	public static final RegistryObject<Block> NICE = REGISTRY.register("nice", () -> new NiceBlock());
-	public static final RegistryObject<Block> NICE_DIENS_PORTAL = REGISTRY.register("nice_diens_portal", () -> new NiceDiensPortalBlock());
-	public static final RegistryObject<Block> NEXUS_BLOCK = REGISTRY.register("nexus_block", () -> new NexusBlockBlock());
-	public static final RegistryObject<Block> NEXUSSHELLHOLE_PORTAL = REGISTRY.register("nexusshellhole_portal", () -> new NexusshellholePortalBlock());
-	public static final RegistryObject<Block> URANIUM_BLOCK = REGISTRY.register("uranium_block", () -> new UraniumBlockBlock());
-	public static final RegistryObject<Block> FURRYTRAIN = REGISTRY.register("furrytrain", () -> new FurrytrainBlock());
-	public static final RegistryObject<Block> FUSION_DIMENSION_PORTAL = REGISTRY.register("fusion_dimension_portal", () -> new FusionDimensionPortalBlock());
-	public static final RegistryObject<Block> FUSION_BLOCK = REGISTRY.register("fusion_block", () -> new FusionBlockBlock());
-	public static final RegistryObject<Block> RICKROLL_ORE = REGISTRY.register("rickroll_ore", () -> new RickrollOreBlock());
-	public static final RegistryObject<Block> RADIATION_PLANT = REGISTRY.register("radiation_plant", () -> new RadiationPlantBlock());
-	public static final RegistryObject<Block> FAKE_DIMOND_BLOCK = REGISTRY.register("fake_dimond_block", () -> new FakeDimondBlockBlock());
-	public static final RegistryObject<Block> TEST_PORTAL = REGISTRY.register("test_portal", () -> new TestPortalBlock());
-	public static final RegistryObject<Block> WEIRD_RADIOACTIVE_LIQUID = REGISTRY.register("weird_radioactive_liquid", () -> new WeirdRadioactiveLiquidBlock());
-	public static final RegistryObject<Block> WEIRD_RUG = REGISTRY.register("weird_rug", () -> new WeirdRugBlock());
-	public static final RegistryObject<Block> WALLS = REGISTRY.register("walls", () -> new WallsBlock());
+	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(LiteralFeverDreamMod.MODID);
+	public static final DeferredBlock<Block> TRAIN_BLOCK;
+	public static final DeferredBlock<Block> COSMO_PORTAL;
+	public static final DeferredBlock<Block> CONEEHA_1092;
+	public static final DeferredBlock<Block> CONEEHASHELLPLACE_PORTAL;
+	public static final DeferredBlock<Block> NICE;
+	public static final DeferredBlock<Block> NICE_DIENS_PORTAL;
+	public static final DeferredBlock<Block> NEXUS_BLOCK;
+	public static final DeferredBlock<Block> NEXUSSHELLHOLE_PORTAL;
+	public static final DeferredBlock<Block> URANIUM_BLOCK;
+	public static final DeferredBlock<Block> FURRYTRAIN;
+	public static final DeferredBlock<Block> FUSION_DIMENSION_PORTAL;
+	public static final DeferredBlock<Block> FUSION_BLOCK;
+	public static final DeferredBlock<Block> RICKROLL_ORE;
+	public static final DeferredBlock<Block> RADIATION_PLANT;
+	public static final DeferredBlock<Block> FAKE_DIMOND_BLOCK;
+	public static final DeferredBlock<Block> TEST_PORTAL;
+	public static final DeferredBlock<Block> WEIRD_RADIOACTIVE_LIQUID;
+	public static final DeferredBlock<Block> WEIRD_RUG;
+	public static final DeferredBlock<Block> WALLS;
+	static {
+		TRAIN_BLOCK = register("train_block", TrainBlockBlock::new);
+		COSMO_PORTAL = register("cosmo_portal", CosmoPortalBlock::new);
+		CONEEHA_1092 = register("coneeha_1092", Coneeha1092Block::new);
+		CONEEHASHELLPLACE_PORTAL = register("coneehashellplace_portal", ConeehashellplacePortalBlock::new);
+		NICE = register("nice", NiceBlock::new);
+		NICE_DIENS_PORTAL = register("nice_diens_portal", NiceDiensPortalBlock::new);
+		NEXUS_BLOCK = register("nexus_block", NexusBlockBlock::new);
+		NEXUSSHELLHOLE_PORTAL = register("nexusshellhole_portal", NexusshellholePortalBlock::new);
+		URANIUM_BLOCK = register("uranium_block", UraniumBlockBlock::new);
+		FURRYTRAIN = register("furrytrain", FurrytrainBlock::new);
+		FUSION_DIMENSION_PORTAL = register("fusion_dimension_portal", FusionDimensionPortalBlock::new);
+		FUSION_BLOCK = register("fusion_block", FusionBlockBlock::new);
+		RICKROLL_ORE = register("rickroll_ore", RickrollOreBlock::new);
+		RADIATION_PLANT = register("radiation_plant", RadiationPlantBlock::new);
+		FAKE_DIMOND_BLOCK = register("fake_dimond_block", FakeDimondBlockBlock::new);
+		TEST_PORTAL = register("test_portal", TestPortalBlock::new);
+		WEIRD_RADIOACTIVE_LIQUID = register("weird_radioactive_liquid", WeirdRadioactiveLiquidBlock::new);
+		WEIRD_RUG = register("weird_rug", WeirdRugBlock::new);
+		WALLS = register("walls", WallsBlock::new);
+	}
+
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
+	private static <B extends Block> DeferredBlock<B> register(String name, Function<BlockBehaviour.Properties, ? extends B> supplier) {
+		return REGISTRY.registerBlock(name, supplier);
+	}
 }

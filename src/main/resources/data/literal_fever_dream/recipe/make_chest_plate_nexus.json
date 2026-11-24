@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": "literal_fever_dream:nexusingot"
+  },
+  "result": {
+    "id": "literal_fever_dream:arromer_nexus_helmet",
+    "count": 1
+  }
+}

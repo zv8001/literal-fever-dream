@@ -1,47 +1,28 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:ManyRBMKrods"
-      },
-      {
-        "value": "CUSTOM:ManyRBMKrods"
-      },
-      {
-        "value": "CUSTOM:ManyRBMKrods"
-      },
-      {
-        "value": "Items.COAL#0"
-      },
-      {
-        "value": "CUSTOM:Thermonuclearbomb"
-      },
-      {
-        "value": "Items.COAL#0"
-      },
-      {
-        "value": "Items.WATER_BUCKET"
-      },
-      {
-        "value": "Items.WATER_BUCKET"
-      },
-      {
-        "value": "Items.WATER_BUCKET"
-      }
+      "CUSTOM:ManyRBMKrods",
+      "CUSTOM:ManyRBMKrods",
+      "CUSTOM:ManyRBMKrods",
+      "Items.COAL#0",
+      "CUSTOM:Thermonuclearbomb",
+      "Items.COAL#0",
+      "Items.WATER_BUCKET",
+      "Items.WATER_BUCKET",
+      "Items.WATER_BUCKET"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:RBMK"
-    },
+    "recipeReturnStack": "CUSTOM:RBMK",
     "name": "rbmk_recipe",
     "namespace": "mod"
   }

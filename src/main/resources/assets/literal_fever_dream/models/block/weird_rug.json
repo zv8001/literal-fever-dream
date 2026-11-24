@@ -8,6 +8,5 @@
     "south": "literal_fever_dream:block/carpet",
     "west": "literal_fever_dream:block/carpet",
     "particle": "literal_fever_dream:block/carpet"
-  },
-  "render_type": "solid"
+  }
 }

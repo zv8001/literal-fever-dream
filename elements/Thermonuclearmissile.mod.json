@@ -1,5 +1,5 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
@@ -9,15 +9,14 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "uranium knife",
+    "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": [
         "how does one do this"
       ]
     },
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Literalfeverdream"
-      }
+      "CUSTOM:Literalfeverdream"
     ],
     "efficiency": 20.0,
     "attackSpeed": 100.0,
@@ -31,6 +30,7 @@
     "immuneToFire": false,
     "blockDropsTier": "STONE",
     "blocksAffected": [],
+    "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

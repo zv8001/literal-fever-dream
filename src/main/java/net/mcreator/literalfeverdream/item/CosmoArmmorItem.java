@@ -1,102 +1,48 @@
-
 package net.mcreator.literalfeverdream.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.equipment.EquipmentAssets;
+import net.minecraft.world.item.equipment.ArmorType;
+import net.minecraft.world.item.equipment.ArmorMaterial;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.entity.Entity;
+import net.minecraft.tags.TagKey;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.sounds.SoundEvent;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.core.registries.BuiltInRegistries;
 
-public abstract class CosmoArmmorItem extends ArmorItem {
-	public CosmoArmmorItem(ArmorItem.Type type, Item.Properties properties) {
-		super(new ArmorMaterial() {
-			@Override
-			public int getDurabilityForType(ArmorItem.Type type) {
-				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 70;
-			}
+import java.util.Map;
 
-			@Override
-			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{2, 5, 6, 2}[type.getSlot().getIndex()];
-			}
+public abstract class CosmoArmmorItem extends Item {
+	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(70, Map.of(ArmorType.BOOTS, 2, ArmorType.LEGGINGS, 5, ArmorType.CHESTPLATE, 6, ArmorType.HELMET, 2, ArmorType.BODY, 6), 9,
+			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 4f, 0.2f, TagKey.create(Registries.ITEM, Identifier.parse("literal_fever_dream:cosmo_armmor_repair_items")),
+			ResourceKey.create(EquipmentAssets.ROOT_ID, Identifier.parse("literal_fever_dream:cosmo_armmor")));
 
-			@Override
-			public int getEnchantmentValue() {
-				return 9;
-			}
-
-			@Override
-			public SoundEvent getEquipSound() {
-				return SoundEvents.EMPTY;
-			}
-
-			@Override
-			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
-			}
-
-			@Override
-			public String getName() {
-				return "cosmo_armmor";
-			}
-
-			@Override
-			public float getToughness() {
-				return 4f;
-			}
-
-			@Override
-			public float getKnockbackResistance() {
-				return 0.2f;
-			}
-		}, type, properties);
+	private CosmoArmmorItem(Item.Properties properties) {
+		super(properties);
 	}
 
 	public static class Helmet extends CosmoArmmorItem {
-		public Helmet() {
-			super(ArmorItem.Type.HELMET, new Item.Properties());
-		}
-
-		@Override
-		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "literal_fever_dream:textures/models/armor/cosmo_layer_1.png";
+		public Helmet(Item.Properties properties) {
+			super(properties.humanoidArmor(ARMOR_MATERIAL, ArmorType.HELMET));
 		}
 	}
 
 	public static class Chestplate extends CosmoArmmorItem {
-		public Chestplate() {
-			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
-		}
-
-		@Override
-		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "literal_fever_dream:textures/models/armor/cosmo_layer_1.png";
+		public Chestplate(Item.Properties properties) {
+			super(properties.humanoidArmor(ARMOR_MATERIAL, ArmorType.CHESTPLATE));
 		}
 	}
 
 	public static class Leggings extends CosmoArmmorItem {
-		public Leggings() {
-			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
-		}
-
-		@Override
-		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "literal_fever_dream:textures/models/armor/cosmo_layer_2.png";
+		public Leggings(Item.Properties properties) {
+			super(properties.humanoidArmor(ARMOR_MATERIAL, ArmorType.LEGGINGS));
 		}
 	}
 
 	public static class Boots extends CosmoArmmorItem {
-		public Boots() {
-			super(ArmorItem.Type.BOOTS, new Item.Properties());
-		}
-
-		@Override
-		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "literal_fever_dream:textures/models/armor/cosmo_layer_1.png";
+		public Boots(Item.Properties properties) {
+			super(properties.humanoidArmor(ARMOR_MATERIAL, ArmorType.BOOTS));
 		}
 	}
 }

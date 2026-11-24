@@ -1,50 +1,28 @@
-
 package net.mcreator.literalfeverdream.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.component.TooltipDisplay;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ToolMaterial;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.tags.TagKey;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.resources.Identifier;
 import net.minecraft.network.chat.Component;
+import net.minecraft.core.registries.Registries;
 
-import java.util.List;
+import java.util.function.Consumer;
 
-public class PiItem extends SwordItem {
-	public PiItem() {
-		super(new Tier() {
-			public int getUses() {
-				return 100;
-			}
+public class PiItem extends Item {
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_STONE_TOOL, 100, 4f, 0, 2, TagKey.create(Registries.ITEM, Identifier.parse("literal_fever_dream:pi_repair_items")));
 
-			public float getSpeed() {
-				return 4f;
-			}
-
-			public float getAttackDamageBonus() {
-				return 27.419f;
-			}
-
-			public int getLevel() {
-				return 1;
-			}
-
-			public int getEnchantmentValue() {
-				return 2;
-			}
-
-			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Items.PUMPKIN_PIE));
-			}
-		}, 3, -0.86f, new Item.Properties().fireResistant());
+	public PiItem(Item.Properties properties) {
+		super(properties.sword(TOOL_MATERIAL, 30.419f, -0.86f).fireResistant());
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.translatable("item.literal_fever_dream.pi.description_0"));
+	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, TooltipDisplay tooltipDisplay, Consumer<Component> componentConsumer, TooltipFlag flag) {
+		super.appendHoverText(itemstack, context, tooltipDisplay, componentConsumer, flag);
+		componentConsumer.accept(Component.translatable("item.literal_fever_dream.pi.description_0"));
 	}
 }

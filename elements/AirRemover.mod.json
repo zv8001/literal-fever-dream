@@ -1,5 +1,5 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
@@ -9,25 +9,25 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Air Remover",
+    "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": [
         "remove someones privileges of breathing"
       ]
     },
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Literalfeverdream"
-      }
+      "CUSTOM:Literalfeverdream"
     ],
     "efficiency": 0.0,
     "attackSpeed": 50.0,
-    "enchantability": 0,
+    "enchantability": 1,
     "damageVsEntity": 60000.0,
     "usageCount": 1,
     "repairItems": [],
     "immuneToFire": true,
     "blockDropsTier": "WOOD",
     "blocksAffected": [],
+    "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

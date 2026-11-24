@@ -1,49 +1,24 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
-      {
-        "value": "dripstone_caves"
-      },
-      {
-        "value": "end_barrens"
-      },
-      {
-        "value": "end_highlands"
-      },
-      {
-        "value": "end_midlands"
-      },
-      {
-        "value": "mutated_mesa"
-      },
-      {
-        "value": "mutated_forest"
-      },
-      {
-        "value": "forest"
-      },
-      {
-        "value": "forest_hills"
-      },
-      {
-        "value": "frozen_ocean"
-      },
-      {
-        "value": "frozen_peaks"
-      },
-      {
-        "value": "frozen_river"
-      }
+      "dripstone_caves",
+      "end_barrens",
+      "end_highlands",
+      "end_midlands",
+      "mutated_mesa",
+      "mutated_forest",
+      "forest",
+      "forest_hills",
+      "frozen_ocean",
+      "frozen_peaks",
+      "frozen_river"
     ],
+    "biomesInDimensionCaves": [],
     "worldGenType": "End like gen",
-    "mainFillerBlock": {
-      "value": "CUSTOM:Nice"
-    },
-    "fluidBlock": {
-      "value": "Blocks.FLOWING_WATER"
-    },
+    "mainFillerBlock": "CUSTOM:Nice",
+    "fluidBlock": "Blocks.FLOWING_WATER",
     "seaLevel": 0,
     "generateOreVeins": false,
     "generateAquifers": false,
@@ -52,7 +27,7 @@
     "defaultEffects": "overworld",
     "useCustomEffects": true,
     "hasClouds": false,
-    "cloudHeight": 192.0,
+    "cloudHeight": 192,
     "skyType": "NONE",
     "airColor": {
       "value": -6750055,
@@ -67,6 +42,8 @@
     "fixedTimeValue": 0,
     "coordinateScale": 1.0,
     "infiniburnTag": "minecraft:infiniburn_overworld",
+    "enableCustomSkyboxTextures": false,
+    "enableCustomSunMoonTextures": false,
     "bedWorks": true,
     "hasSkyLight": true,
     "imitateOverworldBehaviour": false,
@@ -75,16 +52,10 @@
     "minMonsterSpawnLightLimit": 0,
     "maxMonsterSpawnLightLimit": 7,
     "monsterSpawnBlockLightLimit": 0,
-    "portalFrame": {
-      "value": "Blocks.COBBLESTONE"
-    },
-    "portalParticles": {
-      "value": "PORTAL"
-    },
+    "portalFrame": "Blocks.COBBLESTONE",
+    "portalParticles": "PORTAL",
     "portalLuminance": 10,
-    "portalSound": {
-      "value": "block.portal.ambient"
-    },
+    "portalSound": "block.portal.ambient",
     "enableIgniter": true,
     "igniterName": "Nice Diens Portal Igniter",
     "igniterRarity": "COMMON",
@@ -92,9 +63,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Literalfeverdream"
-      }
+      "CUSTOM:Literalfeverdream"
     ],
     "texture": "uraniumpoweredtranslocatortxt",
     "portalTexture": "images_1",

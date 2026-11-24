@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "literal_fever_dream:nexusingot",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "literal_fever_dream:nexus_sword",
+    "count": 1
+  }
+}

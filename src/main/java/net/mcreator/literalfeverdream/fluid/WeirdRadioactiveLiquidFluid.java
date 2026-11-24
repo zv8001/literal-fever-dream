@@ -1,7 +1,8 @@
-
 package net.mcreator.literalfeverdream.fluid;
 
-import net.minecraftforge.fluids.ForgeFlowingFluid;
+import org.apache.logging.log4j.core.util.Source;
+
+import net.neoforged.neoforge.fluids.BaseFlowingFluid;
 
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluid;
@@ -13,8 +14,8 @@ import net.mcreator.literalfeverdream.init.LiteralFeverDreamModFluids;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModFluidTypes;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModBlocks;
 
-public abstract class WeirdRadioactiveLiquidFluid extends ForgeFlowingFluid {
-	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> LiteralFeverDreamModFluidTypes.WEIRD_RADIOACTIVE_LIQUID_TYPE.get(), () -> LiteralFeverDreamModFluids.WEIRD_RADIOACTIVE_LIQUID.get(),
+public abstract class WeirdRadioactiveLiquidFluid extends BaseFlowingFluid {
+	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> LiteralFeverDreamModFluidTypes.WEIRD_RADIOACTIVE_LIQUID_TYPE.get(), () -> LiteralFeverDreamModFluids.WEIRD_RADIOACTIVE_LIQUID.get(),
 			() -> LiteralFeverDreamModFluids.FLOWING_WEIRD_RADIOACTIVE_LIQUID.get()).explosionResistance(100f).bucket(() -> LiteralFeverDreamModItems.WEIRD_RADIOACTIVE_LIQUID_BUCKET.get())
 			.block(() -> (LiquidBlock) LiteralFeverDreamModBlocks.WEIRD_RADIOACTIVE_LIQUID.get());
 

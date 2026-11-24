@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "literal_fever_dream:coneehashellplace",
+    "b": "literal_fever_dream:coneeha_1092"
+  },
+  "result": {
+    "id": "literal_fever_dream:test",
+    "count": 1
+  }
+}

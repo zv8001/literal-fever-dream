@@ -3,13 +3,15 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "effects": {
-    "ambient_sound": "literal_fever_dream:backrooms",
     "foliage_color": -16777216,
     "grass_color": -256,
-    "sky_color": 7972607,
-    "fog_color": 12638463,
-    "water_color": -15461356,
-    "water_fog_color": -16119286
+    "water_color": -15461356
+  },
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "loop": "literal_fever_dream:backrooms"
+    },
+    "minecraft:visual/water_fog_color": -16119286
   },
   "spawners": {
     "monster": [
@@ -29,7 +31,7 @@
     "misc": []
   },
   "spawn_costs": {},
-  "carvers": {},
+  "carvers": [],
   "features": [
     [],
     [],
@@ -48,6 +50,7 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",

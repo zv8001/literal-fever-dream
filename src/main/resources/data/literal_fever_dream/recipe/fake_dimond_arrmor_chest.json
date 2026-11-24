@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "literal_fever_dream:fake_diamond"
+  },
+  "result": {
+    "id": "literal_fever_dream:fake_diamond_arrmor_chestplate",
+    "count": 1
+  }
+}

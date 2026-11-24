@@ -1,11 +1,9 @@
-
 package net.mcreator.literalfeverdream.item;
 
-import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 
 public class IrradiatedpieceofshitItem extends Item {
-	public IrradiatedpieceofshitItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+	public IrradiatedpieceofshitItem(Item.Properties properties) {
+		super(properties);
 	}
 }

@@ -1,27 +1,33 @@
-
 package net.mcreator.literalfeverdream.block;
 
-import org.checkerframework.checker.units.qual.s;
+import org.slf4j.Logger;
 
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.level.portal.TeleportTransition;
 import net.minecraft.world.level.material.PushReaction;
+import net.minecraft.world.level.dimension.DimensionType;
+import net.minecraft.world.level.border.WorldBorder;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.Portal;
 import net.minecraft.world.level.block.NetherPortalBlock;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.ScheduledTickAccess;
+import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.Relative;
+import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.util.RandomSource;
+import net.minecraft.util.BlockUtil;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
@@ -29,33 +35,127 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.literalfeverdream.world.teleporter.TestTeleporter;
 import net.mcreator.literalfeverdream.world.teleporter.TestPortalShape;
 
+import javax.annotation.Nullable;
+
 import java.util.Optional;
 
+import com.mojang.logging.LogUtils;
+
 public class TestPortalBlock extends NetherPortalBlock {
-	public TestPortalBlock() {
-		super(BlockBehaviour.Properties.of().noCollission().randomTicks().pushReaction(PushReaction.BLOCK).strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 8).noLootTable());
+	private static final Logger LOGGER = LogUtils.getLogger();
+
+	public static void portalSpawn(Level world, BlockPos pos) {
+		Optional<TestPortalShape> optional = TestPortalShape.findEmptyPortalShape(world, pos, Direction.Axis.X);
+		if (optional.isPresent()) {
+			optional.get().createPortalBlocks(world);
+		}
+	}
+
+	public TestPortalBlock(BlockBehaviour.Properties properties) {
+		super(properties.noCollision().randomTicks().pushReaction(PushReaction.BLOCK).strength(-1.0F).sound(SoundType.GLASS).lightLevel(state -> 8).noLootTable());
+	}
+
+	private TestTeleporter getTeleporter(ServerLevel level) {
+		return new TestTeleporter(level);
+	}
+
+	@Override
+	protected BlockState updateShape(BlockState state, LevelReader level, ScheduledTickAccess ticks, BlockPos pos, Direction directionToNeighbour, BlockPos neighbourPos, BlockState neighbourState, RandomSource random) {
+		Direction.Axis updateAxis = directionToNeighbour.getAxis();
+		Direction.Axis axis = state.getValue(AXIS);
+		boolean wrongAxis = axis != updateAxis && updateAxis.isHorizontal();
+		return !wrongAxis && !neighbourState.is(this) && !TestPortalShape.findAnyShape(level, pos, axis).isComplete()
+				? Blocks.AIR.defaultBlockState()
+				: super.updateShape(state, level, ticks, pos, directionToNeighbour, neighbourPos, neighbourState, random);
+	}
+
+	@Override
+	@Nullable
+	public TeleportTransition getPortalDestination(ServerLevel currentLevel, Entity entity, BlockPos portalEntryPos) {
+		ResourceKey<Level> newDimension = currentLevel.dimension() == ResourceKey.create(Registries.DIMENSION, Identifier.parse("literal_fever_dream:test"))
+				? Level.OVERWORLD
+				: ResourceKey.create(Registries.DIMENSION, Identifier.parse("literal_fever_dream:test"));
+		ServerLevel newLevel = currentLevel.getServer().getLevel(newDimension);
+		if (newLevel == null) {
+			return null;
+		} else {
+			boolean toNether = newLevel.dimension() == ResourceKey.create(Registries.DIMENSION, Identifier.parse("literal_fever_dream:test"));
+			WorldBorder newWorldBorder = newLevel.getWorldBorder();
+			double teleportationScale = DimensionType.getTeleportationScale(currentLevel.dimensionType(), newLevel.dimensionType());
+			BlockPos approximateExitPos = newWorldBorder.clampToBounds(entity.getX() * teleportationScale, entity.getY(), entity.getZ() * teleportationScale);
+			return this.getExitPortal(newLevel, entity, portalEntryPos, approximateExitPos, toNether, newWorldBorder);
+		}
+	}
+
+	@Nullable
+	private TeleportTransition getExitPortal(ServerLevel newLevel, Entity entity, BlockPos portalEntryPos, BlockPos approximateExitPos, boolean toNether, WorldBorder worldBorder) {
+		Optional<BlockPos> exitPortalPos = getTeleporter(newLevel).findClosestPortalPosition(approximateExitPos, toNether, worldBorder);
+		BlockUtil.FoundRectangle exitPortal;
+		TeleportTransition.PostTeleportTransition post;
+		if (exitPortalPos.isPresent()) {
+			BlockPos pos = exitPortalPos.get();
+			BlockState portalState = newLevel.getBlockState(pos);
+			exitPortal = BlockUtil.getLargestRectangleAround(pos, portalState.getValue(BlockStateProperties.HORIZONTAL_AXIS), 21, Direction.Axis.Y, 21, blockPos -> newLevel.getBlockState(blockPos) == portalState);
+			post = TeleportTransition.PLAY_PORTAL_SOUND.then(e -> e.placePortalTicket(pos));
+		} else {
+			Direction.Axis sourcePortalAxis = entity.level().getBlockState(portalEntryPos).getOptionalValue(AXIS).orElse(Direction.Axis.X);
+			Optional<BlockUtil.FoundRectangle> createdExit = getTeleporter(newLevel).createPortal(approximateExitPos, sourcePortalAxis);
+			if (createdExit.isEmpty()) {
+				LOGGER.error("Unable to create a portal, likely target out of worldborder");
+				return null;
+			}
+			exitPortal = createdExit.get();
+			post = TeleportTransition.PLAY_PORTAL_SOUND.then(TeleportTransition.PLACE_PORTAL_TICKET);
+		}
+		return getDimensionTransitionFromExit(entity, portalEntryPos, exitPortal, newLevel, post);
+	}
+
+	private static TeleportTransition getDimensionTransitionFromExit(Entity entity, BlockPos portalEntryPos, BlockUtil.FoundRectangle exitPortal, ServerLevel newLevel, TeleportTransition.PostTeleportTransition postTeleportTransition) {
+		BlockState blockState = entity.level().getBlockState(portalEntryPos);
+		Direction.Axis axis;
+		Vec3 offset;
+		if (blockState.hasProperty(BlockStateProperties.HORIZONTAL_AXIS)) {
+			axis = blockState.getValue(BlockStateProperties.HORIZONTAL_AXIS);
+			BlockUtil.FoundRectangle portalArea = BlockUtil.getLargestRectangleAround(portalEntryPos, axis, 21, Direction.Axis.Y, 21, pos -> entity.level().getBlockState(pos) == blockState);
+			offset = entity.getRelativePortalPosition(axis, portalArea);
+		} else {
+			axis = Direction.Axis.X;
+			offset = new Vec3(0.5, 0.0, 0.0);
+		}
+		return createDimensionTransition(newLevel, exitPortal, axis, offset, entity, postTeleportTransition);
+	}
+
+	private static TeleportTransition createDimensionTransition(ServerLevel newLevel, BlockUtil.FoundRectangle foundRectangle, Direction.Axis portalAxis, Vec3 offset, Entity entity, TeleportTransition.PostTeleportTransition postTeleportTransition) {
+		BlockPos bottomLeft = foundRectangle.minCorner;
+		BlockState blockState = newLevel.getBlockState(bottomLeft);
+		Direction.Axis axis = blockState.getOptionalValue(BlockStateProperties.HORIZONTAL_AXIS).orElse(Direction.Axis.X);
+		double width = foundRectangle.axis1Size;
+		double height = foundRectangle.axis2Size;
+		EntityDimensions dimensions = entity.getDimensions(entity.getPose());
+		int outputRotation = portalAxis == axis ? 0 : 90;
+		double offsetRight = dimensions.width() / 2.0 + (width - dimensions.width()) * offset.x();
+		double offsetUp = (height - dimensions.height()) * offset.y();
+		double offsetForward = 0.5 + offset.z();
+		boolean xAligned = axis == Direction.Axis.X;
+		Vec3 targetPos = new Vec3(bottomLeft.getX() + (xAligned ? offsetRight : offsetForward), bottomLeft.getY() + offsetUp, bottomLeft.getZ() + (xAligned ? offsetForward : offsetRight));
+		Vec3 collisionFreePos = TestPortalShape.findCollisionFreePosition(targetPos, newLevel, entity, dimensions);
+		return new TeleportTransition(newLevel, collisionFreePos, Vec3.ZERO, outputRotation, 0.0F, Relative.union(Relative.DELTA, Relative.ROTATION), postTeleportTransition);
+	}
+
+	@Override
+	public int getPortalTransitionTime(ServerLevel world, Entity entity) {
+		return 0;
+	}
+
+	@Override
+	public Portal.Transition getLocalTransition() {
+		return Portal.Transition.NONE;
 	}
 
 	@Override
 	public void randomTick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 	}
 
-	public static void portalSpawn(Level world, BlockPos pos) {
-		Optional<TestPortalShape> optional = TestPortalShape.findEmptyPortalShape(world, pos, Direction.Axis.X);
-		if (optional.isPresent()) {
-			optional.get().createPortalBlocks();
-		}
-	}
-
-	@Override
-	public BlockState updateShape(BlockState p_54928_, Direction p_54929_, BlockState p_54930_, LevelAccessor p_54931_, BlockPos p_54932_, BlockPos p_54933_) {
-		Direction.Axis direction$axis = p_54929_.getAxis();
-		Direction.Axis direction$axis1 = p_54928_.getValue(AXIS);
-		boolean flag = direction$axis1 != direction$axis && direction$axis.isHorizontal();
-		return !flag && !p_54930_.is(this) && !(new TestPortalShape(p_54931_, p_54932_, direction$axis1)).isComplete() ? Blocks.AIR.defaultBlockState() : super.updateShape(p_54928_, p_54929_, p_54930_, p_54931_, p_54932_, p_54933_);
-	}
-
-	@OnlyIn(Dist.CLIENT)
 	@Override
 	public void animateTick(BlockState state, Level world, BlockPos pos, RandomSource random) {
 		for (int i = 0; i < 4; i++) {
@@ -76,25 +176,6 @@ public class TestPortalBlock extends NetherPortalBlock {
 			world.addParticle(ParticleTypes.END_ROD, px, py, pz, vx, vy, vz);
 		}
 		if (random.nextInt(110) == 0)
-			world.playSound(null, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(("ambient.cave"))), SoundSource.BLOCKS, 0.5f, random.nextFloat() * 0.4f + 0.8f);
-	}
-
-	@Override
-	public void entityInside(BlockState state, Level world, BlockPos pos, Entity entity) {
-		if (entity.canChangeDimensions() && !entity.level().isClientSide() && true) {
-			if (entity.isOnPortalCooldown()) {
-				entity.setPortalCooldown();
-			} else if (entity.level().dimension() != ResourceKey.create(Registries.DIMENSION, new ResourceLocation("literal_fever_dream:test"))) {
-				entity.setPortalCooldown();
-				teleportToDimension(entity, pos, ResourceKey.create(Registries.DIMENSION, new ResourceLocation("literal_fever_dream:test")));
-			} else {
-				entity.setPortalCooldown();
-				teleportToDimension(entity, pos, Level.OVERWORLD);
-			}
-		}
-	}
-
-	private void teleportToDimension(Entity entity, BlockPos pos, ResourceKey<Level> destinationType) {
-		entity.changeDimension(entity.getServer().getLevel(destinationType), new TestTeleporter(entity.getServer().getLevel(destinationType), pos));
+			world.playLocalSound(pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("ambient.cave")), SoundSource.BLOCKS, 0.5f, random.nextFloat() * 0.4f + 0.8f, false);
 	}
 }

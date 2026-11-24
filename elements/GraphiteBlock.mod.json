@@ -1,5 +1,5 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
@@ -9,33 +9,29 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Graphite Block",
+    "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": [
         "you're just dead. WHY DO YOU HAVE THIS"
       ]
     },
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Literalfeverdream"
-      }
+      "CUSTOM:Literalfeverdream"
     ],
     "efficiency": 2.0,
     "attackSpeed": 0.05,
-    "enchantability": 0,
+    "enchantability": 1,
     "damageVsEntity": 600.0,
     "usageCount": 5,
     "repairItems": [
-      {
-        "value": "CUSTOM:Uranium235"
-      }
+      "CUSTOM:Uranium235"
     ],
     "immuneToFire": true,
     "blockDropsTier": "STONE",
     "blocksAffected": [],
+    "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onItemInUseTick": {
-      "name": "TooHeavy"
-    }
+    "onItemInUseTick": "TooHeavy"
   }
 }

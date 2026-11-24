@@ -8,6 +8,5 @@
     "south": "literal_fever_dream:block/uranium_block",
     "west": "literal_fever_dream:block/uranium_block",
     "particle": "literal_fever_dream:block/uranium_block"
-  },
-  "render_type": "solid"
+  }
 }

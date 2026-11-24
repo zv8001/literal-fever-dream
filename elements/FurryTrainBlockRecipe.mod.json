@@ -1,47 +1,28 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 16,
     "group": "stupid_furry",
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.RABBIT_HIDE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Cosmo"
-      },
-      {
-        "value": "CUSTOM:TrainBlock"
-      },
-      {
-        "value": "Items.FEATHER"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.RABBIT_FOOT"
-      },
-      {
-        "value": ""
-      }
+      "",
+      "Items.RABBIT_HIDE",
+      "",
+      "CUSTOM:Cosmo",
+      "CUSTOM:TrainBlock",
+      "Items.FEATHER",
+      "",
+      "Items.RABBIT_FOOT",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Furrytrain"
-    },
+    "recipeReturnStack": "CUSTOM:Furrytrain",
     "name": "furry_train_block_recipe",
     "namespace": "mod"
   }

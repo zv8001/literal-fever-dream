@@ -1,5 +1,5 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -7,27 +7,27 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
+    "animations": [],
     "name": "Egg",
     "rarity": "COMMON",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Literalfeverdream"
-      }
+      "CUSTOM:Literalfeverdream"
     ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 32,
     "toolType": 1.0,
     "damageCount": 0,
-    "recipeRemainder": {
-      "value": ""
-    },
+    "recipeRemainder": "",
     "destroyAnyBlock": false,
     "immuneToFire": false,
+    "isPiglinCurrency": false,
+    "repairItems": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
+    "attackSpeed": 1.6,
     "specialInformation": {
       "fixedValue": [
         "egg"
@@ -36,30 +36,29 @@
     "glowCondition": {
       "fixedValue": false
     },
+    "openGUIOnRightClick": {
+      "fixedValue": false
+    },
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
-    "projectile": {
-      "value": "Arrow"
-    },
+    "projectile": "Arrow",
     "projectileDisableAmmoCheck": false,
     "isFood": true,
     "nutritionalValue": 12,
     "saturation": 0.0,
-    "eatResultItem": {
-      "value": ""
-    },
+    "eatResultItem": "",
     "isMeat": false,
     "isAlwaysEdible": true,
     "animation": "eat",
     "isMusicDisc": false,
-    "musicDiscMusic": {
-      "value": ""
-    },
+    "musicDiscMusic": "",
     "musicDiscDescription": "",
-    "musicDiscLengthInTicks": 0,
-    "musicDiscAnalogOutput": 0
+    "musicDiscLengthInTicks": 100,
+    "musicDiscAnalogOutput": 0,
+    "providedBannerPatterns": [],
+    "attributeModifiers": []
   }
 }

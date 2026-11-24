@@ -1,15 +1,15 @@
-
 package net.mcreator.literalfeverdream.item;
 
-import net.minecraftforge.registries.ForgeRegistries;
-
-import net.minecraft.world.item.RecordItem;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
+import net.minecraft.core.registries.Registries;
 
-public class HahaAsyncGoBRRRRRRRRRRRRRRRRRRRRRRRItem extends RecordItem {
-	public HahaAsyncGoBRRRRRRRRRRRRRRRRRRRRRRRItem() {
-		super(0, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("literal_fever_dream:async-third_test")), new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 100);
+import net.mcreator.literalfeverdream.LiteralFeverDreamMod;
+
+public class HahaAsyncGoBRRRRRRRRRRRRRRRRRRRRRRRItem extends Item {
+	public HahaAsyncGoBRRRRRRRRRRRRRRRRRRRRRRRItem(Item.Properties properties) {
+		super(properties.rarity(Rarity.RARE).stacksTo(1).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, Identifier.fromNamespaceAndPath(LiteralFeverDreamMod.MODID, "haha_async_go_brrrrrrrrrrrrrrrrrrrrrrr"))));
 	}
 }

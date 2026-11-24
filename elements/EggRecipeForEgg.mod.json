@@ -1,47 +1,28 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 6,
     "group": "",
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.EGG"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Rainbowcore"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:FusionBlock"
-      },
-      {
-        "value": ""
-      }
+      "",
+      "Items.EGG",
+      "",
+      "",
+      "CUSTOM:Rainbowcore",
+      "",
+      "",
+      "CUSTOM:FusionBlock",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Egg"
-    },
+    "recipeReturnStack": "CUSTOM:Egg",
     "name": "egg_recipe_for_egg",
     "namespace": "mod"
   }

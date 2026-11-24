@@ -8,6 +8,5 @@
     "south": "literal_fever_dream:block/diamond_block_128x128",
     "west": "literal_fever_dream:block/diamond_block_128x128",
     "particle": "literal_fever_dream:block/diamond_block_128x128"
-  },
-  "render_type": "solid"
+  }
 }

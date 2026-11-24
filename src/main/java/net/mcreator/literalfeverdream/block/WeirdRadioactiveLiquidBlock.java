@@ -1,4 +1,3 @@
-
 package net.mcreator.literalfeverdream.block;
 
 import net.minecraft.world.level.material.PushReaction;
@@ -8,6 +7,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.InsideBlockEffectApplier;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
@@ -15,14 +15,13 @@ import net.mcreator.literalfeverdream.procedures.UraniumizedProcedure;
 import net.mcreator.literalfeverdream.init.LiteralFeverDreamModFluids;
 
 public class WeirdRadioactiveLiquidBlock extends LiquidBlock {
-	public WeirdRadioactiveLiquidBlock() {
-		super(() -> LiteralFeverDreamModFluids.WEIRD_RADIOACTIVE_LIQUID.get(),
-				BlockBehaviour.Properties.of().mapColor(MapColor.WATER).strength(100f).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+	public WeirdRadioactiveLiquidBlock(BlockBehaviour.Properties properties) {
+		super(LiteralFeverDreamModFluids.WEIRD_RADIOACTIVE_LIQUID.get(), properties.mapColor(MapColor.WATER).strength(100f).noCollision().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
 	}
 
 	@Override
-	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity) {
-		super.entityInside(blockstate, world, pos, entity);
+	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity, InsideBlockEffectApplier insideBlockEffectApplier, boolean isPrecise) {
+		super.entityInside(blockstate, world, pos, entity, insideBlockEffectApplier, isPrecise);
 		UraniumizedProcedure.execute(world, entity);
 	}
 }

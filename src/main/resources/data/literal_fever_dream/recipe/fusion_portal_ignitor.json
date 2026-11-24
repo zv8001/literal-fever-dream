@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dimensions",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": "minecraft:large_amethyst_bud",
+    "b": "#minecraft:planks",
+    "c": "minecraft:flint_and_steel"
+  },
+  "result": {
+    "id": "literal_fever_dream:fusion_dimension",
+    "count": 1
+  }
+}

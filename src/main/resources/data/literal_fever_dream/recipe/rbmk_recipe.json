@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": "literal_fever_dream:many_rbm_krods",
+    "b": "minecraft:coal",
+    "c": "literal_fever_dream:thermonuclearbomb",
+    "d": "minecraft:water_bucket"
+  },
+  "result": {
+    "id": "literal_fever_dream:rbmk",
+    "count": 1
+  }
+}

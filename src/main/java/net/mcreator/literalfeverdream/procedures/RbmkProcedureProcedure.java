@@ -10,6 +10,6 @@ public class RbmkProcedureProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 4));
+			_entity.addEffect(new MobEffectInstance(MobEffects.SLOWNESS, 40, 4));
 	}
 }

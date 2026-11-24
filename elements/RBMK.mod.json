@@ -1,5 +1,5 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
@@ -9,15 +9,14 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "RBMK",
+    "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": [
         "HOW AND WHY???"
       ]
     },
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Literalfeverdream"
-      }
+      "CUSTOM:Literalfeverdream"
     ],
     "efficiency": 2.0,
     "attackSpeed": 0.04,
@@ -25,20 +24,15 @@
     "damageVsEntity": 1000.0,
     "usageCount": 2500,
     "repairItems": [
-      {
-        "value": "CUSTOM:ManyRBMKrods"
-      }
+      "CUSTOM:ManyRBMKrods"
     ],
     "immuneToFire": true,
     "blockDropsTier": "STONE",
     "blocksAffected": [],
+    "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onItemInInventoryTick": {
-      "name": "PureSlowness"
-    },
-    "onItemInUseTick": {
-      "name": "PureSlowness"
-    }
+    "onItemInInventoryTick": "PureSlowness",
+    "onItemInUseTick": "PureSlowness"
   }
 }

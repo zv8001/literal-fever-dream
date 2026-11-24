@@ -1,47 +1,28 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Nexusingot"
-      },
-      {
-        "value": "CUSTOM:Nexusingot"
-      },
-      {
-        "value": "CUSTOM:Nexusingot"
-      },
-      {
-        "value": "CUSTOM:Nexusingot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Nexusingot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:Nexusingot",
+      "CUSTOM:Nexusingot",
+      "CUSTOM:Nexusingot",
+      "CUSTOM:Nexusingot",
+      "",
+      "CUSTOM:Nexusingot",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:ArromerNexus.helmet"
-    },
+    "recipeReturnStack": "CUSTOM:ArromerNexus.helmet",
     "name": "make_chest_plate_nexus",
     "namespace": "mod"
   }

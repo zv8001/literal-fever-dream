@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "minecraft:diamond"
+  },
+  "result": {
+    "id": "literal_fever_dream:curseddiamondpickaxe",
+    "count": 1
+  }
+}

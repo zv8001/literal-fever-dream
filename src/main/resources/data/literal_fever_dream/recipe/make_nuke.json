@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "literal_fever_dream:uranium_235"
+  },
+  "result": {
+    "id": "literal_fever_dream:thermonuclearbomb",
+    "count": 4
+  }
+}

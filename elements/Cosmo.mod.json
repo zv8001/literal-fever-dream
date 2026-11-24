@@ -1,283 +1,102 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
-      {
-        "value": "badlands"
-      },
-      {
-        "value": "badlands_plateau"
-      },
-      {
-        "value": "bamboo_jungle"
-      },
-      {
-        "value": "bamboo_jungle_hills"
-      },
-      {
-        "value": "basalt_deltas"
-      },
-      {
-        "value": "beaches"
-      },
-      {
-        "value": "birch_forest"
-      },
-      {
-        "value": "birch_forest_hills"
-      },
-      {
-        "value": "cold_ocean"
-      },
-      {
-        "value": "crimson_forest"
-      },
-      {
-        "value": "roofed_forest"
-      },
-      {
-        "value": "mutated_roofed_forest"
-      },
-      {
-        "value": "deep_cold_ocean"
-      },
-      {
-        "value": "deep_dark"
-      },
-      {
-        "value": "deep_frozen_ocean"
-      },
-      {
-        "value": "deep_lukewarm_ocean"
-      },
-      {
-        "value": "deep_ocean"
-      },
-      {
-        "value": "deep_warm_ocean"
-      },
-      {
-        "value": "desert"
-      },
-      {
-        "value": "desert_hills"
-      },
-      {
-        "value": "mutated_desert"
-      },
-      {
-        "value": "dripstone_caves"
-      },
-      {
-        "value": "end_barrens"
-      },
-      {
-        "value": "end_highlands"
-      },
-      {
-        "value": "end_midlands"
-      },
-      {
-        "value": "mutated_mesa"
-      },
-      {
-        "value": "mutated_forest"
-      },
-      {
-        "value": "forest"
-      },
-      {
-        "value": "forest_hills"
-      },
-      {
-        "value": "frozen_ocean"
-      },
-      {
-        "value": "frozen_peaks"
-      },
-      {
-        "value": "frozen_river"
-      },
-      {
-        "value": "grove"
-      },
-      {
-        "value": "mutated_ice_flats"
-      },
-      {
-        "value": "jagged_peaks"
-      },
-      {
-        "value": "jungle"
-      },
-      {
-        "value": "jungle_hills"
-      },
-      {
-        "value": "lukewarm_ocean"
-      },
-      {
-        "value": "lush_caves"
-      },
-      {
-        "value": "mangrove_swamp"
-      },
-      {
-        "value": "meadow"
-      },
-      {
-        "value": "mutated_mesa_clear_rock"
-      },
-      {
-        "value": "mutated_extreme_hills_with_trees"
-      },
-      {
-        "value": "mutated_jungle"
-      },
-      {
-        "value": "mutated_jungle_edge"
-      },
-      {
-        "value": "mutated_mesa_rock"
-      },
-      {
-        "value": "smaller_extreme_hills"
-      },
-      {
-        "value": "mushroom_field_shore"
-      },
-      {
-        "value": "mushroom_fields"
-      },
-      {
-        "value": "nether"
-      },
-      {
-        "value": "ocean"
-      },
-      {
-        "value": "mutated_birch_forest"
-      },
-      {
-        "value": "mutated_birch_forest_hills"
-      },
-      {
-        "value": "redwood_taiga"
-      },
-      {
-        "value": "redwood_taiga_hills"
-      },
-      {
-        "value": "mutated_redwood_taiga"
-      },
-      {
-        "value": "mutated_redwood_taiga_hills"
-      },
-      {
-        "value": "plains"
-      },
-      {
-        "value": "river"
-      },
-      {
-        "value": "savanna"
-      },
-      {
-        "value": "savanna_rock"
-      },
-      {
-        "value": "mutated_savanna_rock"
-      },
-      {
-        "value": "small_end_islands"
-      },
-      {
-        "value": "snowy_slopes"
-      },
-      {
-        "value": "cold_beach"
-      },
-      {
-        "value": "snowy_mountains"
-      },
-      {
-        "value": "snowy_tundra"
-      },
-      {
-        "value": "taiga_cold"
-      },
-      {
-        "value": "taiga_cold_hills"
-      },
-      {
-        "value": "mutated_taiga_cold"
-      },
-      {
-        "value": "soul_sand_valley"
-      },
-      {
-        "value": "jungle_edge"
-      },
-      {
-        "value": "stony_peaks"
-      },
-      {
-        "value": "stone_beach"
-      },
-      {
-        "value": "mutated_plains"
-      },
-      {
-        "value": "swamp"
-      },
-      {
-        "value": "mutated_swampland"
-      },
-      {
-        "value": "taiga"
-      },
-      {
-        "value": "taiga_hills"
-      },
-      {
-        "value": "mutated_taiga"
-      },
-      {
-        "value": "the_end"
-      },
-      {
-        "value": "void"
-      },
-      {
-        "value": "warm_ocean"
-      },
-      {
-        "value": "warped_forest"
-      },
-      {
-        "value": "extreme_hills_with_trees"
-      },
-      {
-        "value": "mutated_extreme_hills"
-      },
-      {
-        "value": "mountains"
-      },
-      {
-        "value": "mutated_savanna"
-      },
-      {
-        "value": "wooded_badlands_plateau"
-      }
+      "badlands",
+      "badlands_plateau",
+      "bamboo_jungle",
+      "bamboo_jungle_hills",
+      "basalt_deltas",
+      "beaches",
+      "birch_forest",
+      "birch_forest_hills",
+      "cold_ocean",
+      "crimson_forest",
+      "roofed_forest",
+      "mutated_roofed_forest",
+      "deep_cold_ocean",
+      "deep_dark",
+      "deep_frozen_ocean",
+      "deep_lukewarm_ocean",
+      "deep_ocean",
+      "deep_warm_ocean",
+      "desert",
+      "desert_hills",
+      "mutated_desert",
+      "dripstone_caves",
+      "end_barrens",
+      "end_highlands",
+      "end_midlands",
+      "mutated_mesa",
+      "mutated_forest",
+      "forest",
+      "forest_hills",
+      "frozen_ocean",
+      "frozen_peaks",
+      "frozen_river",
+      "grove",
+      "mutated_ice_flats",
+      "jagged_peaks",
+      "jungle",
+      "jungle_hills",
+      "lukewarm_ocean",
+      "lush_caves",
+      "mangrove_swamp",
+      "meadow",
+      "mutated_mesa_clear_rock",
+      "mutated_extreme_hills_with_trees",
+      "mutated_jungle",
+      "mutated_jungle_edge",
+      "mutated_mesa_rock",
+      "smaller_extreme_hills",
+      "mushroom_field_shore",
+      "mushroom_fields",
+      "nether",
+      "ocean",
+      "mutated_birch_forest",
+      "mutated_birch_forest_hills",
+      "redwood_taiga",
+      "redwood_taiga_hills",
+      "mutated_redwood_taiga",
+      "mutated_redwood_taiga_hills",
+      "plains",
+      "river",
+      "savanna",
+      "savanna_rock",
+      "mutated_savanna_rock",
+      "small_end_islands",
+      "snowy_slopes",
+      "cold_beach",
+      "snowy_mountains",
+      "snowy_tundra",
+      "taiga_cold",
+      "taiga_cold_hills",
+      "mutated_taiga_cold",
+      "soul_sand_valley",
+      "jungle_edge",
+      "stony_peaks",
+      "stone_beach",
+      "mutated_plains",
+      "swamp",
+      "mutated_swampland",
+      "taiga",
+      "taiga_hills",
+      "mutated_taiga",
+      "the_end",
+      "void",
+      "warm_ocean",
+      "warped_forest",
+      "extreme_hills_with_trees",
+      "mutated_extreme_hills",
+      "mountains",
+      "mutated_savanna",
+      "wooded_badlands_plateau"
     ],
+    "biomesInDimensionCaves": [],
     "worldGenType": "Nether like gen",
-    "mainFillerBlock": {
-      "value": "CUSTOM:TrainBlock"
-    },
-    "fluidBlock": {
-      "value": "Blocks.WATER"
-    },
+    "mainFillerBlock": "CUSTOM:TrainBlock",
+    "fluidBlock": "Blocks.WATER",
     "seaLevel": 32,
     "generateOreVeins": false,
     "generateAquifers": false,
@@ -286,7 +105,7 @@
     "defaultEffects": "overworld",
     "useCustomEffects": true,
     "hasClouds": false,
-    "cloudHeight": 192.0,
+    "cloudHeight": 192,
     "skyType": "NONE",
     "sunHeightAffectsFog": false,
     "canRespawnHere": false,
@@ -297,6 +116,8 @@
     "fixedTimeValue": 0,
     "coordinateScale": 1.0,
     "infiniburnTag": "minecraft:infiniburn_overworld",
+    "enableCustomSkyboxTextures": false,
+    "enableCustomSunMoonTextures": false,
     "bedWorks": true,
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
@@ -305,16 +126,10 @@
     "minMonsterSpawnLightLimit": 11,
     "maxMonsterSpawnLightLimit": 11,
     "monsterSpawnBlockLightLimit": 15,
-    "portalFrame": {
-      "value": "Blocks.GLASS"
-    },
-    "portalParticles": {
-      "value": "PORTAL"
-    },
+    "portalFrame": "Blocks.GLASS",
+    "portalParticles": "PORTAL",
     "portalLuminance": 0,
-    "portalSound": {
-      "value": "block.portal.ambient"
-    },
+    "portalSound": "block.portal.ambient",
     "enableIgniter": true,
     "igniterName": "train01256's weapon of mass destruction.",
     "igniterRarity": "COMMON",
@@ -322,9 +137,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Literalfeverdream"
-      }
+      "CUSTOM:Literalfeverdream"
     ],
     "texture": "latest",
     "portalTexture": "cosmo",

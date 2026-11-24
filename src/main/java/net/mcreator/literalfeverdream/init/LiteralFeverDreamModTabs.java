@@ -1,11 +1,10 @@
-
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
 package net.mcreator.literalfeverdream.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.ItemStack;
@@ -17,7 +16,7 @@ import net.mcreator.literalfeverdream.LiteralFeverDreamMod;
 
 public class LiteralFeverDreamModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, LiteralFeverDreamMod.MODID);
-	public static final RegistryObject<CreativeModeTab> LITERALFEVERDREAM = REGISTRY.register("literalfeverdream",
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> LITERALFEVERDREAM = REGISTRY.register("literalfeverdream",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.literal_fever_dream.literalfeverdream")).icon(() -> new ItemStack(Blocks.TNT)).displayItems((parameters, tabData) -> {
 				tabData.accept(LiteralFeverDreamModBlocks.TRAIN_BLOCK.get().asItem());
 				tabData.accept(LiteralFeverDreamModItems.COSMO.get());

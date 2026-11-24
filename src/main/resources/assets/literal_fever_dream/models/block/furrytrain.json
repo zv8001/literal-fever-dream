@@ -8,6 +8,5 @@
     "south": "literal_fever_dream:block/minecraft_missing_texture_block.svg",
     "west": "literal_fever_dream:block/minecraft_missing_texture_block.svg",
     "particle": "literal_fever_dream:block/minecraft_missing_texture_block.svg"
-  },
-  "render_type": "solid"
+  }
 }

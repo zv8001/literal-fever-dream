@@ -1,57 +1,32 @@
-
 package net.mcreator.literalfeverdream.item;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.component.TooltipDisplay;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ToolMaterial;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.tags.TagKey;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.resources.Identifier;
 import net.minecraft.network.chat.Component;
+import net.minecraft.core.registries.Registries;
 
-import java.util.List;
+import java.util.function.Consumer;
 
-public class ThermonuclearmissileItem extends SwordItem {
-	public ThermonuclearmissileItem() {
-		super(new Tier() {
-			public int getUses() {
-				return 100;
-			}
+public class ThermonuclearmissileItem extends Item {
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_STONE_TOOL, 100, 20f, 0, 22, TagKey.create(Registries.ITEM, Identifier.parse("literal_fever_dream:thermonuclearmissile_repair_items")));
 
-			public float getSpeed() {
-				return 20f;
-			}
-
-			public float getAttackDamageBonus() {
-				return 86f;
-			}
-
-			public int getLevel() {
-				return 1;
-			}
-
-			public int getEnchantmentValue() {
-				return 22;
-			}
-
-			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
-			}
-		}, 3, 96f, new Item.Properties());
+	public ThermonuclearmissileItem(Item.Properties properties) {
+		super(properties.sword(TOOL_MATERIAL, 89f, 96f));
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.translatable("item.literal_fever_dream.thermonuclearmissile.description_0"));
+	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, TooltipDisplay tooltipDisplay, Consumer<Component> componentConsumer, TooltipFlag flag) {
+		super.appendHoverText(itemstack, context, tooltipDisplay, componentConsumer, flag);
+		componentConsumer.accept(Component.translatable("item.literal_fever_dream.thermonuclearmissile.description_0"));
 	}
 
 	@Override
-	@OnlyIn(Dist.CLIENT)
 	public boolean isFoil(ItemStack itemstack) {
 		return true;
 	}

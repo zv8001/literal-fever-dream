@@ -1,5 +1,5 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
@@ -9,15 +9,14 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Destroyed RBMK",
+    "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": [
         "why is it frozen"
       ]
     },
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Literalfeverdream"
-      }
+      "CUSTOM:Literalfeverdream"
     ],
     "efficiency": 4.0,
     "attackSpeed": 0.36,
@@ -28,13 +27,10 @@
     "immuneToFire": false,
     "blockDropsTier": "STONE",
     "blocksAffected": [],
+    "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onItemInInventoryTick": {
-      "name": "RbmkProcedure"
-    },
-    "onItemInUseTick": {
-      "name": "BrokenRBMKProdecure"
-    }
+    "onItemInInventoryTick": "RbmkProcedure",
+    "onItemInUseTick": "BrokenRBMKProdecure"
   }
 }

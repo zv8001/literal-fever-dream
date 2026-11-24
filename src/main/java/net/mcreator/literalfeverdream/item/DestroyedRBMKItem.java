@@ -1,60 +1,43 @@
-
 package net.mcreator.literalfeverdream.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.component.TooltipDisplay;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ToolMaterial;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.tags.TagKey;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.resources.Identifier;
 import net.minecraft.network.chat.Component;
+import net.minecraft.core.registries.Registries;
 
 import net.mcreator.literalfeverdream.procedures.RbmkProcedureProcedure;
 import net.mcreator.literalfeverdream.procedures.BrokenRBMKProdecureProcedure;
 
-import java.util.List;
+import javax.annotation.Nullable;
 
-public class DestroyedRBMKItem extends SwordItem {
-	public DestroyedRBMKItem() {
-		super(new Tier() {
-			public int getUses() {
-				return 31000;
-			}
+import java.util.function.Consumer;
 
-			public float getSpeed() {
-				return 4f;
-			}
+public class DestroyedRBMKItem extends Item {
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_STONE_TOOL, 31000, 4f, 0, 2, TagKey.create(Registries.ITEM, Identifier.parse("literal_fever_dream:destroyed_rbmk_repair_items")));
 
-			public float getAttackDamageBonus() {
-				return 14996f;
-			}
-
-			public int getLevel() {
-				return 1;
-			}
-
-			public int getEnchantmentValue() {
-				return 2;
-			}
-
-			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
-			}
-		}, 3, -3.64f, new Item.Properties());
+	public DestroyedRBMKItem(Item.Properties properties) {
+		super(properties.sword(TOOL_MATERIAL, 14999f, -3.64f));
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.translatable("item.literal_fever_dream.destroyed_rbmk.description_0"));
+	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, TooltipDisplay tooltipDisplay, Consumer<Component> componentConsumer, TooltipFlag flag) {
+		super.appendHoverText(itemstack, context, tooltipDisplay, componentConsumer, flag);
+		componentConsumer.accept(Component.translatable("item.literal_fever_dream.destroyed_rbmk.description_0"));
 	}
 
 	@Override
-	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
-		super.inventoryTick(itemstack, world, entity, slot, selected);
-		if (selected)
+	public void inventoryTick(ItemStack itemstack, ServerLevel world, Entity entity, @Nullable EquipmentSlot equipmentSlot) {
+		super.inventoryTick(itemstack, world, entity, equipmentSlot);
+		if (equipmentSlot == EquipmentSlot.MAINHAND)
 			BrokenRBMKProdecureProcedure.execute(world, entity);
 		RbmkProcedureProcedure.execute(entity);
 	}

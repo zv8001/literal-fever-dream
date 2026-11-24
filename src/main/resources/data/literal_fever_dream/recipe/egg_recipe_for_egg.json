@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": "minecraft:egg",
+    "b": "literal_fever_dream:rainbowcore",
+    "c": "literal_fever_dream:fusion_block"
+  },
+  "result": {
+    "id": "literal_fever_dream:egg",
+    "count": 6
+  }
+}

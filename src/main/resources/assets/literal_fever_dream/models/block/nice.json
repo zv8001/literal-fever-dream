@@ -8,6 +8,5 @@
     "south": "literal_fever_dream:block/images_1",
     "west": "literal_fever_dream:block/images_1",
     "particle": "literal_fever_dream:block/images_1"
-  },
-  "render_type": "solid"
+  }
 }

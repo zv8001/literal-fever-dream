@@ -1,17 +1,11 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "biome",
   "definition": {
     "name": "THEFOGISCOMING",
-    "groundBlock": {
-      "value": "CUSTOM:WeirdRug"
-    },
-    "undergroundBlock": {
-      "value": "CUSTOM:Walls"
-    },
-    "underwaterBlock": {
-      "value": ""
-    },
+    "groundBlock": "CUSTOM:WeirdRug",
+    "undergroundBlock": "CUSTOM:Walls",
+    "underwaterBlock": "",
     "grassColor": {
       "value": -256,
       "falpha": 0.0
@@ -28,23 +22,13 @@
       "value": -16119286,
       "falpha": 0.0
     },
-    "ambientSound": {
-      "value": "CUSTOM:backrooms"
-    },
-    "additionsSound": {
-      "value": ""
-    },
-    "music": {
-      "value": ""
-    },
-    "moodSound": {
-      "value": ""
-    },
+    "ambientSound": "CUSTOM:backrooms",
+    "additionsSound": "",
+    "music": "",
+    "moodSound": "",
     "moodSoundDelay": 6000,
     "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
+    "particleToSpawn": "EXPLOSION_NORMAL",
     "particlesProbability": 0.5,
     "rainingPossibility": 0.5,
     "temperature": 0.5,
@@ -71,22 +55,18 @@
       "min": -1.0E-4,
       "max": 0.0
     },
+    "genDepth": {
+      "min": 0.2,
+      "max": 0.9
+    },
     "treesPerChunk": 1,
     "vanillaTreeType": "Default",
     "treeType": 0,
     "minHeight": 0,
-    "treeStem": {
-      "value": ""
-    },
-    "treeBranch": {
-      "value": ""
-    },
-    "treeVines": {
-      "value": ""
-    },
-    "treeFruits": {
-      "value": ""
-    },
+    "treeStem": "",
+    "treeBranch": "",
+    "treeVines": "",
+    "treeFruits": "",
     "defaultFeatures": [
       "Ores",
       "ExtraGoldOre"
@@ -113,9 +93,7 @@
     "spawnRuinedPortal": "NONE",
     "spawnEntries": [
       {
-        "entity": {
-          "value": "CUSTOM:Bacteria"
-        },
+        "entity": "CUSTOM:Bacteria",
         "minGroup": 1,
         "maxGroup": 1,
         "weight": 1,

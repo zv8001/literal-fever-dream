@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stupid_furry",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": "minecraft:rabbit_hide",
+    "b": "literal_fever_dream:cosmo",
+    "c": "literal_fever_dream:train_block",
+    "d": "minecraft:feather",
+    "e": "minecraft:rabbit_foot"
+  },
+  "result": {
+    "id": "literal_fever_dream:furrytrain",
+    "count": 16
+  }
+}

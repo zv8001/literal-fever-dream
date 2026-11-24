@@ -1,0 +1,13 @@
+{
+  "asset_id": "literal_fever_dream:weirdguyandskeleton",
+  "height": 1,
+  "width": 1,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.literal_fever_dream.weirdguyandskeleton.title"
+  },
+  "author": {
+    "color": "gray",
+    "translate": "painting.literal_fever_dream.weirdguyandskeleton.author"
+  }
+}

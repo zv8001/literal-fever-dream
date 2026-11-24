@@ -1,47 +1,28 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:TrainBlock"
-      },
-      {
-        "value": "CUSTOM:TrainBlock"
-      },
-      {
-        "value": "CUSTOM:TrainBlock"
-      },
-      {
-        "value": "CUSTOM:TrainBlock"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:TrainBlock"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:TrainBlock",
+      "CUSTOM:TrainBlock",
+      "CUSTOM:TrainBlock",
+      "CUSTOM:TrainBlock",
+      "",
+      "CUSTOM:TrainBlock",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:CosmoArmmor.helmet"
-    },
+    "recipeReturnStack": "CUSTOM:CosmoArmmor.helmet",
     "name": "helmetcosmo",
     "namespace": "mod"
   }

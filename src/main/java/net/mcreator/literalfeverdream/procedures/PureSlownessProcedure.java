@@ -10,6 +10,6 @@ public class PureSlownessProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 20, 2));
+			_entity.addEffect(new MobEffectInstance(MobEffects.SLOWNESS, 20, 2));
 	}
 }

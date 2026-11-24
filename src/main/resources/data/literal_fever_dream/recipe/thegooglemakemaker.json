@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "literal_fever_dream:nice",
+    "b": "literal_fever_dream:irradiatedpieceofshit"
+  },
+  "result": {
+    "id": "literal_fever_dream:googleblock",
+    "count": 1
+  }
+}
